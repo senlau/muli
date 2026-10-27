@@ -163,10 +163,25 @@
     true
   );
 
+  function settleScroll() {
+    const id = (location.hash || "").slice(1);
+    requestAnimationFrame(() => {
+      if (isEntryId(id) || id === "" || id === "top") {
+        window.scrollTo(0, 0);
+        return;
+      }
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ block: "start" });
+    });
+  }
+
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+
   window.addEventListener("hashchange", () => {
     const id = (location.hash || "").slice(1);
     const wasEntry = isEntryId(previousId);
     syncAria();
+    settleScroll();
     if (isEntryId(id)) focusEntry();
     else if (wasEntry && lastCard && document.contains(lastCard) && !lastCard.hidden) lastCard.focus();
     previousId = id;
@@ -175,5 +190,6 @@
   normalizeQuery();
   previousId = (location.hash || "").slice(1);
   syncAria();
+  if (location.hash) settleScroll();
   if (isEntryId(previousId)) focusEntry();
 })();
