@@ -4,6 +4,8 @@
 
 站点：<https://senlau.github.io/muli/>
 
+仓库里还没有开过 GitHub Pages。有仓库管理权限的人需要在 Settings → Pages 里把 Source 选成 **GitHub Actions**，点一次即可。之后推到 `main` 会自动部署。当前令牌不能代开这个开关。
+
 图都在 CDN 上（`https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/`），本仓库不放原片。
 
 ## 本地打开
