@@ -384,7 +384,7 @@ def render_index(entries: list[dict], generated_at: str) -> str:
         <aside class="anchor-card">
           <h3>对照锚点</h3>
           <ul>
-            <li><strong>Seiki Hayashi（林精紀）</strong>　地方黑白、电影感静滞、日常非事件。</li>
+            <li><strong>Seiki Hayashi</strong>　地方黑白、电影感静滞、日常非事件。</li>
             <li><strong>Alex Webb</strong>　彩色叠层、巧合、前中后景。锚点不是边界。</li>
           </ul>
         </aside>
