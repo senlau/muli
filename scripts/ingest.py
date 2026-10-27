@@ -38,6 +38,7 @@ STREAM_FROM_JSON = {
     "aesthetic": "aesthetic",
     "mm28": "28mm",
     "28mm": "28mm",
+    "meaning": "meaning",
 }
 FOLDER_OF = {item["hash"]: item["folder"] for item in STREAMS}
 
@@ -512,6 +513,8 @@ def dump_front_matter(entry: dict) -> str:
         "thumbs": thumbs,
         "links": entry.get("links") or [],
     }
+    if entry.get("slug"):
+        fields["slug"] = entry["slug"]
     lines = ["---"]
     for key, value in fields.items():
         lines.append(f"{key}: {json.dumps(value, ensure_ascii=False)}")
@@ -558,12 +561,16 @@ def parse_front_matter(text: str) -> dict:
             "body": body,
         }
     )
+    if meta.get("slug"):
+        entry["slug"] = meta["slug"]
     entry["html"] = md_to_html(body)
     return entry
 
 
 def content_path(root: Path, entry: dict) -> Path:
     folder = FOLDER_OF[entry["stream"]]
+    if entry["stream"] == "meaning" and entry.get("slug"):
+        return root / "content" / folder / f'{entry["date"]}-{entry["slug"]}.md'
     return root / "content" / folder / f'{entry["date"]}.md'
 
 
@@ -730,8 +737,9 @@ def write_catalog(root: Path, entries: list[dict], generated_at: str) -> None:
                     for image in entry["images"]
                 ],
                 "links": entry.get("links") or [],
+                **({"slug": entry["slug"]} if entry.get("slug") else {}),
             }
-            for entry in sorted(entries, key=lambda item: (item["stream"], item["date"]), reverse=False)
+            for entry in sorted(entries, key=lambda item: (item["stream"], item["date"], item.get("slug") or ""), reverse=False)
         ],
     }
     path = root / "data" / "catalog.json"
@@ -757,7 +765,7 @@ def publish(root: Path, entries: list[dict], generated_at: str) -> None:
     for entry in entries:
         counts[entry["stream"]] += 1
         images += len(entry["images"])
-    print(f"entries photographer={counts['photographer']} aesthetic={counts['aesthetic']} 28mm={counts['28mm']} images={images}")
+    print(f"entries photographer={counts['photographer']} aesthetic={counts['aesthetic']} 28mm={counts['28mm']} meaning={counts['meaning']} images={images}")
 
 
 def self_test() -> None:
@@ -810,7 +818,7 @@ def self_test() -> None:
     assert "正文" in again["body"]
     page = render_index([finalize(entry)], "2026-10-27T00:00:00+08:00")
     assert 'id="photographer-2026-10-27"' in page
-    assert "三条线" in page
+    assert "四条线" in page
     assert page.count("<h1") == 2  # hero + entry
     print("self-test ok")
 

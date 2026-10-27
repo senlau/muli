@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-10-27T13:33:56.049022+08:00",
+  "generatedAt": "2026-10-27T20:48:10.990823+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
     "photographer": 6,
     "aesthetic": 5,
-    "28mm": 3
+    "28mm": 3,
+    "meaning": 4
   },
   "entries": [
     {
@@ -456,6 +457,299 @@
           "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-valparaiso/"
         }
       ]
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Bryce Evans：One 与把抑郁焦虑拍成十条故事",
+      "stream": "meaning",
+      "subtitle": "加拿大摄影师／The One Project 创办人；2010 年个人系列 One（十条孤独故事）公开后，发展成心理健康与治疗性摄影社区",
+      "summary": "中学时他常觉得自己是「奇怪的那个」。焦虑会让他发抖、出汗、恶心，光是想象去参加派对就够呛。抑郁让他退缩，又努力扮演「正常」以免被问。想开口时焦虑会先抢走机会，于是更恨自己、更深陷。",
+      "category": "意义长卷",
+      "tags": [
+        "意义长卷",
+        "抑郁",
+        "焦虑",
+        "故事"
+      ],
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-streetlights.jpg",
+          "alt": "Bryce Evans One Streetlights",
+          "caption": "*One*｜2 Streetlights",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-who-are-you.jpg",
+          "alt": "Bryce Evans One Who are you",
+          "caption": "*One*｜4 Who are you?",
+          "w": 1600,
+          "h": 2400
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-lonely-surfer.jpg",
+          "alt": "Bryce Evans One Lonely Surfer",
+          "caption": "*One*｜5 Lonely Surfer",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-love-loneliness.jpg",
+          "alt": "Bryce Evans One Love Loneliness",
+          "caption": "*One*｜7 Love/Loneliness (The Fine Line)",
+          "w": 1600,
+          "h": 2400
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-back-to-one.jpg",
+          "alt": "Bryce Evans One Back To One",
+          "caption": "*One*｜9 Back To One",
+          "w": 2400,
+          "h": 1600
+        }
+      ],
+      "links": [
+        {
+          "label": "The One Project · one 系列",
+          "url": "https://theoneproject.co/mentalhealthphotography/one/"
+        },
+        {
+          "label": "The One Project 主站",
+          "url": "https://theoneproject.co/"
+        },
+        {
+          "label": "Daily Hive｜My Mental Illness: How photography changed my life（作者自述）",
+          "url": "https://dailyhive.com/vancouver/my-mental-illness-photography-changed-my-life"
+        },
+        {
+          "label": "Daily Hive｜The One Project 访谈",
+          "url": "https://dailyhive.com/vancouver/the-one-project-inspiration-through-interaction"
+        }
+      ],
+      "slug": "bryce"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Abdulazez Dukhan：Through Refugee Eyes 与难民营里拿到的相机",
+      "stream": "meaning",
+      "subtitle": "叙利亚摄影师，霍姆斯出身；2016 年起在希腊难民营开展 Through Refugee Eyes，后赴比利时做 50 Humans 等项目",
+      "summary": "离开叙利亚、经土耳其到希腊后，他与家人在 Idomeni 等营地滞留很久。冷、排队领食物、不知明天。与此同时，他看到西方媒体常只报道冲突与问题，很少看见「人」。",
+      "category": "意义长卷",
+      "tags": [
+        "意义长卷",
+        "难民",
+        "肖像"
+      ],
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/dukhan-tre-child-portrait.jpg",
+          "alt": "Abdulazez Dukhan child portrait Through Refugee Eyes",
+          "caption": "作者官网主页作品｜儿童近景肖像（画面含水印 © ABDULAZEZ DUKHAN）",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/dukhan-athens-rain-couple.jpg",
+          "alt": "Abdulazez Dukhan Athens rain couple",
+          "caption": "作者官网主页作品｜雅典雨中共伞",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/dukhan-profile-city-dusk.jpg",
+          "alt": "Abdulazez Dukhan woman profile city dusk",
+          "caption": "作者官网主页作品｜暮色城市侧影",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/dukhan-ledge-autumn-valley.jpg",
+          "alt": "Abdulazez Dukhan woman autumn valley",
+          "caption": "作者官网主页作品｜秋谷岩台",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/dukhan-mountain-haze.jpg",
+          "alt": "Abdulazez Dukhan mountain haze",
+          "caption": "作者官网主页作品｜山岚层叠",
+          "w": 2400,
+          "h": 1600
+        }
+      ],
+      "links": [
+        {
+          "label": "Through Refugee Eyes（作者站）",
+          "url": "https://azyeux.com/through-refugee-eyes/"
+        },
+        {
+          "label": "Northern Greece 2016–2017",
+          "url": "https://azyeux.com/northern-greece-2016-2017/"
+        },
+        {
+          "label": "50 Humans 2020/2021",
+          "url": "https://azyeux.com/50humans-2020-2021current/"
+        },
+        {
+          "label": "Arab News｜Focus on freedom: An insider's eye on refugees",
+          "url": "https://www.arabnews.com/middle-east/focus-on-freedom-an-insiders-eye-on-refugees-1347281"
+        },
+        {
+          "label": "Arab News｜Brussels 50 Humans 展",
+          "url": "https://www.arabnews.com/art-culture/syrian-photographer-shows-refugees-in-new-light-at-brussels-show-1929296"
+        },
+        {
+          "label": "House of Compassion｜50 Humans 展讯",
+          "url": "https://www.houseofcompassion.be/en/events/50-humans-by-abdulazez-dukhan/"
+        }
+      ],
+      "slug": "dukhan"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Michael Goldrei：Chance Street 与不敢独自出门的人",
+      "stream": "meaning",
+      "subtitle": "英国街拍摄影师，现居维也纳；自出版摄影书 chromorama（2018），作品入藏 Tate Britain 阅览室",
+      "summary": "他早期三十出头时，兴趣多在建筑与插画，相机里很少有人。插画的无限可能一度让他灵感枯竭——想画什么都可以，却不知道该把什么落到纸上。2011 年 4 月 9 日，他向朋友借来一台 Canon，报名了在伦敦 Shoreditch 的第一次街拍课。",
+      "category": "意义长卷",
+      "tags": [
+        "意义长卷",
+        "街拍",
+        "出门"
+      ],
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-trois-garcons.jpg",
+          "alt": "Michael Goldrei Trois Garcons London 2011",
+          "caption": "*Trois Garçons*｜London, Chance Street, 2011",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-lady-in-red.jpg",
+          "alt": "Michael Goldrei Lady in Red Budapest 2016",
+          "caption": "*Lady in Red*｜Budapest, 2016 · *chromorama*",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-nest.jpg",
+          "alt": "Michael Goldrei Nest London 2016",
+          "caption": "*Nest*｜London, 2016 · 艺博会人与作品",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-wallflower-miami.jpg",
+          "alt": "Michael Goldrei Perks of Being a Wallflower Miami 2017",
+          "caption": "*The Perks of Being a Wallflower*｜Miami, 2017",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-go-down-skip.jpg",
+          "alt": "Michael Goldrei Go Down With The Skip Austria 2018",
+          "caption": "*Go Down With The Skip*｜Purkersdorf, 2018",
+          "w": 2400,
+          "h": 1600
+        }
+      ],
+      "links": [
+        {
+          "label": "Michael Goldrei 官网作品",
+          "url": "https://www.michaelgoldrei.com/"
+        },
+        {
+          "label": "Street 作品页",
+          "url": "https://www.michaelgoldrei.com/street"
+        },
+        {
+          "label": "chromorama 书页",
+          "url": "https://www.michaelgoldrei.com/chromorama"
+        },
+        {
+          "label": "《卫报》图集 Serendipitous moments",
+          "url": "https://www.theguardian.com/artanddesign/gallery/2018/aug/07/serendipitous-moments-michael-goldrei-street-photography-in-pictures"
+        },
+        {
+          "label": "PetaPixel｜How Street Photography Changed My Life（作者自述）",
+          "url": "https://petapixel.com/2021/04/09/how-street-photography-changed-my-life/"
+        }
+      ],
+      "slug": "goldrei"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Tara Wray：Too Tired for Sunshine 与太累了也要出门拍",
+      "stream": "meaning",
+      "subtitle": "美国佛蒙特摄影师／电影人；摄影书 Too Tired for Sunshine（2018）、Year of the Beast（2021）；创办 Too Tired Project",
+      "summary": "她说摄影像运动：你不想做，得逼自己做，做完会好一点。抑郁季里，她强迫自己离开脑子里的循环，用相机把注意力拽到光、狗、和那些「本来没打算好笑」的日常荒诞上。",
+      "category": "意义长卷",
+      "tags": [
+        "意义长卷",
+        "抑郁",
+        "出门"
+      ],
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-dog-light.jpg",
+          "alt": "Tara Wray Too Tired for Sunshine light caustic",
+          "caption": "*Too Tired for Sunshine*｜车内光斑／细节",
+          "w": 1400,
+          "h": 787
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-absurdist.jpg",
+          "alt": "Tara Wray Too Tired for Sunshine dog fogged glass",
+          "caption": "*Too Tired for Sunshine*｜雾窗后的狗",
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-isolation.jpg",
+          "alt": "Tara Wray Too Tired for Sunshine neck golden light",
+          "caption": "*Too Tired for Sunshine*｜下颌与金色侧光",
+          "w": 1400,
+          "h": 932
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-rural-scene.jpg",
+          "alt": "Tara Wray Too Tired for Sunshine rural Vermont",
+          "caption": "*Too Tired for Sunshine*｜佛蒙特日常／田野",
+          "w": 1400,
+          "h": 787
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-domestic.jpg",
+          "alt": "Tara Wray Too Tired for Sunshine domestic scene",
+          "caption": "*Too Tired for Sunshine*｜家庭与近处生活",
+          "w": 1400,
+          "h": 787
+        }
+      ],
+      "links": [
+        {
+          "label": "Tara Wray · Too Tired for Sunshine",
+          "url": "https://www.tarawray.net/tootiredforsunshine"
+        },
+        {
+          "label": "Year of the Beast",
+          "url": "https://www.tarawray.net/yob"
+        },
+        {
+          "label": "Too Tired Project",
+          "url": "https://tootiredproject.com/"
+        },
+        {
+          "label": "NPR｜Channeling The Pain Of Depression Into Photography",
+          "url": "https://www.npr.org/sections/pictureshow/2018/12/31/677341382/one-photographers-message-if-you-feel-too-tired-you-re-not-alone"
+        },
+        {
+          "label": "NPR｜Year of the Beast",
+          "url": "https://www.npr.org/sections/pictureshow/2021/03/07/972571310/year-of-the-beast-how-tara-wray-used-photography-to-process-fear-and-uncertainty"
+        }
+      ],
+      "slug": "tara"
     },
     {
       "date": "2026-10-22",

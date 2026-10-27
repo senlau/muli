@@ -13,13 +13,15 @@
   let previousId = (location.hash || "").slice(1);
 
   function isEntryId(id) {
-    return /^(photographer|aesthetic|28mm)-\d{4}-\d{2}-\d{2}$/.test(id);
+    return /^(photographer|aesthetic|28mm)-\d{4}-\d{2}-\d{2}$/.test(id) ||
+           /^meaning-\d{4}-\d{2}-\d{2}-[a-z0-9-]+$/.test(id);
   }
 
   function streamFromHash() {
     const id = (location.hash || "#photographer").slice(1);
     if (id === "aesthetic" || id.startsWith("aesthetic-")) return "aesthetic";
     if (id === "28mm" || id.startsWith("28mm-")) return "28mm";
+    if (id === "meaning" || id.startsWith("meaning-")) return "meaning";
     if (id === "about" || id === "lines" || id === "top") return id === "top" ? "photographer" : id;
     return "photographer";
   }
@@ -51,7 +53,7 @@
     const tab = params.get("tab");
     const entry = params.get("entry");
     if (!tab && !entry) return;
-    const map = { photographer: "photographer", aesthetic: "aesthetic", "28mm": "28mm", mm28: "28mm" };
+    const map = { photographer: "photographer", aesthetic: "aesthetic", "28mm": "28mm", mm28: "28mm", meaning: "meaning" };
     const stream = map[tab] || "";
     let hash = "";
     if (stream && entry && /^\d{4}-\d{2}-\d{2}$/.test(entry)) hash = stream + "-" + entry;
