@@ -2,13 +2,15 @@
 
 ## 触发
 
-掌印 / 目力 **确认当日三条推送都已落盘** 之后，跑一次 sync。不要每写完一个文件就部署。若某一天只确认了其中一条，也可以只 upsert 那一条；已有日期不会被删掉。
+掌印 / 目力 **确认当日推送都已落盘** 之后，跑一次 sync。不要每写完一个文件就部署。若某一天只确认了其中一条，也可以只 upsert 那一条；已有日期不会被删掉。
 
 给机器人的一句话：
 
-> 三条流都确认后，运行 `python3 scripts/ingest.py --brief <vault根目录>`，提交 `content/`、`index.html`、`data/catalog.json`，push `main`。
+> 推送确认后，运行 `python3 scripts/ingest.py --brief <vault根目录>`，提交 `content/`、`index.html`、`data/catalog.json`，push `main`。
 
-## 三条本地文件
+意义长卷（第四条线）与日常三条（摄影师/审美/28mm）相对独立，不定期更新。
+
+## 四条本地文件
 
 工作目录里认这些路径（日期用 `YYYY-MM-DD`）：
 
@@ -17,14 +19,21 @@
 | 每日摄影师 | `daily/YYYY-MM-DD/recommendation.md` | 作者 |
 | 每日审美一课 | `daily/YYYY-MM-DD-aesthetic/lesson.md` | 风格 / 类型 |
 | 28mm 专题 | `28mm/YYYY-MM-DD/lesson.md` | 焦段 |
+| 意义长卷 | `daily/meaning-stories/YYYY-MM-DD/` 或 `意义长卷.md` | 人生×摄影 |
 
 只把 `lesson.md` / `recommendation.md` 当正课。`28mm` 下面的 garden 出行参考、`SOURCES.md`、聊天稿，不会单独入库。审美目录里不要放构图技法课。
 
-若当日文件缺失，脚本会到这三份长卷里补同日小节：
+**意义长卷**与日常三条独立：
+- 同一日期可有多条故事（按作者/主题分 slug），文件名 `YYYY-MM-DD-{slug}.md`
+- 长卷 `意义长卷.md` 用 `### YYYY-MM-DD｜作者：标题` 分节，解析时按小节拆成多条
+- 每条需有 `slug` 字段（如 `goldrei`、`tara`、`bryce`、`dukhan`）以区分同日多条
+
+若当日文件缺失，脚本会到这几份长卷里补同日小节：
 
 - `作者长卷.md` 的「每日推送」（不收「专题批次」）
 - `审美词本.md`
 - `广角手记.md`
+- `意义长卷.md`
 
 当日正文很短、又没有图，而长卷里已有同日完整小节时，用长卷补全文和图片。
 
@@ -53,13 +62,14 @@ python3 scripts/ingest.py --brief /path/to/目力工作目录
 ```yaml
 date: "2026-10-27"
 title: "Trent Parke（大师 · 澳大利亚）"
-stream: "photographer"    # photographer | aesthetic | 28mm
+stream: "photographer"    # photographer | aesthetic | 28mm | meaning
 subtitle: "..."
 summary: "..."
 category: "大师"
 tags: ["大师", "澳大利亚"]
 thumbs: [{"src": "https://fastly.jsdelivr.net/...", "alt": "...", "caption": "..."}]
 links: [{"label": "Magnum", "url": "https://..."}]
+slug: "goldrei"           # 仅 meaning 流需要，用于同日多条区分
 ```
 
 然后：

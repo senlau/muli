@@ -38,6 +38,16 @@ STREAMS = [
         "index": "03",
         "blurb": "固定焦段的出门练习：走近、机位、换位。这是手法课，单独成卷。",
     },
+    {
+        "key": "meaning",
+        "folder": "meaning",
+        "hash": "meaning",
+        "label": "意义长卷",
+        "short": "意义",
+        "kicker": "人生×摄影",
+        "index": "04",
+        "blurb": "摄影师怎样用拍照撑过低谷、敢出门、对抗空。给力量，不荐器材。",
+    },
 ]
 
 SKIP_TAGS = {"审美一课", "28mm", "FG", "MG", "BG"}
@@ -50,6 +60,8 @@ def esc(text: object) -> str:
 
 
 def entry_dom_id(entry: dict) -> str:
+    if entry["stream"] == "meaning" and entry.get("slug"):
+        return f'{entry["stream"]}-{entry["date"]}-{entry["slug"]}'
     return f'{entry["stream"]}-{entry["date"]}'
 
 
@@ -292,8 +304,8 @@ def render_index(entries: list[dict], generated_at: str) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#f3f6fb">
-  <meta name="description" content="目力摄影策展：每日摄影师、每日审美一课、28mm 专题。按作者、按风格、按焦段分开看。">
-  <title>目力 · 三条线分开看</title>
+  <meta name="description" content="目力摄影策展：每日摄影师、每日审美一课、28mm 专题、意义长卷。按作者、按风格、按焦段、人生×摄影分开看。">
+  <title>目力 · 四条线分开看</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/site.css">
 </head>
@@ -310,6 +322,7 @@ def render_index(entries: list[dict], generated_at: str) -> str:
         <a data-nav href="#photographer"><span class="full">每日摄影师</span><span class="short">摄影师</span></a>
         <a data-nav href="#aesthetic"><span class="full">每日审美一课</span><span class="short">审美</span></a>
         <a data-nav href="#28mm"><span class="full">28mm 专题</span><span class="short">28mm</span></a>
+        <a data-nav href="#meaning"><span class="full">意义长卷</span><span class="short">意义</span></a>
         <a data-nav href="#about">关于</a>
       </div>
     </div>
@@ -321,13 +334,14 @@ def render_index(entries: list[dict], generated_at: str) -> str:
         {cover_html}
         <div class="hero-copy">
           <p class="eyebrow">目力 · 更新至 {esc(latest_date)}</p>
-          <h1>三条线，<em>分开看</em></h1>
-          <p class="hero-sub">每日摄影师按作者学审美，每日审美一课按风格学审美，28mm 专题按焦段练手法。前两条不收构图技法。</p>
+          <h1>四条线，<em>分开看</em></h1>
+          <p class="hero-sub">每日摄影师按作者学审美，每日审美一课按风格学审美，28mm 专题按焦段练手法，意义长卷讲人生×摄影。</p>
           <p class="hero-note"><strong>一句话：</strong>先把同一类东西并排放好，再点进一则里核对图片和入口。</p>
           <div class="metric-strip" aria-label="收录规模">
             <div class="metric"><strong>{counts["photographer"]}</strong><span>位作者</span></div>
             <div class="metric"><strong>{counts["aesthetic"]}</strong><span>课审美</span></div>
             <div class="metric"><strong>{counts["28mm"]}</strong><span>课 28mm</span></div>
+            <div class="metric"><strong>{counts["meaning"]}</strong><span>则意义</span></div>
           </div>
         </div>
       </div>
@@ -338,13 +352,13 @@ def render_index(entries: list[dict], generated_at: str) -> str:
     <div class="shell">
       <div class="section-head">
         <span class="section-tag">分卷</span>
-        <h2 class="section-title">同一套版式，<em>三种聚类</em></h2>
-        <p class="section-sub">作者、风格、焦段各看各的。点一块就进到对应的归档。</p>
+        <h2 class="section-title">同一套版式，<em>四种聚类</em></h2>
+        <p class="section-sub">作者、风格、焦段、人生×摄影各看各的。点一块就进到对应的归档。</p>
       </div>
       {panels_html}
       <div class="callout">
         <span class="label">分工</span>
-        <p>摄影师和审美一课都是<strong>审美学习</strong>：一个按作者聚，一个按风格聚。28mm 是<strong>焦段实践</strong>，不放进审美栏。</p>
+        <p>摄影师和审美一课都是<strong>审美学习</strong>：一个按作者聚，一个按风格聚。28mm 是<strong>焦段实践</strong>；意义长卷讲<strong>人生×摄影</strong>——怎样用拍照撑过低谷，独立于前三条。</p>
       </div>
     </div>
   </section>
@@ -366,7 +380,7 @@ def render_index(entries: list[dict], generated_at: str) -> str:
       <div class="section-head">
         <span class="section-tag">关于</span>
         <h2 class="section-title">这本册子<em>不混线</em></h2>
-        <p class="section-sub">2026-10-27 起按这个分工归档。锚点用来对照，不围着他们打转。</p>
+        <p class="section-sub">2026-10-27 起按这个分工归档。锚点用来对照，不围着他们打转。意义长卷独立于日常三条。</p>
       </div>
       <div class="about-grid">
         <div class="table-wrap">
@@ -378,6 +392,7 @@ def render_index(entries: list[dict], generated_at: str) -> str:
               <tr><td><strong>每日摄影师</strong></td><td>作者</td><td>语言、系列、可以跟去的入口</td></tr>
               <tr><td><strong>每日审美一课</strong></td><td>风格 / 类型</td><td>判断词，以及什么是好</td></tr>
               <tr><td><strong>28mm 专题</strong></td><td>焦段</td><td>走近、机位、换位，出门能练</td></tr>
+              <tr><td><strong>意义长卷</strong></td><td>人生×摄影</td><td>用拍照撑过低谷、敢出门、对抗空</td></tr>
             </tbody>
           </table>
         </div>
@@ -390,7 +405,7 @@ def render_index(entries: list[dict], generated_at: str) -> str:
         </aside>
       </div>
       <div class="final-hero">
-        <p>图都在 CDN 上，仓库里不存原片。掌印确认当日三条推送之后跑一次同步，页面随 main 更新。审美课只谈风格和类型；28mm 的站位、换位留在焦段专题里。同步约定见 <a href="{REPO}/blob/main/SYNC.md">SYNC.md</a>。</p>
+        <p>图都在 CDN 上，仓库里不存原片。掌印确认当日推送之后跑一次同步，页面随 main 更新。审美课只谈风格和类型；28mm 的站位、换位留在焦段专题里；意义长卷独立于日常三条，讲人生×摄影。同步约定见 <a href="{REPO}/blob/main/SYNC.md">SYNC.md</a>。</p>
       </div>
     </div>
   </section>
