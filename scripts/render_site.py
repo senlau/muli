@@ -799,13 +799,15 @@ class Site:
             note = f'<p class="topic-note">{esc(topic["note"])}</p>' if topic["note"] else ""
             items = "".join(self.index_item(entry) for entry in topic["entries"])
             topic_html.append(
-                f'<section class="topic" id="topic-{esc(topic["slug"])}"><h3>{esc(topic["name"])}</h3>{note}'
+                f'<section class="topic" id="topic-{esc(topic["slug"])}"><div class="topic-head"><h3>{esc(topic["name"])}</h3>{note}</div>'
                 f'<ul class="index">{items}</ul></section>'
             )
         untagged = [entry for entry in self.entries if not entry.get("topics")]
         if untagged:
             items = "".join(self.index_item(entry) for entry in untagged)
-            topic_html.append(f'<section class="topic" id="topic-other"><h3>其他</h3><ul class="index">{items}</ul></section>')
+            topic_html.append(
+                f'<section class="topic" id="topic-other"><div class="topic-head"><h3>其他</h3></div><ul class="index">{items}</ul></section>'
+            )
         people_html = []
         for person in self.people:
             items = "".join(
