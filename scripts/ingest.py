@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Ingest 目力's three daily streams into content markdown and the static site.
+"""Ingest 目力's four streams into content markdown and the static site.
 
 Trigger contract: after 掌印 / 目力 confirms the day's push files, run
 
     python3 scripts/ingest.py --brief /path/to/vault
 
-That upserts content/{photographer,aesthetic,28mm}/YYYY-MM-DD.md and rewrites
-index.html plus data/catalog.json. Commit those files and push main.
+That upserts content/{photographer,aesthetic,28mm}/YYYY-MM-DD.md and
+content/meaning/YYYY-MM-DD-slug.md, then rewrites every page (index.html,
+learn.html, practice.html, life.html, archive.html and one page per article)
+plus data/catalog.json. Entries marked `edited` are never overwritten.
+Commit with `git add -A` and push main.
 
     python3 scripts/ingest.py --json path/to/content.json --brief /path/to/brief
     python3 scripts/ingest.py --from-content
@@ -29,7 +32,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from mdutil import md_to_html, plain  # noqa: E402
-from render_site import STREAMS, render_index  # noqa: E402
+from render_site import STREAMS, entry_path, render_site  # noqa: E402
 
 CDN = "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/"
 ROOT = Path(__file__).resolve().parents[1]
@@ -178,8 +181,6 @@ def tags_from(stream: str, title: str, category: str) -> list[str]:
                 tags.append(piece)
     if stream == "28mm" and "28mm" not in tags:
         tags.append("28mm")
-    if stream == "aesthetic" and "审美一课" not in tags:
-        tags.append("审美一课")
     out: list[str] = []
     seen = set()
     for tag in tags:
@@ -200,11 +201,7 @@ def category_photographer(md: str, title: str) -> str:
 
 
 def category_aesthetic(md: str, title: str) -> str:
-    if "非惊喜" in title or "非惊喜" in md[:400]:
-        return "非惊喜"
-    if "惊喜" in title:
-        return "惊喜"
-    return "审美培养"
+    return ""
 
 
 def category_mm28(md: str, title: str) -> str:
@@ -226,6 +223,8 @@ def blank_entry() -> dict:
         "summary": "",
         "category": "",
         "tags": [],
+        "topics": [],
+        "people": [],
         "images": [],
         "links": [],
         "body": "",
@@ -272,7 +271,6 @@ def entry_from_md(md: str, stream: str, fallback_date: str) -> dict:
             h2 = h2m.group(1).strip()
         if heading.startswith("每日审美一课"):
             title = h2 or title or date
-            subtitle = "每日审美一课"
         elif not title:
             title = h2 or heading or date
     if stream == "photographer":
@@ -336,9 +334,16 @@ def merge_images(dst: dict, src_images: list[dict]) -> None:
                 current["alt"] = image["alt"]
 
 
+def entry_key(entry: dict) -> tuple[str, str, str]:
+    return (entry["stream"], entry["date"], entry.get("slug") or "")
+
+
 def upsert(entries: list[dict], incoming: dict) -> list[dict]:
     for index, entry in enumerate(entries):
-        if entry["stream"] == incoming["stream"] and entry["date"] == incoming["date"]:
+        if entry_key(entry) == entry_key(incoming):
+            if entry.get("edited"):
+                print(f"keep edited {entry_path(entry)}", file=sys.stderr)
+                return entries
             merge_images(entry, incoming.get("images") or [])
             incoming_body = (incoming.get("body") or "").strip()
             current_body = (entry.get("body") or "").strip()
@@ -476,6 +481,13 @@ def normalize_json_entry(raw: dict, stream: str) -> dict:
     return finalize(entry)
 
 
+def keep_edited(current: list[dict], incoming: list[dict]) -> list[dict]:
+    """A snapshot never replaces an entry that has been edited by hand."""
+    edited = {entry_key(entry): entry for entry in current if entry.get("edited")}
+    merged = [edited.pop(entry_key(entry), entry) for entry in incoming]
+    return merged + list(edited.values())
+
+
 def load_json(path: Path) -> list[dict]:
     data = json.loads(path.read_text(encoding="utf-8"))
     streams = data["streams"] if isinstance(data, dict) and "streams" in data else data
@@ -546,11 +558,18 @@ def dump_front_matter(entry: dict) -> str:
         "summary": entry.get("summary") or "",
         "category": entry.get("category") or "",
         "tags": entry.get("tags") or [],
-        "thumbs": thumbs,
-        "links": entry.get("links") or [],
     }
-    if entry.get("slug"):
-        fields["slug"] = entry["slug"]
+    for key in ("topics", "people"):
+        if entry.get(key):
+            fields[key] = entry[key]
+    fields["thumbs"] = thumbs
+    fields["links"] = entry.get("links") or []
+    for key in ("credit", "slug"):
+        if entry.get(key):
+            fields[key] = entry[key]
+    for key in ("edited", "featured"):
+        if entry.get(key):
+            fields[key] = True
     lines = ["---"]
     for key, value in fields.items():
         lines.append(f"{key}: {json.dumps(value, ensure_ascii=False)}")
@@ -592,13 +611,19 @@ def parse_front_matter(text: str) -> dict:
             "summary": meta.get("summary") or "",
             "category": meta.get("category") or "",
             "tags": meta.get("tags") or [],
+            "topics": meta.get("topics") or [],
+            "people": meta.get("people") or [],
             "images": images,
             "links": meta.get("links") or [],
             "body": body,
         }
     )
-    if meta.get("slug"):
-        entry["slug"] = meta["slug"]
+    for key in ("credit", "slug"):
+        if meta.get(key):
+            entry[key] = meta[key]
+    for key in ("edited", "featured"):
+        if meta.get(key):
+            entry[key] = True
     entry["html"] = md_to_html(body)
     return entry
 
@@ -746,7 +771,14 @@ def probe_dimensions(entries: list[dict], cache_path: Path) -> None:
         entry["images"] = kept
 
 
-def write_catalog(root: Path, entries: list[dict], generated_at: str) -> None:
+def load_topics(root: Path) -> list[dict]:
+    path = root / "content" / "topics.json"
+    if not path.exists():
+        return []
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def write_catalog(root: Path, entries: list[dict], generated_at: str, topics: list[dict]) -> None:
     payload = {
         "generatedAt": generated_at,
         "site": "https://senlau.github.io/muli/",
@@ -754,15 +786,20 @@ def write_catalog(root: Path, entries: list[dict], generated_at: str) -> None:
             stream["hash"]: sum(1 for entry in entries if entry["stream"] == stream["hash"])
             for stream in STREAMS
         },
+        "topics": [{"slug": topic["slug"], "name": topic["name"]} for topic in topics],
         "entries": [
             {
                 "date": entry["date"],
                 "title": entry["title"],
                 "stream": entry["stream"],
+                "url": entry_path(entry),
                 "subtitle": entry.get("subtitle") or "",
                 "summary": entry.get("summary") or "",
                 "category": entry.get("category") or "",
                 "tags": entry.get("tags") or [],
+                "topics": entry.get("topics") or [],
+                "people": entry.get("people") or [],
+                "edited": bool(entry.get("edited")),
                 "images": [
                     {
                         "src": image["src"],
@@ -792,16 +829,29 @@ def publish(root: Path, entries: list[dict], generated_at: str) -> None:
         for image in entry["images"]:
             if not str(image["src"]).startswith("https://"):
                 raise SystemExit(f"refusing non-HTTPS image: {image['src']}")
+    topics = load_topics(root)
     write_content(root, entries)
-    write_catalog(root, entries, generated_at)
-    html_text = render_index(entries, generated_at)
-    (root / "index.html").write_text(html_text, encoding="utf-8")
+    write_catalog(root, entries, generated_at, topics)
+    pages = render_site(entries, generated_at, topics)
+    for stream in STREAMS:
+        folder = root / stream["folder"]
+        if folder.is_dir():
+            for stale in folder.glob("*.html"):
+                if f'{stream["folder"]}/{stale.name}' not in pages:
+                    stale.unlink()
+    for rel, html_text in pages.items():
+        path = root / rel
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(html_text, encoding="utf-8")
     counts = {stream["hash"]: 0 for stream in STREAMS}
     images = 0
     for entry in entries:
         counts[entry["stream"]] += 1
         images += len(entry["images"])
-    print(f"entries photographer={counts['photographer']} aesthetic={counts['aesthetic']} 28mm={counts['28mm']} meaning={counts['meaning']} images={images}")
+    print(
+        f"entries photographer={counts['photographer']} aesthetic={counts['aesthetic']} 28mm={counts['28mm']} "
+        f"meaning={counts['meaning']} images={images} pages={len(pages)}"
+    )
 
 
 def self_test() -> None:
@@ -852,10 +902,65 @@ def self_test() -> None:
     assert again["title"] == entry["title"]
     assert again["images"][0]["src"] == entry["images"][0]["src"]
     assert "正文" in again["body"]
-    page = render_index([finalize(entry)], "2026-10-27T00:00:00+08:00")
-    assert 'id="photographer-2026-10-27"' in page
-    assert "四条线" in page
-    assert page.count("<h1") == 2  # hero + entry
+    assert "edited" not in text and "topics" not in text
+
+    lesson = blank_entry()
+    lesson.update(
+        {
+            "date": "2026-10-28",
+            "title": "剪影可读（Readable Silhouette）· 非惊喜",
+            "stream": "aesthetic",
+            "category": "非惊喜",
+            "body": "## 剪影可读 · 非惊喜\n\n今早已推。细节可以死，外形必须活。\n\n## 跟锚点的关系\n\n见 Parke。\n\n"
+            "## 可练一句\n\n先看外轮廓。\n\n喜欢 / 一般 / 不感兴趣，回一句就行。\n",
+        }
+    )
+    edited = blank_entry()
+    edited.update(
+        {
+            "date": "2026-10-27",
+            "title": "不敢看陌生人眼睛的人",
+            "stream": "meaning",
+            "slug": "mannell",
+            "topics": ["陌生人与肖像"],
+            "credit": "图片：Portrait Per Day",
+            "edited": True,
+            "body": "先开口。\n\n## 可以借用的做法\n\n- 对照 [示例](#photographer-2026-10-27)。\n- [不存在](#aesthetic-1999-01-01)\n",
+        }
+    )
+    edited = parse_front_matter(dump_front_matter(edited))
+    assert edited["edited"] and edited["slug"] == "mannell" and edited["topics"] == ["陌生人与肖像"]
+    entries = [finalize(entry), finalize(lesson), edited]
+
+    raw_twin = dict(edited, edited=False, title="原稿", body="原稿正文。\n")
+    assert upsert(entries, raw_twin)[2]["title"] == "不敢看陌生人眼睛的人"
+    other_story = dict(raw_twin, slug="bryce")
+    assert len(upsert(list(entries), other_story)) == 4
+    snapshot = keep_edited(entries, [raw_twin])
+    assert snapshot[0]["title"] == "不敢看陌生人眼睛的人"
+
+    pages = render_site(entries, "2026-10-28T00:00:00+08:00", [{"slug": "portrait", "name": "陌生人与肖像", "note": ""}])
+    home = pages["index.html"]
+    for path in ("learn.html", "practice.html", "life.html", "archive.html",
+                 "photographer/2026-10-27.html", "aesthetic/2026-10-28.html", "meaning/2026-10-27-mannell.html"):
+        assert path in pages, path
+    assert home.count("<h1") == 1
+    assert '"photographer-2026-10-27":"photographer/2026-10-27.html"' in home
+    assert '"meaning-2026-10-27-mannell":"meaning/2026-10-27-mannell.html"' in home
+    assert "四条线" not in home and "Grok Bot 作品" in home
+    for html_text in pages.values():
+        assert html_text.count("觉非的 Grok Bot") == 1
+        assert html_text.count("<h1") == 1
+    article = pages["aesthetic/2026-10-28.html"]
+    assert "<h1>剪影可读</h1>" in article and "Readable Silhouette" in article
+    assert "风格对照" in article and "今日练习" in article
+    for word in ("非惊喜", "跟锚点", "可练一句", "今早", "回一句就行"):
+        assert word not in article, word
+    story = pages["meaning/2026-10-27-mannell.html"]
+    assert 'href="../photographer/2026-10-27.html">示例</a>' in story
+    assert "<li>不存在</li>" in story
+    assert "图片：Portrait Per Day" in story
+    assert 'href="../archive.html#topic-portrait"' in story
     print("self-test ok")
 
 
@@ -880,6 +985,7 @@ def main() -> None:
         entries = load_json(args.json)
         if args.brief:
             enrich_from_brief(entries, args.brief)
+        entries = keep_edited(load_content(root), entries)
     else:
         entries = load_content(root)
         for incoming in parse_brief(args.brief):
