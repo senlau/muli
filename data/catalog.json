@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-27T20:48:10.990823+08:00",
+  "generatedAt": "2026-10-28T09:14:28.463845+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
-    "photographer": 6,
+    "photographer": 7,
     "aesthetic": 5,
     "28mm": 3,
     "meaning": 4
@@ -1103,6 +1103,69 @@
         {
           "label": "*Minutes to Midnight*",
           "url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "title": "何藩 Fan Ho（大师 · 香港）",
+      "stream": "photographer",
+      "subtitle": "香港传奇摄影师／电影人（1931–2016），Hong Kong Yesterday 一代——用楼梯、烟尘、负空间与建筑光楔，把 1950–60 年代港城日常压成可读剪影。昨审美课已用 People and Shadows / Hurrying Home 作轮廓示例；今日按摄影师聚类，深挖他的光楔建筑语法。",
+      "summary": "本周仍练：轮廓分离／换位去粘连——人贴电线杆、招牌、路人时，先换半步或蹲/起，看轮廓有没有切开。今天这位把港式几何光井当成「切轮廓」的舞台。",
+      "category": "大师",
+      "tags": [
+        "大师",
+        "香港"
+      ],
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fanho-approaching-shadow.jpg",
+          "alt": "Fan Ho Approaching Shadow 1954",
+          "caption": "*Approaching Shadow*｜阴影对角线与剪影轮廓分离（1954）",
+          "w": 1200,
+          "h": 1536
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fanho-people-shadows.jpg",
+          "alt": "Fan Ho People and Shadows 1959",
+          "caption": "*People and Shadows*｜墙面影与人影错位分离（1959）",
+          "w": 1024,
+          "h": 418
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fanho-hurrying-home.jpg",
+          "alt": "Fan Ho Hurrying Home 1963",
+          "caption": "*Hurrying Home*｜巷道光楔：人影从烟尘亮幕切出（1963）",
+          "w": 682,
+          "h": 1024
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fanho-market-stairway.jpg",
+          "alt": "Fan Ho Market Stairway 1959",
+          "caption": "*Market Stairway*｜楼梯几何把人层拉开（1959）",
+          "w": 1200,
+          "h": 962
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fanho-smoky-world.jpg",
+          "alt": "Fan Ho Smoky World 1959",
+          "caption": "*Smoky World*｜中央街市光井：烟尘里的轮廓分离（1959）",
+          "w": 1200,
+          "h": 857
+        }
+      ],
+      "links": [
+        {
+          "label": "Fan Ho 官方作品库 Work",
+          "url": "https://fanho-forgetmenot.com/work-2"
+        },
+        {
+          "label": "The Living Theatre 作品页",
+          "url": "https://fanho-forgetmenot.com/the-living-theatre"
+        },
+        {
+          "label": "M+ · Fan Ho 馆藏",
+          "url": "https://www.mplus.org.hk/en/collection/makers/fan-ho/"
         }
       ]
     }
