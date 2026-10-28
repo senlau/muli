@@ -521,7 +521,7 @@ figcaption {
   max-width: calc(var(--measure) + 64px);
   margin: 72px auto 0;
   padding: 26px 32px 14px;
-  border-radius: var(--radius-md);
+  border-radius: 10px;
 }
 .box > h2 { margin-top: 0; margin-bottom: 14px; }
 .box-practice { background: var(--teal-soft); }
