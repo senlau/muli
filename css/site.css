@@ -712,6 +712,7 @@ figcaption {
   .brand { letter-spacing: 0.08em; }
   .brand .mark { display: none; }
   .cards { grid-template-columns: minmax(0, 1fr); }
+  .row-link { --strip-h: 72px; }
   .people { columns: 1; }
   .index .kicker { display: none; }
   .pager { grid-template-columns: minmax(0, 1fr); }
