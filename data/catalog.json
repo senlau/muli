@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-28T12:06:44.845184+08:00",
+  "generatedAt": "2026-10-28T20:19:46.764755+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
     "photographer": 7,
     "aesthetic": 6,
     "28mm": 3,
-    "meaning": 4
+    "meaning": 5
   },
   "entries": [
     {
@@ -473,17 +473,23 @@
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261028-stanmeyer-signal.jpg",
           "alt": "John Stanmeyer Signal",
-          "caption": "Stanmeyer｜Signal, 2013｜夜岸剪影，举手+光点可读"
+          "caption": "Stanmeyer｜Signal, 2013｜夜岸剪影，举手+光点可读",
+          "w": 1800,
+          "h": 1200
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261028-patjane-whale.jpg",
           "alt": "Patjane Whale Whisperers",
-          "caption": "Patjane｜Whale Whisperers｜人点小黑仍叫得出「人」"
+          "caption": "Patjane｜Whale Whisperers｜人点小黑仍叫得出「人」",
+          "w": 1800,
+          "h": 1194
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261028-chiba-straight-voice.jpg",
           "alt": "Chiba Straight Voice",
-          "caption": "千叶安哉｜Straight Voice, 2019｜暗场手机光托住外缘"
+          "caption": "千叶安哉｜Straight Voice, 2019｜暗场手机光托住外缘",
+          "w": 1800,
+          "h": 1200
         }
       ],
       "links": [
@@ -793,6 +799,72 @@
         }
       ],
       "slug": "tara"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "John Mannell：Portrait Per Day 与不敢看陌生人眼睛的人",
+      "stream": "meaning",
+      "subtitle": "英国萨顿（Sutton，南伦敦）街拍肖像摄影师；项目 Portrait Per Day（Instagram @portrait_per_day）",
+      "summary": "自幼害羞。大学后胃部手术／肠病触发深层焦虑；曾几乎只出门上班，回家坐在漆黑房间里。诊断抑郁后上治疗小组，别人建议他把摄影捡起来。他先拍附近景物，相机当「安慰毯」。起初故意很晚出门，好躲开跟人说话。第一次问陌生人拍照时，紧张到不敢看对方眼睛。",
+      "category": "意义长卷",
+      "tags": [
+        "意义长卷",
+        "街拍",
+        "肖像",
+        "拒绝"
+      ],
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/mannell-patsy.jpg",
+          "alt": "John Mannell Patsy Portrait Per Day",
+          "caption": "*Patsy*｜Paddington Station · Portrait Per Day",
+          "w": 976,
+          "h": 976
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/mannell-mollie.jpg",
+          "alt": "John Mannell Mollie Borough Market",
+          "caption": "*Mollie*｜Borough Market · Portrait Per Day",
+          "w": 976,
+          "h": 976
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/mannell-hope.jpg",
+          "alt": "John Mannell Hope Portrait Per Day",
+          "caption": "*Hope*｜Portrait Per Day",
+          "w": 976,
+          "h": 976
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/mannell-patrick.jpg",
+          "alt": "John Mannell Patrick Portrait Per Day",
+          "caption": "*Patrick*｜Portrait Per Day",
+          "w": 976,
+          "h": 1422
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/mannell-alex-chuck.jpg",
+          "alt": "John Mannell Alex aka Chuck",
+          "caption": "*Alex aka Chuck*｜Portrait of Britain / Portrait Per Day",
+          "w": 1000,
+          "h": 1333
+        }
+      ],
+      "links": [
+        {
+          "label": "Portrait Per Day 项目页",
+          "url": "https://www.johnmannell.co.uk/projects/portraitperday"
+        },
+        {
+          "label": "官网",
+          "url": "https://www.johnmannell.co.uk/"
+        },
+        {
+          "label": "BBC｜Mental Health Awareness Week 2018 报道",
+          "url": "https://www.bbc.co.uk/news/uk-england-london-44080154"
+        }
+      ],
+      "slug": "mannell"
     },
     {
       "date": "2026-10-22",
