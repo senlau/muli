@@ -4,12 +4,18 @@ on:
   push:
     branches: [main]
     paths:
-      - "index.html"
+      - "*.html"
       - "favicon.svg"
       - "css/**"
       - "js/**"
+      - "fonts/**"
       - "data/**"
       - "content/**"
+      - "scripts/**"
+      - "photographer/**"
+      - "aesthetic/**"
+      - "28mm/**"
+      - "meaning/**"
       - ".nojekyll"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
@@ -38,12 +44,20 @@ jobs:
         with:
           enablement: true
 
+      # content/ is the source of truth; pages are rebuilt so a commit that only touched content/ still deploys correctly.
+      - name: Build pages
+        run: |
+          python3 scripts/ingest.py --self-test
+          python3 scripts/ingest.py --from-content
+
       - name: Collect site
         run: |
           rm -rf _site
           mkdir -p _site
-          cp index.html favicon.svg .nojekyll _site/
-          cp -a css js data _site/
+          cp ./*.html favicon.svg .nojekyll _site/
+          for dir in css js fonts data photographer aesthetic 28mm meaning; do
+            if [ -d "$dir" ]; then cp -a "$dir" _site/; fi
+          done
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
