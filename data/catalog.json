@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T20:19:46.764755+08:00",
+  "generatedAt": "2026-10-29T02:36:31.303413+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
     "photographer": 7,
@@ -7,240 +7,307 @@
     "28mm": 3,
     "meaning": 5
   },
+  "topics": [
+    {
+      "slug": "contour",
+      "name": "轮廓与剪影"
+    },
+    {
+      "slug": "layers",
+      "name": "层次与遮挡"
+    },
+    {
+      "slug": "color",
+      "name": "色彩与色面"
+    },
+    {
+      "slug": "distance",
+      "name": "距离与机位"
+    },
+    {
+      "slug": "uncanny",
+      "name": "日常里的怪"
+    },
+    {
+      "slug": "low",
+      "name": "低谷与相机"
+    },
+    {
+      "slug": "portrait",
+      "name": "陌生人与肖像"
+    }
+  ],
   "entries": [
     {
       "date": "2026-10-24",
-      "title": "第一课：近距压迫与边缘畸变 / 走近再框",
+      "title": "走近再框",
       "stream": "28mm",
-      "subtitle": "近距压迫与边缘畸变 / 走近再框",
-      "summary": "28mm 不像 50mm 可以站远「偷看」再裁——你得走进去，让主体占满注意力；同时边缘会拉、地平会弯、前景会胀。这不是缺陷，是这支焦段的语言。站远拍一排人、画面空、边缘废信息堆满，是最常见的翻车。",
+      "url": "28mm/2026-10-24.html",
+      "subtitle": "第一课",
+      "summary": "28mm 不允许站远了再裁：得走进去，让主体占满注意力，再管住画框的四边。",
       "category": "第一课",
       "tags": [
-        "第一课",
-        "28mm"
+        "距离与机位"
       ],
+      "topics": [
+        "距离与机位"
+      ],
+      "people": [
+        "Bruce Gilden",
+        "Garry Winogrand",
+        "森山大道 Daido Moriyama"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-01-gilden-nyc-1984-couple.jpg",
-          "alt": "Bruce Gilden NYC 1984",
-          "caption": "Bruce Gilden｜NYC, 1984",
+          "alt": "戴墨镜的一对男女挽着手臂贴近镜头，两人之间露出后面一张脸，背景是钢架",
+          "caption": "Bruce Gilden — New York City, 1984",
           "w": 837,
           "h": 1280
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-02-gilden-nyc-1990-close.jpg",
-          "alt": "Bruce Gilden NYC 1990",
-          "caption": "Bruce Gilden｜NYC, 1990",
+          "alt": "仰拍的近距人像：下方一位老人张着嘴，上方是一个戴眼镜的女人，楼群向里倾倒",
+          "caption": "Bruce Gilden — New York City, 1990",
           "w": 846,
           "h": 1280
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-03-gilden-nyc-1986-stride.jpg",
-          "alt": "Bruce Gilden NYC 1986",
-          "caption": "Bruce Gilden｜NYC, 1986",
+          "alt": "穿西装、戴帽子的老人夹着烟大步走过，左侧是深色的门面",
+          "caption": "Bruce Gilden — New York City, 1986",
           "w": 848,
           "h": 1280
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-04-winogrand-untitled-1971-dogs.jpg",
-          "alt": "Garry Winogrand Untitled 1971",
-          "caption": "Garry Winogrand｜Untitled, 1971",
+          "alt": "草地上几只狗围着一个躺着的人，左下角有一只腊肠犬",
+          "caption": "Garry Winogrand — Untitled, 1971",
           "w": 1280,
           "h": 848
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-05-moriyama-ginza-gr3-cherub.jpg",
-          "alt": "Daido Moriyama Ginza GR III",
-          "caption": "森山大道｜银座 GR III, 2019",
+          "alt": "前景的丘比特铜像占满左侧，旁边的街道向远处延伸",
+          "caption": "森山大道 Daido Moriyama — 银座, 2019",
           "w": 1120,
           "h": 747
         }
       ],
       "links": [
         {
-          "label": "Magnum｜Bruce Gilden *A Beautiful Catastrophe*",
+          "label": "Bruce Gilden — *A Beautiful Catastrophe*（Magnum）",
           "url": "https://www.magnumphotos.com/arts-culture/beautiful-catastrophe-bruce-gilden/"
         },
         {
-          "label": "Fraenkel Gallery｜Garry Winogrand 作品",
+          "label": "Garry Winogrand — 作品（Fraenkel Gallery）",
           "url": "https://www.fraenkelgallery.com/artists/garry-winogrand"
         },
         {
-          "label": "Ricoh GR Official｜森山大道 银座 GR III 图库",
+          "label": "森山大道 Daido Moriyama — 银座 GR III 图库（Ricoh GR）",
           "url": "https://www.grblog.jp/en/article/1461/"
         }
       ]
     },
     {
       "date": "2026-10-25",
-      "title": "第二课：低机位地面引导线",
+      "title": "低机位与地面引导线",
       "stream": "28mm",
-      "subtitle": "低机位地面引导线",
-      "summary": "第一课练的是「走近提高信噪比」。这一课接你问过的身高机位：187cm 站直拍 28，地面常被压成一摊俯视废信息——反过来，故意把机位降到腰～膝，让地砖、路缘、阴影、井盖变成引导线，28 的纵深才会立起来。",
+      "url": "28mm/2026-10-25.html",
+      "subtitle": "第二课",
+      "summary": "把机位降到腰和膝之间，地砖、路缘、阴影和井盖就成了把视线引向事件的线。",
       "category": "第二课",
       "tags": [
-        "第二课",
-        "28mm"
+        "距离与机位",
+        "层次与遮挡"
       ],
+      "topics": [
+        "距离与机位",
+        "层次与遮挡"
+      ],
+      "people": [
+        "Mark Cohen",
+        "Garry Winogrand",
+        "森山大道 Daido Moriyama"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-06-cohen-knee-1973.jpg",
-          "alt": "Mark Cohen Knee 1973",
-          "caption": "Mark Cohen｜Knee, 1973",
+          "alt": "穿白袜的小腿贴在左边，墙角竖切画面，地面的斜影伸向门洞",
+          "caption": "Mark Cohen — *Knee*, 1973",
           "w": 1600,
           "h": 1073
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-07-cohen-knee-glass-1976.jpg",
-          "alt": "Mark Cohen Knee against glass 1976",
-          "caption": "Mark Cohen｜Knee against glass, 1976",
+          "alt": "一只膝盖顶在玻璃门上，玻璃外有一双路过的腿",
+          "caption": "Mark Cohen — *Knee against glass*, 1976",
           "w": 1200,
           "h": 811
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-08-cohen-bubblegum-1975.jpg",
-          "alt": "Mark Cohen Bubble Gum 1975",
-          "caption": "Mark Cohen｜Bubble Gum, 1975",
+          "alt": "泡泡糖吹出的大泡挡住了脸，上方举着一只张开的手，身后是街道",
+          "caption": "Mark Cohen — *Bubble Gum*, 1975",
           "w": 1280,
           "h": 853
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-09-winogrand-la-1969.jpg",
-          "alt": "Garry Winogrand Los Angeles 1969",
-          "caption": "Garry Winogrand｜Los Angeles, 1969",
+          "alt": "人行道上的长影汇向几个逆光走来的女人，左边暗处有一个坐轮椅的人",
+          "caption": "Garry Winogrand — Los Angeles, 1969",
           "w": 1600,
           "h": 1202
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-10-moriyama-ginza-street-gr3.jpg",
-          "alt": "Daido Moriyama Ginza GR III",
-          "caption": "森山大道｜银座 GR III, 2019",
+          "alt": "砖铺的街道向远处收拢，右下角有一个井盖，两侧是行人和楼面",
+          "caption": "森山大道 Daido Moriyama — 银座, 2019",
           "w": 1120,
           "h": 747
         }
       ],
       "links": [
         {
-          "label": "Danziger Gallery｜Mark Cohen 作品",
+          "label": "Mark Cohen — 作品（Danziger Gallery）",
           "url": "https://www.danzigergallery.com/artists/mark-cohen/featured-works?view=slider"
         },
         {
-          "label": "Fraenkel Gallery｜Garry Winogrand 作品",
+          "label": "Garry Winogrand — 作品（Fraenkel Gallery）",
           "url": "https://www.fraenkelgallery.com/artists/garry-winogrand"
         },
         {
-          "label": "Ricoh GR Official｜森山大道 银座 GR III 图库",
+          "label": "森山大道 Daido Moriyama — 银座 GR III 图库（Ricoh GR）",
           "url": "https://www.grblog.jp/en/article/1461/"
         }
       ]
     },
     {
       "date": "2026-10-27",
-      "title": "第三课：侧移半步去粘连",
+      "title": "侧移半步",
       "stream": "28mm",
-      "subtitle": "侧移半步去粘连",
-      "summary": "前两课练了走近与低机位。这一课接本周城市练习小问题＝轮廓分离／换位去粘连：人贴到电线杆、招牌字、别人脑袋、杂乱立面时，左右挪半步（或微微改高度），让轮廓落到更干净的墙面／天空／色面上——轮廓可读，才谈得上「看清」。",
+      "url": "28mm/2026-10-27.html",
+      "subtitle": "第三课",
+      "summary": "人和电线杆、招牌、别人的脑袋粘在一起时，往左或往右挪半步，让轮廓落到干净的面上。",
       "category": "第三课",
       "tags": [
-        "第三课",
-        "28mm"
+        "距离与机位",
+        "轮廓与剪影"
       ],
+      "topics": [
+        "距离与机位",
+        "轮廓与剪影"
+      ],
+      "people": [
+        "森山大道 Daido Moriyama",
+        "Garry Winogrand",
+        "Bruce Gilden"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-11-moriyama-ginza-shutter-man.jpg",
-          "alt": "Daido Moriyama Ginza shutter man",
-          "caption": "森山大道｜银座 GR III · 卷帘净面",
+          "alt": "巷子里，一个人侧身站着看手机，旁边是卷帘门",
+          "caption": "森山大道 Daido Moriyama — 银座, 2019",
           "w": 498,
           "h": 747
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-12-moriyama-ginza-head-sky-gap.jpg",
-          "alt": "Daido Moriyama Ginza head sky gap",
-          "caption": "森山大道｜银座 GR III · 头落亮空",
+          "alt": "人行道上几个行人迎面走来，最前面的人头部落在树干和店檐之间的亮处",
+          "caption": "森山大道 Daido Moriyama — 银座, 2019",
           "w": 1120,
           "h": 747
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-13-winogrand-wab-afro-boy.jpg",
-          "alt": "Garry Winogrand Woman with Afro Young Boy",
-          "caption": "Garry Winogrand｜WAB · 洞口暗部",
+          "alt": "一个留爆炸头的女人牵着男孩沿砖墙走过，她的头落在墙洞的暗部",
+          "caption": "Garry Winogrand — *Untitled (Woman with Afro, Young Boy)*",
           "w": 1600,
           "h": 1056
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-14-winogrand-zoo-1967.jpg",
-          "alt": "Garry Winogrand Central Park Zoo 1967",
-          "caption": "Garry Winogrand｜Central Park Zoo, 1967",
+          "alt": "动物园里，一男一女各抱着一只穿衣服的黑猩猩",
+          "caption": "Garry Winogrand — *Central Park Zoo*, 1967",
           "w": 1400,
           "h": 987
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-15-gilden-nyc-heads-separation.jpg",
-          "alt": "Bruce Gilden NYC 1986",
-          "caption": "Bruce Gilden｜NYC, 1986",
+          "alt": "几张脸挤在同一个画面里，右侧白色卷发的女人落在暗色的背景上",
+          "caption": "Bruce Gilden — New York, 1986",
           "w": 1280,
           "h": 848
         }
       ],
       "links": [
         {
-          "label": "Ricoh GR Official｜森山大道 银座 GR III 图库",
+          "label": "森山大道 Daido Moriyama — 银座 GR III 图库（Ricoh GR）",
           "url": "https://www.grblog.jp/en/article/1461/"
         },
         {
-          "label": "Fraenkel Gallery｜Garry Winogrand 作品",
+          "label": "Garry Winogrand — 作品（Fraenkel Gallery）",
           "url": "https://www.fraenkelgallery.com/artists/garry-winogrand"
         },
         {
-          "label": "MoMA｜Central Park Zoo, 1967",
+          "label": "Garry Winogrand — *Central Park Zoo*（MoMA）",
           "url": "https://www.moma.org/collection/works/55332"
         },
         {
-          "label": "Magnum｜Bruce Gilden *A Beautiful Catastrophe*",
+          "label": "Bruce Gilden — *A Beautiful Catastrophe*（Magnum）",
           "url": "https://www.magnumphotos.com/arts-culture/beautiful-catastrophe-bruce-gilden/"
         }
       ]
     },
     {
       "date": "2026-10-23",
-      "title": "前中后景叠层（FG / MG / BG）",
+      "title": "前中后景叠层",
       "stream": "aesthetic",
-      "subtitle": "每日审美一课",
-      "summary": "今天练的是前中后景叠层：一张平面照片里，怎么做出「有纵深的路径」——前景挡一块、中景落人、背景再开一层，视线被带着走，而不是一眼扫平。",
-      "category": "审美培养",
+      "url": "aesthetic/2026-10-23.html",
+      "subtitle": "Foreground · Midground · Background",
+      "summary": "一张平面的照片，怎样做出让视线一层层走进去的纵深？",
+      "category": "",
       "tags": [
-        "审美培养",
-        "FG",
-        "MG",
-        "BG",
-        "审美一课"
+        "层次与遮挡"
       ],
+      "topics": [
+        "层次与遮挡"
+      ],
+      "people": [
+        "Alex Webb",
+        "Saul Leiter",
+        "Trent Parke"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-fgmgbg-webb-1.jpg",
-          "alt": "Alex Webb Nuevo Laredo 1996",
-          "caption": "Alex Webb｜Nuevo Laredo, 1996",
+          "alt": "阴影里的红色册子和白衬衫在前景，中间是剪影和拥抱的人，背后是登记处的招牌",
+          "caption": "Alex Webb — Nuevo Laredo, Mexico, 1996",
           "w": 1400,
           "h": 940
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-fgmgbg-leiter-1.jpg",
-          "alt": "Saul Leiter Through Boards 1957",
-          "caption": "Saul Leiter｜Through Boards, 1957",
+          "alt": "透过木板缝看街，前景挡住大半，中景露出车和行人",
+          "caption": "Saul Leiter — *Through Boards*, 1957",
           "w": 852,
           "h": 1290
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-fgmgbg-leiter-2.jpg",
-          "alt": "Saul Leiter Taxi 1957",
-          "caption": "Saul Leiter｜Taxi, 1957",
+          "alt": "隔着车窗的色块看出去，后面是街上的车和行人",
+          "caption": "Saul Leiter — *Taxi*, 1957",
           "w": 1350,
           "h": 899
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-fgmgbg-parke-1.jpg",
-          "alt": "Trent Parke Sydney rain street",
-          "caption": "Trent Parke｜悉尼街景雨中纵深 · *Minutes to Midnight*",
+          "alt": "悉尼雨中的高反差街景，前景人头贴近镜头，中景路面被雨光打亮",
+          "caption": "Trent Parke — *Minutes to Midnight*",
           "w": 1046,
           "h": 704
         }
@@ -249,42 +316,51 @@
     },
     {
       "date": "2026-10-24",
-      "title": "杂局减法·挡与缝（Occlusion & Aperture）· 非惊喜",
+      "title": "挡与缝",
       "stream": "aesthetic",
-      "subtitle": "每日审美一课",
-      "summary": "基于你对叠层的认可，今天细拆：杂局里怎么减——不是再加一层，而是用前景挡掉杂讯、用框/洞/缝把中景收成「只有一件事」，背景只留一条线或一块色。",
-      "category": "非惊喜",
+      "url": "aesthetic/2026-10-24.html",
+      "subtitle": "Occlusion & Aperture",
+      "summary": "画面太杂的时候，能不能不再加东西，而是挡掉大半，只留一条缝？",
+      "category": "",
       "tags": [
-        "非惊喜",
-        "Occlusion & Aperture",
-        "审美一课"
+        "层次与遮挡"
       ],
+      "topics": [
+        "层次与遮挡"
+      ],
+      "people": [
+        "Saul Leiter",
+        "Alex Webb",
+        "Harry Gruyaert",
+        "何藩 Fan Ho"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261024-leiter-red-curtain.jpg",
-          "alt": "Leiter Red Curtain",
-          "caption": "Leiter｜Red Curtain, 1956｜红帘挡、缝里只留一人",
+          "alt": "红色的帘子挡住画面的大半，缝里只有一个人",
+          "caption": "Saul Leiter — *Red Curtain*, 1956",
           "w": 820,
           "h": 1218
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261024-webb-bodies-aperture.jpg",
-          "alt": "Webb body aperture",
-          "caption": "Webb｜Hot Light 一带｜身体当挡、中间只留一件事",
+          "alt": "前景的身体挡住两侧，中间只留下一件事",
+          "caption": "Alex Webb — *Hot Light* 系列",
           "w": 1074,
           "h": 704
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261024-gruyaert-window.jpg",
-          "alt": "Gruyaert window",
-          "caption": "Gruyaert｜比利时窗框｜墙挡杂讯、窗里只留一人",
+          "alt": "墙挡住街上的杂乱，窗里只有一个人",
+          "caption": "Harry Gruyaert — 比利时",
           "w": 1065,
           "h": 704
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261024-fanho-approaching-shadow.jpg",
-          "alt": "Fan Ho Approaching Shadow",
-          "caption": "Fan Ho｜Approaching Shadow, 1954｜影挡大半、光缝里只留一人",
+          "alt": "斜向的阴影挡住大半个画面，光里只有一个人",
+          "caption": "何藩 Fan Ho — *Approaching Shadow*, 1954",
           "w": 497,
           "h": 693
         }
@@ -293,285 +369,324 @@
     },
     {
       "date": "2026-10-25",
-      "title": "色面分割（Color Planes）· 非惊喜",
+      "title": "色面分割",
       "stream": "aesthetic",
-      "subtitle": "",
-      "summary": "基于你对「挡与缝」的认可，今天换一条减法路径：杂局里不一定要挡掉，也可以把场面读成几块大色面——墙一块、路一块、衣服一块、天空一块——用色块边界收局，而不是继续加层或加事件。",
-      "category": "非惊喜",
+      "url": "aesthetic/2026-10-25.html",
+      "subtitle": "Color Planes",
+      "summary": "不靠遮挡，能不能把一条杂乱的街读成三四块颜色？",
+      "category": "",
       "tags": [
-        "非惊喜",
-        "Color Planes",
-        "审美一课"
+        "色彩与色面"
       ],
+      "topics": [
+        "色彩与色面"
+      ],
+      "people": [
+        "Franco Fontana",
+        "Harry Gruyaert"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261025-fontana-baia-zagare.jpg",
-          "alt": "Fontana Baia delle Zagare",
-          "caption": "Fontana｜Baia delle Zagare, 1970｜海天沙影成水平色带",
+          "alt": "海、天、沙和阴影被压成几条水平色带",
+          "caption": "Franco Fontana — *Baia delle Zagare*, 1970",
           "w": 782,
           "h": 1181
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261025-fontana-basilicata.jpg",
-          "alt": "Fontana Basilicata",
-          "caption": "Fontana｜Basilicata, 1978｜田野黄绿灰的波浪色面",
+          "alt": "黄、绿、灰的田野排成起伏的色面",
+          "caption": "Franco Fontana — *Basilicata*, 1978",
           "w": 1181,
           "h": 742
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261025-fontana-phoenix.jpg",
-          "alt": "Fontana Phoenix",
-          "caption": "Fontana｜Arizona / Phoenix, 1979｜墙、罩、天三大色块",
+          "alt": "红白条纹的墙、罩着绿色车衣的车和蓝天，三大块颜色",
+          "caption": "Franco Fontana — *Arizona / Phoenix*, 1979",
           "w": 1181,
           "h": 793
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261025-gruyaert-morocco-fabrics.jpg",
-          "alt": "Gruyaert Morocco fabrics",
-          "caption": "Gruyaert｜Morocco｜衣料色块贴墙，人退成色面零件",
+          "alt": "饱和的衣料色块贴着土墙，人退成色面的一部分",
+          "caption": "Harry Gruyaert — *Morocco*",
           "w": 1061,
           "h": 704
         }
       ],
       "links": [
         {
-          "label": "Franco Fontana｜Atlas Gallery 作品",
+          "label": "Franco Fontana — 作品（Atlas Gallery）",
           "url": "https://www.atlasgallery.com/artists/franco-fontana"
         },
         {
-          "label": "Harry Gruyaert｜Magnum Morocco",
+          "label": "Harry Gruyaert — *Morocco*（Magnum）",
           "url": "https://www.magnumphotos.com/arts-culture/art/harry-gruyaert-morocco/"
         }
       ]
     },
     {
       "date": "2026-10-26",
-      "title": "意外缝（Unexpected Reveal）· 非惊喜",
+      "title": "意外缝",
       "stream": "aesthetic",
-      "subtitle": "",
-      "summary": "你点名喜欢 Leiter《Red Curtain》的「巧妙、构图有意外」——今天把挡与缝再细拆一刀：不只挡杂讯，而是先让人误读，再在缝里读懂。遮挡后露出的局部、意外色块、玻璃上的字与反射叠在一起，那一下「原来是这个」才是今日要练的惊喜感。",
-      "category": "非惊喜",
+      "url": "aesthetic/2026-10-26.html",
+      "subtitle": "Unexpected Reveal",
+      "summary": "挡掉大半之后，缝里能不能藏一个让人先看错、再看懂的瞬间？",
+      "category": "",
       "tags": [
-        "非惊喜",
-        "Unexpected Reveal",
-        "审美一课"
+        "层次与遮挡",
+        "日常里的怪"
       ],
+      "topics": [
+        "层次与遮挡",
+        "日常里的怪"
+      ],
+      "people": [
+        "Saul Leiter",
+        "何藩 Fan Ho",
+        "Gueorgui Pinkhassov"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261026-leiter-snow.jpg",
-          "alt": "Leiter Snow",
-          "caption": "Leiter｜Snow, 1960｜雾窗挡满，清缝里才见人与黄车",
+          "alt": "雾气挡满车窗，清楚的缝里现出行人和一辆黄色的车",
+          "caption": "Saul Leiter — *Snow*, 1960",
           "w": 802,
           "h": 1200
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261026-leiter-phone-call.jpg",
-          "alt": "Leiter Phone Call",
-          "caption": "Leiter｜Phone Call, 1957｜字牌与反光叠人，先乱后懂",
+          "alt": "电话亭的字牌和车窗反光叠在打电话的人身上",
+          "caption": "Saul Leiter — *Phone Call*, 1957",
           "w": 1170,
           "h": 782
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261026-fanho-private.jpg",
-          "alt": "Fan Ho Private",
-          "caption": "Fan Ho｜Private｜白墙清空，小窗剪影遇 PRIVATE 牌",
+          "alt": "大白墙几乎占满画面，小窗里是一对剪影，旁边挂着 PRIVATE 的牌子",
+          "caption": "何藩 Fan Ho — *Private*",
           "w": 580,
           "h": 745
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261026-pinkhassov-akasaka-hotel.jpg",
-          "alt": "Pinkhassov Akasaka hotel",
-          "caption": "Pinkhassov｜Akasaka hotel, 1996｜光斑切人，误读成条纹再懂是光",
+          "alt": "百叶窗的光斑落在人身上，像一道道条纹",
+          "caption": "Gueorgui Pinkhassov — Hotel, Akasaka, Tokyo, 1996",
           "w": 999,
           "h": 668
         }
       ],
       "links": [
         {
-          "label": "Saul Leiter Foundation｜Color",
+          "label": "Saul Leiter — Color（Saul Leiter Foundation）",
           "url": "https://www.saulleiterfoundation.org/color"
         },
         {
-          "label": "Fan Ho｜Forget Me Not 作品",
+          "label": "何藩 Fan Ho — 作品",
           "url": "https://fanho-forgetmenot.com/work-2"
         },
         {
-          "label": "Gueorgui Pinkhassov｜Magnum Sightwalk",
+          "label": "Gueorgui Pinkhassov — *Sightwalk*（Magnum）",
           "url": "https://www.magnumphotos.com/arts-culture/architecture/gueorgui-pinkhassov-sightwalk/"
         }
       ]
     },
     {
       "date": "2026-10-27",
-      "title": "轮廓分离（Contour Separation）· 非惊喜",
+      "title": "轮廓分离",
       "stream": "aesthetic",
-      "subtitle": "",
-      "summary": "本周城市练习小问题是轮廓分离／换位去粘连——今天审美课不推个人，专认这一刀：人/物的边线有没有从墙、杆、路人、阴影里切开。不是「拍到人了」，是边还能摸到；粘住了，再好看的滤镜也救不回结构。",
-      "category": "非惊喜",
+      "url": "aesthetic/2026-10-27.html",
+      "subtitle": "Contour Separation",
+      "summary": "人物的边线，有没有从墙、杆、路人和阴影里切开？",
+      "category": "",
       "tags": [
-        "非惊喜",
-        "Contour Separation",
-        "审美一课"
+        "轮廓与剪影"
       ],
+      "topics": [
+        "轮廓与剪影"
+      ],
+      "people": [
+        "何藩 Fan Ho",
+        "Josef Koudelka",
+        "Sergio Larrain"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261027-fanho-people-shadows.jpg",
-          "alt": "Fan Ho People and Shadows",
-          "caption": "Fan Ho｜People and Shadows, 1959｜人影贴墙，边与影各可读",
+          "alt": "行人沿着亮墙横走，身体与墙上的影子各自成形",
+          "caption": "何藩 Fan Ho — *People and Shadows*, 1959",
           "w": 1024,
           "h": 418
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261027-fanho-hurrying-home.jpg",
-          "alt": "Fan Ho Hurrying Home",
-          "caption": "Fan Ho｜Hurrying Home, 1963｜逆光巷道，剪影外缘被亮托开",
+          "alt": "逆光巷道里的行人成为剪影，外缘被亮雾托开",
+          "caption": "何藩 Fan Ho — *Hurrying Home*, 1963",
           "w": 682,
           "h": 1024
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261027-koudelka-romania-1968.jpg",
-          "alt": "Koudelka Romania 1968",
-          "caption": "Koudelka｜Romania, 1968｜人马浅墙，外缘切开留空",
+          "alt": "黑衣人和白马贴着浅色的墙，中间留有空隙",
+          "caption": "Josef Koudelka — Romania, 1968",
           "w": 1093,
           "h": 704
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261027-larrain-valparaiso-stairs.jpg",
-          "alt": "Larrain Valparaiso stairs",
-          "caption": "Larrain｜Valparaíso, 1963｜硬光台阶，人狗轮廓分落不粘",
+          "alt": "硬光下的台阶上，几个人和几条狗分落在不同的亮暗面上",
+          "caption": "Sergio Larrain — Valparaíso, 1963",
           "w": 1061,
           "h": 704
         }
       ],
       "links": [
         {
-          "label": "Fan Ho｜The Living Theatre 作品",
+          "label": "何藩 Fan Ho — *The Living Theatre*",
           "url": "https://fanho-forgetmenot.com/the-living-theatre"
         },
         {
-          "label": "Josef Koudelka｜Gypsies（Magnum）",
+          "label": "Josef Koudelka — *Gypsies*（Magnum）",
           "url": "https://www.magnumphotos.com/newsroom/society/josef-koudelka-gypsies/"
         },
         {
-          "label": "Sergio Larrain｜Valparaíso（Magnum）",
+          "label": "Sergio Larrain — *Valparaíso*（Magnum）",
           "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/sergio-larrain-valparaiso/"
         }
       ]
     },
     {
       "date": "2026-10-28",
-      "title": "剪影可读（Readable Silhouette）· 非惊喜",
+      "title": "剪影可读",
       "stream": "aesthetic",
-      "subtitle": "每日审美一课",
-      "summary": "剪影可读（Readable Silhouette）· 非惊喜——细节可以死，外形必须活；人塌成一团黑时，外轮廓还能不能叫出名字。示例：Stanmeyer / Patjane / Chiba 荷赛帧。",
-      "category": "非惊喜",
+      "url": "aesthetic/2026-10-28.html",
+      "subtitle": "Readable Silhouette",
+      "summary": "当人物失去面部细节，我们还能否通过轮廓辨认他的动作？",
+      "category": "",
       "tags": [
-        "非惊喜",
-        "审美一课"
+        "轮廓与剪影"
       ],
+      "topics": [
+        "轮廓与剪影"
+      ],
+      "people": [
+        "John Stanmeyer",
+        "Anuar Patjane Floriuk",
+        "Yasuyoshi Chiba"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261028-stanmeyer-signal.jpg",
-          "alt": "John Stanmeyer Signal",
-          "caption": "Stanmeyer｜Signal, 2013｜夜岸剪影，举手+光点可读",
+          "alt": "吉布提的夜岸上，几个人举起手机寻找信号，身体都成了黑色剪影",
+          "caption": "John Stanmeyer — *Signal*, 2013",
           "w": 1800,
           "h": 1200
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261028-patjane-whale.jpg",
-          "alt": "Patjane Whale Whisperers",
-          "caption": "Patjane｜Whale Whisperers｜人点小黑仍叫得出「人」",
+          "alt": "潜水员在鲸旁只是小小的黑色剪影，仍能认出是人",
+          "caption": "Anuar Patjane Floriuk — *Whale Whisperers*",
           "w": 1800,
           "h": 1194
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261028-chiba-straight-voice.jpg",
-          "alt": "Chiba Straight Voice",
-          "caption": "千叶安哉｜Straight Voice, 2019｜暗场手机光托住外缘",
+          "alt": "暗场中，中心人物的肩头和张开的嘴被周围的手机光照亮",
+          "caption": "Yasuyoshi Chiba — *Straight Voice*, 2019",
           "w": 1800,
           "h": 1200
         }
       ],
       "links": [
         {
-          "label": "John Stanmeyer｜Signal（World Press Photo）",
+          "label": "John Stanmeyer — *Signal*（World Press Photo）",
           "url": "https://www.worldpressphoto.org/collection/photo-contest/2014/john-stanmeyer/1"
         },
         {
-          "label": "Anuar Patjane Floriuk｜Whale Whisperers（World Press Photo 2016）",
+          "label": "Anuar Patjane Floriuk — *Whale Whisperers*（World Press Photo）",
           "url": "https://www.worldpressphoto.org/collection/photo-contest/2016/anuar-patjane-floriuk/1"
         },
         {
-          "label": "千叶安哉 Yasuyoshi Chiba｜Straight Voice（World Press Photo）",
+          "label": "Yasuyoshi Chiba — *Straight Voice*（World Press Photo）",
           "url": "https://www.worldpressphoto.org/collection/photo-contest/2020/yasuyoshi-chiba-poyn/1"
         }
       ]
     },
     {
       "date": "2026-10-27",
-      "title": "Bryce Evans：One 与把抑郁焦虑拍成十条故事",
+      "title": "把抑郁和焦虑拍成十条故事",
       "stream": "meaning",
-      "subtitle": "加拿大摄影师／The One Project 创办人；2010 年个人系列 One（十条孤独故事）公开后，发展成心理健康与治疗性摄影社区",
-      "summary": "中学时他常觉得自己是「奇怪的那个」。焦虑会让他发抖、出汗、恶心，光是想象去参加派对就够呛。抑郁让他退缩，又努力扮演「正常」以免被问。想开口时焦虑会先抢走机会，于是更恨自己、更深陷。",
-      "category": "意义长卷",
+      "url": "meaning/2026-10-27-bryce.html",
+      "subtitle": "Bryce Evans · One",
+      "summary": "他把自己的抑郁和焦虑拍成十条故事。在 Facebook 上发布之前，手指在发送键上悬了很久。",
+      "category": "",
       "tags": [
-        "意义长卷",
-        "抑郁",
-        "焦虑",
-        "故事"
+        "低谷与相机"
       ],
+      "topics": [
+        "低谷与相机"
+      ],
+      "people": [
+        "Bryce Evans"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-streetlights.jpg",
-          "alt": "Bryce Evans One Streetlights",
-          "caption": "*One*｜2 Streetlights",
+          "alt": "夜里空荡的停车场，一个戴兜帽的人抱膝坐在路灯杆下",
+          "caption": "*Streetlights*, 2010",
           "w": 2400,
           "h": 1600
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-who-are-you.jpg",
-          "alt": "Bryce Evans One Who are you",
-          "caption": "*One*｜4 Who are you?",
+          "alt": "两栋楼之间长长的通道，尽头站着一个很小的人影",
+          "caption": "*Who are you?*, 2010",
           "w": 1600,
           "h": 2400
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-lonely-surfer.jpg",
-          "alt": "Bryce Evans One Lonely Surfer",
-          "caption": "*One*｜5 Lonely Surfer",
+          "alt": "一片发白的雾气里，一个冲浪者夹着板走在画面底部的地平线上",
+          "caption": "*Lonely Surfer*, 2010",
           "w": 2400,
           "h": 1600
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-love-loneliness.jpg",
-          "alt": "Bryce Evans One Love Loneliness",
-          "caption": "*One*｜7 Love/Loneliness (The Fine Line)",
+          "alt": "红色的 LOVE 雕塑，底座的角落里坐着一个人",
+          "caption": "*Love/Loneliness (The Fine Line)*, 2010",
           "w": 1600,
           "h": 2400
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-back-to-one.jpg",
-          "alt": "Bryce Evans One Back To One",
-          "caption": "*One*｜9 Back To One",
+          "alt": "灰色的空旷地面上，一个人蜷坐在中间，旁边叠着一个半透明的人影",
+          "caption": "*Back To One*, 2010",
           "w": 2400,
           "h": 1600
         }
       ],
       "links": [
         {
-          "label": "The One Project · one 系列",
+          "label": "*one* 系列（The One Project）",
           "url": "https://theoneproject.co/mentalhealthphotography/one/"
         },
         {
-          "label": "The One Project 主站",
+          "label": "The One Project",
           "url": "https://theoneproject.co/"
         },
         {
-          "label": "Daily Hive｜My Mental Illness: How photography changed my life（作者自述）",
+          "label": "My Mental Illness: How photography changed my life（Daily Hive）",
           "url": "https://dailyhive.com/vancouver/my-mental-illness-photography-changed-my-life"
         },
         {
-          "label": "Daily Hive｜The One Project 访谈",
+          "label": "The One Project 访谈（Daily Hive）",
           "url": "https://dailyhive.com/vancouver/the-one-project-inspiration-through-interaction"
         }
       ],
@@ -579,56 +694,62 @@
     },
     {
       "date": "2026-10-27",
-      "title": "Abdulazez Dukhan：Through Refugee Eyes 与难民营里拿到的相机",
+      "title": "难民营里拿到的相机",
       "stream": "meaning",
-      "subtitle": "叙利亚摄影师，霍姆斯出身；2016 年起在希腊难民营开展 Through Refugee Eyes，后赴比利时做 50 Humans 等项目",
-      "summary": "离开叙利亚、经土耳其到希腊后，他与家人在 Idomeni 等营地滞留很久。冷、排队领食物、不知明天。与此同时，他看到西方媒体常只报道冲突与问题，很少看见「人」。",
-      "category": "意义长卷",
+      "url": "meaning/2026-10-27-dukhan.html",
+      "subtitle": "Abdulazez Dukhan · Through Refugee Eyes",
+      "summary": "滞留希腊难民营时，一位志愿者送了他一部袖珍相机。他开始从营地内部，拍下西方媒体很少看见的「人」。",
+      "category": "",
       "tags": [
-        "意义长卷",
-        "难民",
-        "肖像"
+        "陌生人与肖像"
       ],
+      "topics": [
+        "陌生人与肖像"
+      ],
+      "people": [
+        "Abdulazez Dukhan"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/dukhan-tre-child-portrait.jpg",
-          "alt": "Abdulazez Dukhan child portrait Through Refugee Eyes",
-          "caption": "作者官网主页作品｜儿童近景肖像（画面含水印 © ABDULAZEZ DUKHAN）",
+          "alt": "一个卷发的孩子咬着拳头，睁大眼睛看着镜头",
+          "caption": "孩子的肖像",
           "w": 2400,
           "h": 1600
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/dukhan-athens-rain-couple.jpg",
-          "alt": "Abdulazez Dukhan Athens rain couple",
-          "caption": "作者官网主页作品｜雅典雨中共伞",
+          "alt": "雅典的广场上，两个人合撑一把伞在雨中走过",
+          "caption": "雅典，雨中",
           "w": 2400,
           "h": 1600
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/dukhan-profile-city-dusk.jpg",
-          "alt": "Abdulazez Dukhan woman profile city dusk",
-          "caption": "作者官网主页作品｜暮色城市侧影",
+          "alt": "暮色里，一个年轻女人倚着栏杆的侧影，身后是城市",
+          "caption": "暮色里的侧影",
           "w": 2400,
           "h": 1600
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/dukhan-ledge-autumn-valley.jpg",
-          "alt": "Abdulazez Dukhan woman autumn valley",
-          "caption": "作者官网主页作品｜秋谷岩台",
+          "alt": "一个女人坐在岩台上，望向秋天的山谷",
+          "caption": "秋天的山谷",
           "w": 2400,
           "h": 1600
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/dukhan-mountain-haze.jpg",
-          "alt": "Abdulazez Dukhan mountain haze",
-          "caption": "作者官网主页作品｜山岚层叠",
+          "alt": "层层叠叠的山脊隐在雾里",
+          "caption": "山间的雾",
           "w": 2400,
           "h": 1600
         }
       ],
       "links": [
         {
-          "label": "Through Refugee Eyes（作者站）",
+          "label": "*Through Refugee Eyes*",
           "url": "https://azyeux.com/through-refugee-eyes/"
         },
         {
@@ -636,19 +757,19 @@
           "url": "https://azyeux.com/northern-greece-2016-2017/"
         },
         {
-          "label": "50 Humans 2020/2021",
+          "label": "*50 Humans* 2020/2021",
           "url": "https://azyeux.com/50humans-2020-2021current/"
         },
         {
-          "label": "Arab News｜Focus on freedom: An insider's eye on refugees",
+          "label": "Focus on freedom: An insider's eye on refugees（Arab News）",
           "url": "https://www.arabnews.com/middle-east/focus-on-freedom-an-insiders-eye-on-refugees-1347281"
         },
         {
-          "label": "Arab News｜Brussels 50 Humans 展",
+          "label": "*50 Humans* 布鲁塞尔展（Arab News）",
           "url": "https://www.arabnews.com/art-culture/syrian-photographer-shows-refugees-in-new-light-at-brussels-show-1929296"
         },
         {
-          "label": "House of Compassion｜50 Humans 展讯",
+          "label": "*50 Humans* 展讯（House of Compassion）",
           "url": "https://www.houseofcompassion.be/en/events/50-humans-by-abdulazez-dukhan/"
         }
       ],
@@ -656,72 +777,78 @@
     },
     {
       "date": "2026-10-27",
-      "title": "Michael Goldrei：Chance Street 与不敢独自出门的人",
+      "title": "不敢独自出门的人",
       "stream": "meaning",
-      "subtitle": "英国街拍摄影师，现居维也纳；自出版摄影书 chromorama（2018），作品入藏 Tate Britain 阅览室",
-      "summary": "他早期三十出头时，兴趣多在建筑与插画，相机里很少有人。插画的无限可能一度让他灵感枯竭——想画什么都可以，却不知道该把什么落到纸上。2011 年 4 月 9 日，他向朋友借来一台 Canon，报名了在伦敦 Shoreditch 的第一次街拍课。",
-      "category": "意义长卷",
+      "url": "meaning/2026-10-27-goldrei.html",
+      "subtitle": "Michael Goldrei · Chance Street",
+      "summary": "借来的一台相机，一堂街拍课，一张在 Chance Street 抖着手按下的照片。从那以后，他出门必带相机。",
+      "category": "",
       "tags": [
-        "意义长卷",
-        "街拍",
-        "出门"
+        "低谷与相机"
       ],
+      "topics": [
+        "低谷与相机"
+      ],
+      "people": [
+        "Michael Goldrei"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-trois-garcons.jpg",
-          "alt": "Michael Goldrei Trois Garcons London 2011",
-          "caption": "*Trois Garçons*｜London, Chance Street, 2011",
-          "w": 2400,
-          "h": 1600
-        },
-        {
-          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-lady-in-red.jpg",
-          "alt": "Michael Goldrei Lady in Red Budapest 2016",
-          "caption": "*Lady in Red*｜Budapest, 2016 · *chromorama*",
-          "w": 2400,
-          "h": 1600
-        },
-        {
-          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-nest.jpg",
-          "alt": "Michael Goldrei Nest London 2016",
-          "caption": "*Nest*｜London, 2016 · 艺博会人与作品",
-          "w": 2400,
-          "h": 1600
-        },
-        {
-          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-wallflower-miami.jpg",
-          "alt": "Michael Goldrei Perks of Being a Wallflower Miami 2017",
-          "caption": "*The Perks of Being a Wallflower*｜Miami, 2017",
+          "alt": "三个穿牛仔衣裤的男人几乎同步走过 Maison Trois Garçons 的店门",
+          "caption": "*Trois Garçons*, London, 2011",
           "w": 2400,
           "h": 1600
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-go-down-skip.jpg",
-          "alt": "Michael Goldrei Go Down With The Skip Austria 2018",
-          "caption": "*Go Down With The Skip*｜Purkersdorf, 2018",
+          "alt": "一个男人从门口探出身子，正对着门前的一个大垃圾箱",
+          "caption": "*Go Down With The Skip*, Purkersdorf, 2018",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-lady-in-red.jpg",
+          "alt": "穿红色泳衣的女人背对镜头，站在一座彩色瓷砖的浴场里",
+          "caption": "*Lady in Red*, Budapest, 2016",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-nest.jpg",
+          "alt": "绿墙上挂满花艺装置，下方坐着一个戴帽子的女人，帽檐遮住了脸",
+          "caption": "*Nest*, London, 2016",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/goldrei-wallflower-miami.jpg",
+          "alt": "两个穿花衣服的女人站在图案鲜艳的墙前看画，衣服和墙纸几乎融在一起",
+          "caption": "*The Perks of Being a Wallflower*, Miami, 2017",
           "w": 2400,
           "h": 1600
         }
       ],
       "links": [
         {
-          "label": "Michael Goldrei 官网作品",
+          "label": "Michael Goldrei 官网",
           "url": "https://www.michaelgoldrei.com/"
         },
         {
-          "label": "Street 作品页",
+          "label": "街拍作品",
           "url": "https://www.michaelgoldrei.com/street"
         },
         {
-          "label": "chromorama 书页",
+          "label": "*chromorama*",
           "url": "https://www.michaelgoldrei.com/chromorama"
         },
         {
-          "label": "《卫报》图集 Serendipitous moments",
+          "label": "Serendipitous moments（《卫报》图集）",
           "url": "https://www.theguardian.com/artanddesign/gallery/2018/aug/07/serendipitous-moments-michael-goldrei-street-photography-in-pictures"
         },
         {
-          "label": "PetaPixel｜How Street Photography Changed My Life（作者自述）",
+          "label": "How Street Photography Changed My Life（PetaPixel）",
           "url": "https://petapixel.com/2021/04/09/how-street-photography-changed-my-life/"
         }
       ],
@@ -729,60 +856,66 @@
     },
     {
       "date": "2026-10-27",
-      "title": "Tara Wray：Too Tired for Sunshine 与太累了也要出门拍",
+      "title": "太累了，也要出门拍",
       "stream": "meaning",
-      "subtitle": "美国佛蒙特摄影师／电影人；摄影书 Too Tired for Sunshine（2018）、Year of the Beast（2021）；创办 Too Tired Project",
-      "summary": "她说摄影像运动：你不想做，得逼自己做，做完会好一点。抑郁季里，她强迫自己离开脑子里的循环，用相机把注意力拽到光、狗、和那些「本来没打算好笑」的日常荒诞上。",
-      "category": "意义长卷",
+      "url": "meaning/2026-10-27-tara.html",
+      "subtitle": "Tara Wray · Too Tired for Sunshine",
+      "summary": "她说摄影像运动：不想做，也得逼自己做，做完会好一点。",
+      "category": "",
       "tags": [
-        "意义长卷",
-        "抑郁",
-        "出门"
+        "低谷与相机"
       ],
+      "topics": [
+        "低谷与相机"
+      ],
+      "people": [
+        "Tara Wray"
+      ],
+      "edited": true,
       "images": [
         {
-          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-dog-light.jpg",
-          "alt": "Tara Wray Too Tired for Sunshine light caustic",
-          "caption": "*Too Tired for Sunshine*｜车内光斑／细节",
-          "w": 1400,
-          "h": 787
-        },
-        {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-absurdist.jpg",
-          "alt": "Tara Wray Too Tired for Sunshine dog fogged glass",
-          "caption": "*Too Tired for Sunshine*｜雾窗后的狗",
+          "alt": "起雾的玻璃后面，一只狗望着镜头",
+          "caption": "*Too Tired for Sunshine*",
           "w": 1400,
           "h": 933
         },
         {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-dog-light.jpg",
+          "alt": "车里暗色的座椅上，落着一块形状奇怪的光斑",
+          "caption": "*Too Tired for Sunshine*",
+          "w": 1400,
+          "h": 787
+        },
+        {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-isolation.jpg",
-          "alt": "Tara Wray Too Tired for Sunshine neck golden light",
-          "caption": "*Too Tired for Sunshine*｜下颌与金色侧光",
+          "alt": "一个男人的下巴和脖子被金色的侧光照亮，背后是车窗外的树",
+          "caption": "*Too Tired for Sunshine*",
           "w": 1400,
           "h": 932
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-rural-scene.jpg",
-          "alt": "Tara Wray Too Tired for Sunshine rural Vermont",
-          "caption": "*Too Tired for Sunshine*｜佛蒙特日常／田野",
+          "alt": "玻璃罩下的托盘里放着几个甜甜圈",
+          "caption": "*Too Tired for Sunshine*",
           "w": 1400,
           "h": 787
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-domestic.jpg",
-          "alt": "Tara Wray Too Tired for Sunshine domestic scene",
-          "caption": "*Too Tired for Sunshine*｜家庭与近处生活",
+          "alt": "孩子钻到沙发底下，只露出穿绿袜子的腿和红短裤",
+          "caption": "*Too Tired for Sunshine*",
           "w": 1400,
           "h": 787
         }
       ],
       "links": [
         {
-          "label": "Tara Wray · Too Tired for Sunshine",
+          "label": "*Too Tired for Sunshine*",
           "url": "https://www.tarawray.net/tootiredforsunshine"
         },
         {
-          "label": "Year of the Beast",
+          "label": "*Year of the Beast*",
           "url": "https://www.tarawray.net/yob"
         },
         {
@@ -790,11 +923,11 @@
           "url": "https://tootiredproject.com/"
         },
         {
-          "label": "NPR｜Channeling The Pain Of Depression Into Photography",
+          "label": "Channeling The Pain Of Depression Into Photography（NPR）",
           "url": "https://www.npr.org/sections/pictureshow/2018/12/31/677341382/one-photographers-message-if-you-feel-too-tired-you-re-not-alone"
         },
         {
-          "label": "NPR｜Year of the Beast",
+          "label": "*Year of the Beast*（NPR）",
           "url": "https://www.npr.org/sections/pictureshow/2021/03/07/972571310/year-of-the-beast-how-tara-wray-used-photography-to-process-fear-and-uncertainty"
         }
       ],
@@ -802,65 +935,72 @@
     },
     {
       "date": "2026-10-28",
-      "title": "John Mannell：Portrait Per Day 与不敢看陌生人眼睛的人",
+      "title": "不敢看陌生人眼睛的人",
       "stream": "meaning",
-      "subtitle": "英国萨顿（Sutton，南伦敦）街拍肖像摄影师；项目 Portrait Per Day（Instagram @portrait_per_day）",
-      "summary": "自幼害羞。大学后胃部手术／肠病触发深层焦虑；曾几乎只出门上班，回家坐在漆黑房间里。诊断抑郁后上治疗小组，别人建议他把摄影捡起来。他先拍附近景物，相机当「安慰毯」。起初故意很晚出门，好躲开跟人说话。第一次问陌生人拍照时，紧张到不敢看对方眼睛。",
-      "category": "意义长卷",
+      "url": "meaning/2026-10-28-mannell.html",
+      "subtitle": "John Mannell · Portrait Per Day",
+      "summary": "曾经几乎只出门上班的人，从 2017 年元旦起，每天给一个陌生人拍一张肖像。",
+      "category": "",
       "tags": [
-        "意义长卷",
-        "街拍",
-        "肖像",
-        "拒绝"
+        "低谷与相机",
+        "陌生人与肖像"
       ],
+      "topics": [
+        "低谷与相机",
+        "陌生人与肖像"
+      ],
+      "people": [
+        "John Mannell"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/mannell-patsy.jpg",
-          "alt": "John Mannell Patsy Portrait Per Day",
-          "caption": "*Patsy*｜Paddington Station · Portrait Per Day",
+          "alt": "穿彩色印花衣裙、裹着头巾的女人拉着花色行李箱，站在帕丁顿车站的闸机前",
+          "caption": "*Patsy*, Paddington Station",
           "w": 976,
           "h": 976
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/mannell-mollie.jpg",
-          "alt": "John Mannell Mollie Borough Market",
-          "caption": "*Mollie*｜Borough Market · Portrait Per Day",
+          "alt": "围着厚围巾的年轻女人，站在 Borough Market 拉下卷帘的过道里",
+          "caption": "*Mollie*, Borough Market",
           "w": 976,
           "h": 976
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/mannell-hope.jpg",
-          "alt": "John Mannell Hope Portrait Per Day",
-          "caption": "*Hope*｜Portrait Per Day",
+          "alt": "长发、围着格纹围巾的年轻女人，戴着耳机直视镜头",
+          "caption": "*Hope*",
           "w": 976,
           "h": 976
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/mannell-patrick.jpg",
-          "alt": "John Mannell Patrick Portrait Per Day",
-          "caption": "*Patrick*｜Portrait Per Day",
+          "alt": "戴帽子和蓝框眼镜、留着大胡子的男人，在夜色里直视镜头",
+          "caption": "*Patrick*",
           "w": 976,
           "h": 1422
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/mannell-alex-chuck.jpg",
-          "alt": "John Mannell Alex aka Chuck",
-          "caption": "*Alex aka Chuck*｜Portrait of Britain / Portrait Per Day",
+          "alt": "戴黑色贝雷帽和圆框眼镜、编着串珠脏辫的年轻人",
+          "caption": "*Alex aka Chuck*",
           "w": 1000,
           "h": 1333
         }
       ],
       "links": [
         {
-          "label": "Portrait Per Day 项目页",
+          "label": "Portrait Per Day",
           "url": "https://www.johnmannell.co.uk/projects/portraitperday"
         },
         {
-          "label": "官网",
+          "label": "John Mannell 官网",
           "url": "https://www.johnmannell.co.uk/"
         },
         {
-          "label": "BBC｜Mental Health Awareness Week 2018 报道",
+          "label": "BBC：Mental Health Awareness Week 2018 报道",
           "url": "https://www.bbc.co.uk/news/uk-england-london-44080154"
         }
       ],
@@ -868,418 +1008,469 @@
     },
     {
       "date": "2026-10-22",
-      "title": "Graciela Iturbide（大师 · 墨西哥）",
+      "title": "Graciela Iturbide",
       "stream": "photographer",
-      "subtitle": "日常里的仪式感与偶遇超现实（黑白）",
-      "summary": "同 Seiki Hayashi 一样拍黑白日常地方，方向相反——Hayashi 是电影感静滞；她在日常里找仪式感与偶遇超现实。对照 Webb：她常一人一面墙，怪在形象本身。",
+      "url": "photographer/2026-10-22.html",
+      "subtitle": "墨西哥 · 日常里的仪式",
+      "summary": "她拍墨西哥的地方日常，却总能在里面找到仪式感和偶遇的超现实：怪不靠场面，就在形象本身。",
       "category": "大师",
       "tags": [
-        "大师",
-        "墨西哥"
+        "日常里的怪"
       ],
+      "topics": [
+        "日常里的怪"
+      ],
+      "people": [
+        "Graciela Iturbide"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/iturbide-iguanas.jpg",
-          "alt": "Nuestra Señora de las Iguanas",
-          "caption": "《鬣蜥圣母》Juchitán, 1979",
+          "alt": "一个女人头上盘着一圈鬣蜥，仰脸望向一侧",
+          "caption": "*Nuestra Señora de las Iguanas*（鬣蜥圣母）, Juchitán, 1979",
           "w": 1200,
           "h": 1470
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/iturbide-gallo.jpg",
-          "alt": "El gallo",
-          "caption": "《公鸡》1986",
+          "alt": "一个孩子把一只白鸡举在身前，鸡翅张开，挡住了大半张脸",
+          "caption": "*El gallo*（公鸡）, 1986",
           "w": 1200,
           "h": 1778
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/iturbide-jano.jpg",
-          "alt": "Jano",
-          "caption": "《雅努斯》1980",
+          "alt": "一个戴面具和尖顶高帽的孩子抱着手臂，站在斑驳的墙前",
+          "caption": "*Jano*（雅努斯）, 1980",
           "w": 1200,
           "h": 1488
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/iturbide-cementerio.jpg",
-          "alt": "Cementerio",
-          "caption": "《墓地》1990",
+          "alt": "芦苇和布棚之间，一个妇人坐着弹电子琴，前景立着一支白蜡烛",
+          "caption": "*Cementerio*（墓地）, 1990",
           "w": 1200,
           "h": 1846
         }
       ],
       "links": [
         {
-          "label": "MAPFRE 藏品｜Juchitán 系列作品页",
+          "label": "*Juchitán de las mujeres*（MAPFRE 藏品）",
           "url": "https://www.fundacionmapfre.org/en/art-and-culture/collections/graciela-iturbide/juchitan-de-las-mujeres/"
         },
         {
-          "label": "MAPFRE｜Iturbide 作品总览",
+          "label": "作品总览（MAPFRE 藏品）",
           "url": "https://www.fundacionmapfre.org/en/art-and-culture/collections/graciela-iturbide/"
         }
       ]
     },
     {
       "date": "2026-10-23",
-      "title": "金村修 Osamu Kanemura（当代 · 日本）",
+      "title": "金村修 Osamu Kanemura",
       "stream": "photographer",
-      "subtitle": "当代成熟作者，东京黑白城市密度——电线、招牌、脚手架层层叠叠，把基础设施拍成「蛛网」。",
-      "summary": "今天这位是金村修（Osamu Kanemura）：当代成熟作者，东京黑白城市密度——电线、招牌、脚手架层层叠叠，把基础设施拍成「蛛网」。",
+      "url": "photographer/2026-10-23.html",
+      "subtitle": "日本东京 · 电线与招牌的密度",
+      "summary": "东京街头的电线、招牌和脚手架被他层层叠满，基础设施本身成了主角，人退到边角。",
       "category": "当代",
       "tags": [
-        "当代",
-        "日本"
+        "层次与遮挡"
       ],
+      "topics": [
+        "层次与遮挡"
+      ],
+      "people": [
+        "金村修 Osamu Kanemura"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/kanemura-tokyo-banners-bikes.jpg",
-          "alt": "Kanemura banners bikes",
-          "caption": "官网 B&W 作品；东京一带街头，旗帜 / 招牌 / 自行车与电线叠压（Spider's Strategy 气质）",
+          "alt": "东京街头，写着大字的旗帜、招牌、自行车和电线层层叠压",
+          "caption": "东京街头",
           "w": 840,
           "h": 656
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/kanemura-spiders-street-wires.jpg",
-          "alt": "Kanemura Spider wires",
-          "caption": "*Spider's Strategy*（photo-eye BookTease）；东京街景，外挂梯与头顶电缆网",
+          "alt": "街道上空的电缆从四面收向立杆，楼侧挂着外梯，路上一辆白色汽车",
+          "caption": "*Spider's Strategy*",
           "w": 1103,
           "h": 951
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/kanemura-spiders-konica-marion.jpg",
-          "alt": "Kanemura Konica Marion",
-          "caption": "*Spider's Strategy*；Konica / MARION 招牌与电缆，人只露头顶",
+          "alt": "Konica 和 MARION 的招牌与电缆挤满画面，下方的人只露出头顶",
+          "caption": "*Spider's Strategy*",
           "w": 1093,
           "h": 942
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/kanemura-spiders-alley-skyscraper.jpg",
-          "alt": "Kanemura alley",
-          "caption": "*Spider's Strategy*；窄巷招牌与管线，远处高楼被线网压住",
+          "alt": "窄巷里的招牌和管线占满前景，远处的高楼被线网压住",
+          "caption": "*Spider's Strategy*",
           "w": 1080,
           "h": 924
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/kanemura-tokyo-scooters-wires.jpg",
-          "alt": "Kanemura scooters",
-          "caption": "官网 B&W 作品；前景摩托堆 + 头顶电线，东京一带密度街景",
+          "alt": "前景是一大片停放的摩托车，头顶是电线和楼群",
+          "caption": "东京街头",
           "w": 840,
           "h": 660
         }
       ],
       "links": [
         {
-          "label": "金村修官网 kanemura-osamu.com",
+          "label": "金村修官网",
           "url": "https://kanemura-osamu.com/"
         }
       ]
     },
     {
       "date": "2026-10-24",
-      "title": "冯立 Feng Li（当代 · 中国）",
+      "title": "冯立 Feng Li",
       "stream": "photographer",
-      "subtitle": "当代成熟作者，成都起步的彩色硬闪光街头——系列 White Night / 白夜，把日常拍成无法解释的寓言。",
-      "summary": "今天这位是冯立（Feng Li）：当代成熟作者，成都起步的彩色硬闪光街头——系列 White Night / 白夜，把日常拍成无法解释的寓言。",
+      "url": "photographer/2026-10-24.html",
+      "subtitle": "中国成都 · 闪光灯下的白夜",
+      "summary": "他几乎永远开着闪光灯，把成都起步的街头日常拍成一则则说不清的寓言。",
       "category": "当代",
       "tags": [
-        "当代",
-        "中国"
+        "日常里的怪",
+        "色彩与色面"
       ],
+      "topics": [
+        "日常里的怪",
+        "色彩与色面"
+      ],
+      "people": [
+        "冯立 Feng Li"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fengli-white-night-dog-wall.jpg",
-          "alt": "Feng Li dog wall",
-          "caption": "*White Night*；狗翻过斑驳混凝土墙（i-D 报道用图）",
+          "alt": "一只狗攀在斑驳的水泥墙顶，身后是蓝天和高楼",
+          "caption": "*White Night*",
           "w": 1066,
           "h": 1600
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fengli-white-night-rabbit-mascot.jpg",
-          "alt": "Feng Li rabbit mascot",
-          "caption": "*White Night*；拉链开裂、拄拐的兔子人偶（i-D）",
+          "alt": "穿兔子人偶服的人拄着拐杖站在广场上，人偶服的后背敞开，露出皮肤",
+          "caption": "*White Night*",
           "w": 1066,
           "h": 1600
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fengli-white-night-pink-tree.jpg",
-          "alt": "Feng Li pink tree",
-          "caption": "*White Night*；夜色闪光下扛粉色假桃花树的人（It's Nice That）",
+          "alt": "夜里，闪光灯照亮一个扛着粉色假桃花树的人",
+          "caption": "*White Night*",
           "w": 724,
           "h": 1083
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fengli-white-night-red-car.jpg",
-          "alt": "Feng Li red car",
-          "caption": "*White Night*；红玩具车与戴墨镜的女孩（It's Nice That）",
+          "alt": "戴红色墨镜的孩子坐在一辆红色玩具车里",
+          "caption": "*White Night*",
           "w": 724,
           "h": 1085
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fengli-white-night-eye-pads.jpg",
-          "alt": "Feng Li eye pads",
-          "caption": "*White Night*；眼罩垫挡住双眼的老人（American Suburb X）",
+          "alt": "穿碎花上衣的老人，双眼贴着白色眼罩垫",
+          "caption": "*White Night*",
           "w": 900,
           "h": 1349
         }
       ],
       "links": [
         {
-          "label": "Granta｜White Night",
+          "label": "*White Night*（Granta）",
           "url": "https://granta.com/white-night/"
         },
         {
-          "label": "Fotografiska Berlin 展览页",
+          "label": "冯立展览（Fotografiska Berlin）",
           "url": "https://berlin.fotografiska.com/en/exhibitions/feng-li"
         }
       ]
     },
     {
       "date": "2026-10-25",
-      "title": "Miguel Rio Branco（大师 · 巴西）",
+      "title": "Miguel Rio Branco",
       "stream": "photographer",
-      "subtitle": "大师级，巴西浓色巴洛克街头 / 身体——Salvador da Bahia 的皮肉、汗、破败与热带饱和，把日常 marginal 拍成 Caravaggio 式的湿热剧场。",
-      "summary": "今天这位是Miguel Rio Branco：大师级，巴西浓色巴洛克街头 / 身体——Salvador da Bahia 的皮肉、汗、破败与热带饱和，把日常 marginal 拍成 Caravaggio 式的湿热剧场。",
+      "url": "photographer/2026-10-25.html",
+      "subtitle": "巴西 · 浓色与身体",
+      "summary": "Salvador da Bahia 的皮肤、汗水、掉皮的墙和热带的浓色，被他拍成一座湿热的巴洛克剧场。",
       "category": "大师",
       "tags": [
-        "大师",
-        "巴西"
+        "色彩与色面"
       ],
+      "topics": [
+        "色彩与色面"
+      ],
+      "people": [
+        "Miguel Rio Branco"
+      ],
+      "edited": true,
       "images": [
         {
-          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/riobranco-dulce-jangadeiro.jpg",
-          "alt": "Miguel Rio Branco jangadeiro",
-          "caption": "*Dulce Sudor Amargo*｜Piata 海滩 jangadeiro，Salvador，1984",
-          "w": 1016,
-          "h": 704
-        },
-        {
-          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/riobranco-dulce-capoeira.jpg",
-          "alt": "Miguel Rio Branco capoeira",
-          "caption": "*Dulce Sudor Amargo*｜倒立的身体与墙上球门，Salvador，1985",
-          "w": 1064,
-          "h": 704
-        },
-        {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/riobranco-dulce-bed-gaze.jpg",
-          "alt": "Miguel Rio Branco bed gaze",
-          "caption": "*Dulce Sudor Amargo*｜床铺上的直视与掉皮墙，Salvador，1979",
+          "alt": "一个人双手抱头趴在花色床单上，直视镜头，身后是掉皮的墙",
+          "caption": "*Dulce Sudor Amargo*, Salvador, 1979",
           "w": 1044,
           "h": 704
         },
         {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/riobranco-dulce-jangadeiro.jpg",
+          "alt": "暮色的海面上，一个渔夫的剪影探身伸向木筏",
+          "caption": "*Dulce Sudor Amargo*, Salvador, 1984",
+          "w": 1016,
+          "h": 704
+        },
+        {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/riobranco-dulce-mermaid-mural.jpg",
-          "alt": "Miguel Rio Branco mermaid mural",
-          "caption": "*Dulce Sudor Amargo*｜人鱼壁画与白衣身影，Salvador，1984",
+          "alt": "蓝墙上画着人鱼，前景是几个裹白头巾、穿白衣的人",
+          "caption": "*Dulce Sudor Amargo*, Salvador, 1984",
           "w": 1050,
           "h": 704
         },
         {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/riobranco-dulce-capoeira.jpg",
+          "alt": "一个人在蓝墙前倒立，墙上画着球门，门框下淌着水痕",
+          "caption": "*Dulce Sudor Amargo*, Salvador, 1985",
+          "w": 1064,
+          "h": 704
+        },
+        {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/riobranco-silent-sweat-torso.jpg",
-          "alt": "Miguel Rio Branco sweat torso",
-          "caption": "*Silent Book*｜汗湿躯干（Santa Rosa 拳馆身体线）",
+          "alt": "汗湿发亮的男性躯干特写",
+          "caption": "*Silent Book*",
           "w": 705,
           "h": 704
         }
       ],
       "links": [
         {
-          "label": "miguelriobranco.com.br（作者官网）",
+          "label": "Miguel Rio Branco 官网",
           "url": "http://www.miguelriobranco.com.br/"
         },
         {
-          "label": "Magnum｜Dulce Sudor Amargo",
+          "label": "*Dulce Sudor Amargo*（Magnum）",
           "url": "https://www.magnumphotos.com/arts-culture/miguel-rio-branco-dulce-sudor-amargo/"
         },
         {
-          "label": "Magnum｜Silent Book",
+          "label": "*Silent Book*（Magnum）",
           "url": "https://www.magnumphotos.com/arts-culture/miguel-rio-branco-silent-book/"
         }
       ]
     },
     {
       "date": "2026-10-26",
-      "title": "Nguan（新锐 · 新加坡）",
+      "title": "Nguan",
       "stream": "photographer",
-      "subtitle": "新加坡新锐，软粉彩 / 糖果色安静城市观察——把 HDB、巷弄、海与飞机当成布景，拍大城市里那种有点甜、又有点空的疏离与向往。拉丁文名即可，不必硬造中文译名。",
-      "summary": "今天这位是Nguan：新加坡新锐，软粉彩 / 糖果色安静城市观察——把 HDB、巷弄、海与飞机当成布景，拍大城市里那种有点甜、又有点空的疏离与向往。拉丁文名即可，不必硬造中文译名。",
+      "url": "photographer/2026-10-26.html",
+      "subtitle": "新加坡 · 粉彩里的城市孤独",
+      "summary": "他把新加坡的组屋、巷弄、海和飞机拍成粉彩布景，拍大城市里那种有点甜、又有点空的疏离与向往。",
       "category": "新锐",
       "tags": [
-        "新锐",
-        "新加坡"
+        "色彩与色面"
       ],
+      "topics": [
+        "色彩与色面"
+      ],
+      "people": [
+        "Nguan"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/nguan-singapore-plane-sea.jpg",
-          "alt": "Nguan Singapore plane over sea",
-          "caption": "*Singapore*｜海边三人与低飞客机",
+          "alt": "淡粉色的天空下，一架客机低低飞过海面，三个人泡在海里只露出头",
+          "caption": "*Singapore*",
           "w": 1250,
           "h": 1250
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/nguan-singapore-yellow-plaza.jpg",
-          "alt": "Singapore｜黄衣与蓝阶上的羽毛球",
-          "caption": "*Singapore*｜黄衣与蓝阶上的羽毛球",
+          "alt": "粉红色的地面、蓝色的台阶前，一个穿黄衣的女子仰头张开手臂",
+          "caption": "*Singapore*",
           "w": 1250,
           "h": 1250
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/nguan-singapore-pink-alley.jpg",
-          "alt": "Singapore｜粉旋梯巷弄与独坐",
-          "caption": "*Singapore*｜粉旋梯巷弄与独坐",
+          "alt": "两侧粉色旋转楼梯夹出的巷弄，深处有人独自坐着",
+          "caption": "*Singapore*",
           "w": 1250,
           "h": 1250
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/nguan-hlg-hdb-pastel.jpg",
-          "alt": "Nguan How Loneliness Goes HDB",
-          "caption": "*How Loneliness Goes*｜粉彩 HDB 楼群",
+          "alt": "软霾里排开的粉彩组屋楼群",
+          "caption": "*How Loneliness Goes*",
           "w": 1250,
           "h": 1250
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/nguan-hlg-bougainvillea.jpg",
-          "alt": "Nguan How Loneliness Goes bougainvillea",
-          "caption": "*How Loneliness Goes*｜粉三角梅对空楼",
+          "alt": "草地上一排开满粉花的树，对着远处的高楼",
+          "caption": "*How Loneliness Goes*",
           "w": 1250,
           "h": 1250
         }
       ],
       "links": [
         {
-          "label": "nguan.tv/projects（作品项目页）",
+          "label": "作品项目",
           "url": "https://nguan.tv/projects"
         },
         {
-          "label": "Singapore 系列",
+          "label": "*Singapore*",
           "url": "https://nguan.tv/projects/singapore"
         },
         {
-          "label": "How Loneliness Goes",
+          "label": "*How Loneliness Goes*",
           "url": "https://nguan.tv/projects/howlonelinessgoes"
         }
       ]
     },
     {
       "date": "2026-10-27",
-      "title": "Trent Parke（大师 · 澳大利亚）",
+      "title": "Trent Parke",
       "stream": "photographer",
-      "subtitle": "Magnum 澳大利亚大师，Dream/Life 与 Minutes to Midnight——用澳洲硬光把人影从建筑、雨幕、车身里「切」出来，轮廓分离极强，像墨水剪影。",
-      "summary": "本周城市练习小问题定了：轮廓分离／换位去粘连——人贴电线杆、招牌、路人时，先换半步或蹲/起，看轮廓有没有切开。今天这位把这件事做到极致。",
+      "url": "photographer/2026-10-27.html",
+      "subtitle": "澳大利亚 · 硬光里的剪影",
+      "summary": "他用澳洲的硬光，把人影从建筑、雨幕和车身里切出来，轮廓清楚得像墨水剪影。",
       "category": "大师",
       "tags": [
-        "大师",
-        "澳大利亚"
+        "轮廓与剪影"
       ],
+      "topics": [
+        "轮廓与剪影"
+      ],
+      "people": [
+        "Trent Parke"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/parke-dream-shadow-stride.jpg",
-          "alt": "Trent Parke Dream/Life office worker into shadow",
-          "caption": "*Dream/Life*｜办公人走入楼影（光楔切轮廓）",
+          "alt": "楼影边缘，一个行人迈步走进阴影，墙上投着巨大的交通灯影子",
+          "caption": "*Dream/Life*",
           "w": 1083,
           "h": 704
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/parke-dream-harbor-silhouettes.jpg",
-          "alt": "Trent Parke Dream/Life harbor Opera House",
-          "caption": "*Dream/Life*｜港湾伞、船舷与歌剧院剪影分离",
+          "alt": "港湾里，撑伞的人、船头和远处的悉尼歌剧院都成了剪影",
+          "caption": "*Dream/Life*",
           "w": 1085,
           "h": 704
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/parke-dream-rain-cut.jpg",
-          "alt": "Trent Parke Dream/Life rain street",
-          "caption": "*Dream/Life*｜暴雨街道：伞影被路面高光切开",
+          "alt": "暴雨中的街道，路面高光切开远处撑伞的行人，前景是一个人的肩膀",
+          "caption": "*Dream/Life*",
           "w": 1046,
           "h": 704
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/parke-dream-blind-framed.jpg",
-          "alt": "Trent Parke Dream/Life blind woman Circular Quay",
-          "caption": "*Dream/Life*｜Circular Quay：前景剪影框住中景人",
+          "alt": "前景行人的黑色腿影之间，一个女人靠墙坐着，举着一块纸牌",
+          "caption": "*Dream/Life*, Circular Quay",
           "w": 1083,
           "h": 704
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/parke-mtm-moving-bus.jpg",
-          "alt": "Trent Parke Minutes to Midnight Moving bus",
-          "caption": "*Minutes to Midnight*｜Moving bus：人影压在行驶车侧",
+          "alt": "等车的人把影子投在一辆驶过的白色巴士侧面",
+          "caption": "*Minutes to Midnight*：*Moving bus*",
           "w": 1600,
           "h": 1058
         }
       ],
       "links": [
         {
-          "label": "Magnum · Trent Parke 作品档案",
+          "label": "作品档案（Magnum）",
           "url": "https://www.magnumphotos.com/photographer/trent-parke/"
         },
         {
-          "label": "*Dream/Life* 故事页",
+          "label": "*Dream/Life*（Magnum）",
           "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/trent-parke-dreamlife/"
         },
         {
-          "label": "*Minutes to Midnight*",
+          "label": "*Minutes to Midnight*（Magnum）",
           "url": "https://www.magnumphotos.com/arts-culture/trent-parke-minutes-to-midnight/"
         }
       ]
     },
     {
       "date": "2026-10-28",
-      "title": "何藩 Fan Ho（大师 · 香港）",
+      "title": "何藩 Fan Ho",
       "stream": "photographer",
-      "subtitle": "香港传奇摄影师／电影人（1931–2016），Hong Kong Yesterday 一代——用楼梯、烟尘、负空间与建筑光楔，把 1950–60 年代港城日常压成可读剪影。昨审美课已用 People and Shadows / Hurrying Home 作轮廓示例；今日按摄影师聚类，深挖他的光楔建筑语法。",
-      "summary": "本周仍练：轮廓分离／换位去粘连——人贴电线杆、招牌、路人时，先换半步或蹲/起，看轮廓有没有切开。今天这位把港式几何光井当成「切轮廓」的舞台。",
+      "url": "photographer/2026-10-28.html",
+      "subtitle": "香港 · 光楔与剪影",
+      "summary": "他用楼梯、烟尘和从楼缝楔进来的阳光，把 1950–60 年代的香港日常排成一出出可读的剪影。",
       "category": "大师",
       "tags": [
-        "大师",
-        "香港"
+        "轮廓与剪影"
       ],
+      "topics": [
+        "轮廓与剪影"
+      ],
+      "people": [
+        "何藩 Fan Ho"
+      ],
+      "edited": true,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fanho-approaching-shadow.jpg",
-          "alt": "Fan Ho Approaching Shadow 1954",
-          "caption": "*Approaching Shadow*｜阴影对角线与剪影轮廓分离（1954）",
+          "alt": "斜影从右上方压向墙脚，一个低头的女子站在影子的尖端",
+          "caption": "*Approaching Shadow*, 1954",
           "w": 1200,
           "h": 1536
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fanho-people-shadows.jpg",
-          "alt": "Fan Ho People and Shadows 1959",
-          "caption": "*People and Shadows*｜墙面影与人影错位分离（1959）",
+          "alt": "行人沿着一堵长长的亮墙走过，墙上的大块影子与人错开",
+          "caption": "*People and Shadows*, 1959",
           "w": 1024,
           "h": 418
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fanho-hurrying-home.jpg",
-          "alt": "Fan Ho Hurrying Home 1963",
-          "caption": "*Hurrying Home*｜巷道光楔：人影从烟尘亮幕切出（1963）",
+          "alt": "逆光的窄巷里，几个行人被巷口的亮雾托成剪影",
+          "caption": "*Hurrying Home*, 1963",
           "w": 682,
           "h": 1024
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fanho-market-stairway.jpg",
-          "alt": "Fan Ho Market Stairway 1959",
-          "caption": "*Market Stairway*｜楼梯几何把人层拉开（1959）",
+          "alt": "逆光的楼梯上，上下行的人分落在不同台阶，一人吐出的烟被照亮",
+          "caption": "*Market Stairway*, 1959",
           "w": 1200,
           "h": 962
         },
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/fanho-smoky-world.jpg",
-          "alt": "Fan Ho Smoky World 1959",
-          "caption": "*Smoky World*｜中央街市光井：烟尘里的轮廓分离（1959）",
+          "alt": "天井的光穿过烟尘照进楼梯，行人在亮幕前上下",
+          "caption": "*Smoky World*, 1959",
           "w": 1200,
           "h": 857
         }
       ],
       "links": [
         {
-          "label": "Fan Ho 官方作品库 Work",
+          "label": "作品总览",
           "url": "https://fanho-forgetmenot.com/work-2"
         },
         {
-          "label": "The Living Theatre 作品页",
+          "label": "*The Living Theatre*",
           "url": "https://fanho-forgetmenot.com/the-living-theatre"
         },
         {
-          "label": "M+ · Fan Ho 馆藏",
+          "label": "M+ 何藩馆藏",
           "url": "https://www.mplus.org.hk/en/collection/makers/fan-ho/"
         }
       ]
