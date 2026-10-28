@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T02:36:31.303413+08:00",
+  "generatedAt": "2026-10-29T02:55:00.862315+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
     "photographer": 7,
@@ -44,7 +44,7 @@
       "stream": "28mm",
       "url": "28mm/2026-10-24.html",
       "subtitle": "第一课",
-      "summary": "28mm 不允许站远了再裁：得走进去，让主体占满注意力，再管住画框的四边。",
+      "summary": "28mm 拍出来总是又散又远：是焦段太广，还是你站得太远？",
       "category": "第一课",
       "tags": [
         "距离与机位"
@@ -116,7 +116,7 @@
       "stream": "28mm",
       "url": "28mm/2026-10-25.html",
       "subtitle": "第二课",
-      "summary": "把机位降到腰和膝之间，地砖、路缘、阴影和井盖就成了把视线引向事件的线。",
+      "summary": "画面下半截总是一片没用的地面：把机位放低，它能不能变成引向事件的线？",
       "category": "第二课",
       "tags": [
         "距离与机位",
@@ -190,7 +190,7 @@
       "stream": "28mm",
       "url": "28mm/2026-10-27.html",
       "subtitle": "第三课",
-      "summary": "人和电线杆、招牌、别人的脑袋粘在一起时，往左或往右挪半步，让轮廓落到干净的面上。",
+      "summary": "人和电线杆、招牌、别人的脑袋粘在一起时，怎样让他的轮廓重新读得出来？",
       "category": "第三课",
       "tags": [
         "距离与机位",
@@ -623,7 +623,7 @@
       "stream": "meaning",
       "url": "meaning/2026-10-27-bryce.html",
       "subtitle": "Bryce Evans · One",
-      "summary": "他把自己的抑郁和焦虑拍成十条故事。在 Facebook 上发布之前，手指在发送键上悬了很久。",
+      "summary": "发上 Facebook 之前，他的手指在发送键上悬了很久。他预想的是嘲笑，等来的却是私信和共鸣。",
       "category": "",
       "tags": [
         "低谷与相机"
@@ -749,16 +749,16 @@
       ],
       "links": [
         {
-          "label": "*Through Refugee Eyes*",
-          "url": "https://azyeux.com/through-refugee-eyes/"
+          "label": "*Through Refugee Eyes*（作者官网存档）",
+          "url": "https://web.archive.org/web/20251009040351/https://azyeux.com/through-refugee-eyes/"
         },
         {
-          "label": "Northern Greece 2016–2017",
-          "url": "https://azyeux.com/northern-greece-2016-2017/"
+          "label": "Northern Greece 2016–2017（作者官网存档）",
+          "url": "https://web.archive.org/web/20250321102511/https://azyeux.com/northern-greece-2016-2017/"
         },
         {
-          "label": "*50 Humans* 2020/2021",
-          "url": "https://azyeux.com/50humans-2020-2021current/"
+          "label": "*50 Humans* 2020/2021（作者官网存档）",
+          "url": "https://web.archive.org/web/20250321112537/https://azyeux.com/50humans-2020-2021current/"
         },
         {
           "label": "Focus on freedom: An insider's eye on refugees（Arab News）",
@@ -860,7 +860,7 @@
       "stream": "meaning",
       "url": "meaning/2026-10-27-tara.html",
       "subtitle": "Tara Wray · Too Tired for Sunshine",
-      "summary": "她说摄影像运动：不想做，也得逼自己做，做完会好一点。",
+      "summary": "抑郁的那些年，她逼自己带着相机出门。七年的照片后来成了一本书，又长成一个很多人一起拍的项目。",
       "category": "",
       "tags": [
         "低谷与相机"
@@ -1001,7 +1001,7 @@
         },
         {
           "label": "BBC：Mental Health Awareness Week 2018 报道",
-          "url": "https://www.bbc.co.uk/news/uk-england-london-44080154"
+          "url": "https://www.bbc.co.uk/news/uk-england-london-44139368"
         }
       ],
       "slug": "mannell"
@@ -1133,7 +1133,7 @@
       "stream": "photographer",
       "url": "photographer/2026-10-24.html",
       "subtitle": "中国成都 · 闪光灯下的白夜",
-      "summary": "他几乎永远开着闪光灯，把成都起步的街头日常拍成一则则说不清的寓言。",
+      "summary": "从成都街头起步，他几乎永远开着闪光灯，把日常拍成一则则说不清的寓言。",
       "category": "当代",
       "tags": [
         "日常里的怪",
