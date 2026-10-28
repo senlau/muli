@@ -361,6 +361,25 @@ def upsert(entries: list[dict], incoming: dict) -> list[dict]:
     return entries
 
 
+def derive_meaning_slug(title: str) -> str:
+    """Derive a slug for meaning entries from the title.
+
+    Takes the first token before a Chinese colon (：), extracts the latin surname
+    (last word if multiple), and lowercases. Fallback to first latin word.
+    Examples:
+        "John Mannell：Portrait Per Day 与..." -> "mannell"
+        "Michael Goldrei：Chance Street 与..." -> "goldrei"
+    """
+    match = re.match(r"^([^：]+)", title)
+    if not match:
+        return ""
+    name_part = match.group(1).strip()
+    words = [w for w in name_part.split() if re.fullmatch(r"[A-Za-z]+", w)]
+    if not words:
+        return ""
+    return words[-1].lower()
+
+
 def parse_brief(root: Path) -> list[dict]:
     entries: list[dict] = []
     daily = root / "daily"
@@ -383,6 +402,18 @@ def parse_brief(root: Path) -> list[dict]:
                     if len(chat_md) > len(md):
                         md = chat_md
                 entries.append(entry_from_md(md, "aesthetic", date))
+        meaning_stories = daily / "meaning-stories"
+        if meaning_stories.is_dir():
+            for date_folder in sorted(path for path in meaning_stories.iterdir() if path.is_dir()):
+                if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date_folder.name):
+                    continue
+                for md_file in sorted(date_folder.glob("*.md")):
+                    md = md_file.read_text(encoding="utf-8")
+                    incoming = entry_from_md(md, "meaning", date_folder.name)
+                    slug = derive_meaning_slug(incoming["title"])
+                    if slug:
+                        incoming["slug"] = slug
+                    entries = upsert(entries, incoming)
     if mm.is_dir():
         for folder in sorted(path for path in mm.iterdir() if path.is_dir()):
             if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", folder.name):
@@ -395,6 +426,7 @@ def parse_brief(root: Path) -> list[dict]:
         (root / "作者长卷.md", "photographer", "## 专题批次"),
         (root / "审美词本.md", "aesthetic", None),
         (root / "广角手记.md", "28mm", None),
+        (root / "意义长卷.md", "meaning", None),
     ]
     for path, stream, stop in rollups:
         if not path.exists():
@@ -403,6 +435,10 @@ def parse_brief(root: Path) -> list[dict]:
             incoming = entry_from_md(body, stream, date)
             if title and (not incoming["title"] or incoming["title"] == date):
                 incoming["title"] = title
+            if stream == "meaning":
+                slug = derive_meaning_slug(incoming["title"])
+                if slug:
+                    incoming["slug"] = slug
             entries = upsert(entries, incoming)
     return entries
 
