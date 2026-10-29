@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T09:13:57.945809+08:00",
+  "generatedAt": "2026-10-29T10:28:55.424599+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
     "photographer": 8,
@@ -1479,6 +1479,7 @@
       "date": "2026-10-29",
       "title": "Jacob Aue Sobol（当代 · 丹麦）",
       "stream": "photographer",
+      "url": "photographer/2026-10-29.html",
       "subtitle": "丹麦摄影师，Magnum 成员（1976–），代表作 Sabine（格陵兰亲密生活）、I, Tokyo（2006–08 东京近距黑白）、Arrivals and Departures、By the River of Kings 等。画面语言狠而近：颗粒、压黑、闪光或硬影把肩线／腿线／剪影从环境里抬出来；人常贴得很近，却靠影调与站位把边线切开。",
       "summary": "本周仍练：轮廓分离／换位去粘连——人贴电线杆、招牌、路人时，先换半步或蹲/起，看轮廓有没有切开。今天这位用高反差颗粒黑白，把近距的人从夜／巷／人群／暗部里「抠」出来——不是港式光井几何，也不是澳洲硬光一刀切。",
       "category": "当代",
@@ -1486,6 +1487,9 @@
         "当代",
         "丹麦"
       ],
+      "topics": [],
+      "people": [],
+      "edited": false,
       "images": [
         {
           "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/sobol-i-tokyo-bungee-child.jpg",
