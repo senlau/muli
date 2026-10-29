@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-29T10:28:55.424599+08:00",
+  "generatedAt": "2026-10-29T21:11:07.067882+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
     "photographer": 8,
-    "aesthetic": 6,
-    "28mm": 3,
-    "meaning": 5
+    "aesthetic": 7,
+    "28mm": 4,
+    "meaning": 8
   },
   "topics": [
     {
@@ -259,6 +259,77 @@
         {
           "label": "Bruce Gilden — *A Beautiful Catastrophe*（Magnum）",
           "url": "https://www.magnumphotos.com/arts-culture/beautiful-catastrophe-bruce-gilden/"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "title": "第四课：斜构图／可接受的出轨",
+      "stream": "28mm",
+      "url": "28mm/2026-10-29.html",
+      "subtitle": "斜构图／可接受的出轨",
+      "summary": "上一课练了侧移半步解粘。这一课在解粘之后多拧半格秩序：腕或身轻拧约 5–10°，让地平线／竖杆仍可读，但重力感被轻轻掀开——不是荷兰角灾难，是「可接受的出轨」。接本周城市练习小问题＝轮廓分离／换位去粘连：先解粘，再拧；糊则收回。",
+      "category": "第四课",
+      "tags": [
+        "第四课",
+        "28mm"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-16-winogrand-american-legion-dallas-1964.jpg",
+          "alt": "Garry Winogrand American Legion Convention Dallas 1964",
+          "caption": "Winogrand｜American Legion, Dallas 1964",
+          "w": 1200,
+          "h": 784
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-17-winogrand-texas-state-fair-cow-1964.jpg",
+          "alt": "Garry Winogrand State Fair of Texas Dallas 1964",
+          "caption": "Winogrand｜State Fair of Texas, 1964",
+          "w": 1600,
+          "h": 1054
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-18-winogrand-texas-fair-curb-1964.jpg",
+          "alt": "Garry Winogrand Texas State Fair curb 1964",
+          "caption": "Winogrand｜Texas Fair 路缘 · 1964",
+          "w": 1400,
+          "h": 928
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-19-winogrand-worlds-fair-nyc-1964.jpg",
+          "alt": "Garry Winogrand Worlds Fair New York 1964",
+          "caption": "Winogrand｜World's Fair, NYC 1964",
+          "w": 1600,
+          "h": 1081
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/28mm-20-winogrand-nyc-dog-street.jpg",
+          "alt": "Garry Winogrand New York dog street",
+          "caption": "Winogrand｜New York · 人与犬",
+          "w": 1600,
+          "h": 1042
+        }
+      ],
+      "links": [
+        {
+          "label": "Fraenkel Gallery｜Garry Winogrand",
+          "url": "https://www.fraenkelgallery.com/artists/garry-winogrand"
+        },
+        {
+          "label": "MAPFRE｜American Legion Convention, Dallas",
+          "url": "https://www.fundacionmapfre.org/en/art-and-culture/collections/garry-winogrand/portfolio-elephant-press-1974/american-legion-convention-dallas-texas/"
+        },
+        {
+          "label": "MoMA｜State Fair of Texas, Dallas, 1964",
+          "url": "https://www.moma.org/collection/works/56914"
+        },
+        {
+          "label": "Getty｜World's Fair, New York City",
+          "url": "https://www.getty.edu/art/collection/object/104B15"
         }
       ]
     },
@@ -618,6 +689,80 @@
       ]
     },
     {
+      "date": "2026-10-29",
+      "title": "色差切（Chromatic Separation）· 非惊喜",
+      "stream": "aesthetic",
+      "url": "aesthetic/2026-10-29.html",
+      "subtitle": "",
+      "summary": "本周城市练习小问题仍是轮廓分离／换位去粘连——10/27 认了三种刀（光切／影切／色差切）；10/28 细拆了极限塌黑的「剪影可读」。今天专练尚未单开的一把：不靠戏剧光、也不靠塌成一团黑，只靠色相或饱和度差，把人/物外轮廓从背景撬开。示例取近 30 年荷赛获奖帧。",
+      "category": "",
+      "tags": [
+        "Chromatic Separation"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261029-sestini-rescue.jpg",
+          "alt": "Massimo Sestini Rescue Operation",
+          "caption": "Sestini｜Rescue Operation｜杂色衣人群 vs 深蓝海",
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261029-markosian-quince.jpg",
+          "alt": "Diana Markosian Quince",
+          "caption": "Markosian｜Quince｜粉红从灰土街整块脱出",
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261029-oreilly-dakar.jpg",
+          "alt": "Finbarr O",
+          "caption": "O'Reilly｜Dakar Fashion｜粉纱 vs 青蓝墙",
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261029-bobst-wrestlers.jpg",
+          "alt": "Christian Bobst Gris-Gris Wrestlers",
+          "caption": "Bobst｜Gris-Gris Wrestlers｜彩短裤在土黄沙上成岛",
+          "w": 1400,
+          "h": 934
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261029-izquierdo-goal.jpg",
+          "alt": "Silvia Izquierdo Cheering the Goal",
+          "caption": "Izquierdo｜Cheering the Goal｜深肩头被红白看台托开",
+          "w": 1400,
+          "h": 934
+        }
+      ],
+      "links": [
+        {
+          "label": "Massimo Sestini｜Rescue Operation（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2015/massimo-sestini/1"
+        },
+        {
+          "label": "Diana Markosian｜Quince（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2019/diana-markosian/1"
+        },
+        {
+          "label": "Finbarr O'Reilly｜Dakar Fashion（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2019/finbarr-o-reilly/1"
+        },
+        {
+          "label": "Christian Bobst｜Gris-Gris Wrestlers（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2016/christian-bobst/1"
+        },
+        {
+          "label": "Silvia Izquierdo｜Cheering the Goal（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2020/silvia-izquierdo/1"
+        }
+      ]
+    },
+    {
       "date": "2026-10-27",
       "title": "把抑郁和焦虑拍成十条故事",
       "stream": "meaning",
@@ -774,6 +919,77 @@
         }
       ],
       "slug": "dukhan"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Bryce Evans：One 与把抑郁焦虑拍成十条故事",
+      "stream": "meaning",
+      "url": "meaning/2026-10-27-evans.html",
+      "subtitle": "",
+      "summary": "加拿大摄影师／The One Project 创办人；2010 年个人系列 One（十条孤独故事）公开后，发展成心理健康与治疗性摄影社区。",
+      "category": "28mm专题",
+      "tags": [
+        "28mm专题"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-streetlights.jpg",
+          "alt": "Bryce Evans One Streetlights",
+          "caption": "*One*｜2 Streetlights",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-who-are-you.jpg",
+          "alt": "Bryce Evans One Who are you",
+          "caption": "*One*｜4 Who are you?",
+          "w": 1600,
+          "h": 2400
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-lonely-surfer.jpg",
+          "alt": "Bryce Evans One Lonely Surfer",
+          "caption": "*One*｜5 Lonely Surfer",
+          "w": 2400,
+          "h": 1600
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-love-loneliness.jpg",
+          "alt": "Bryce Evans One Love Loneliness",
+          "caption": "*One*｜7 Love/Loneliness (The Fine Line)",
+          "w": 1600,
+          "h": 2400
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/bryce-one-back-to-one.jpg",
+          "alt": "Bryce Evans One Back To One",
+          "caption": "*One*｜9 Back To One",
+          "w": 2400,
+          "h": 1600
+        }
+      ],
+      "links": [
+        {
+          "label": "The One Project · *one* 系列",
+          "url": "https://theoneproject.co/mentalhealthphotography/one/"
+        },
+        {
+          "label": "The One Project 主站",
+          "url": "https://theoneproject.co/"
+        },
+        {
+          "label": "Daily Hive｜My Mental Illness: How photography changed my life（Bryce 自述）",
+          "url": "https://dailyhive.com/vancouver/my-mental-illness-photography-changed-my-life"
+        },
+        {
+          "label": "Daily Hive｜The One Project 访谈",
+          "url": "https://dailyhive.com/vancouver/the-one-project-inspiration-through-interaction"
+        }
+      ],
+      "slug": "evans"
     },
     {
       "date": "2026-10-27",
@@ -934,6 +1150,79 @@
       "slug": "tara"
     },
     {
+      "date": "2026-10-27",
+      "title": "Tara Wray：Too Tired for Sunshine 与太累了也要出门拍",
+      "stream": "meaning",
+      "url": "meaning/2026-10-27-wray.html",
+      "subtitle": "",
+      "summary": "美国佛蒙特摄影师／电影人；摄影书 Too Tired for Sunshine（Yoffy Press, 2018）、Year of the Beast（Too Tired Press, 2021）；创办 Too Tired Project。",
+      "category": "28mm专题",
+      "tags": [
+        "28mm专题"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-dog-light.jpg",
+          "alt": "Tara Wray Too Tired for Sunshine light caustic",
+          "caption": "*Too Tired for Sunshine*｜车内光斑／细节",
+          "w": 1400,
+          "h": 787
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-absurdist.jpg",
+          "alt": "Tara Wray Too Tired for Sunshine dog fogged glass",
+          "caption": "*Too Tired for Sunshine*｜雾窗后的狗"
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-isolation.jpg",
+          "alt": "Tara Wray Too Tired for Sunshine neck golden light",
+          "caption": "*Too Tired for Sunshine*｜下颌与金色侧光",
+          "w": 1400,
+          "h": 932
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-rural-scene.jpg",
+          "alt": "Tara Wray Too Tired for Sunshine rural Vermont",
+          "caption": "*Too Tired for Sunshine*｜佛蒙特日常／田野",
+          "w": 1400,
+          "h": 787
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/tara-ttfs-domestic.jpg",
+          "alt": "Tara Wray Too Tired for Sunshine domestic scene",
+          "caption": "*Too Tired for Sunshine*｜家庭与近处生活",
+          "w": 1400,
+          "h": 787
+        }
+      ],
+      "links": [
+        {
+          "label": "Tara Wray · *Too Tired for Sunshine*",
+          "url": "https://www.tarawray.net/tootiredforsunshine"
+        },
+        {
+          "label": "*Year of the Beast*",
+          "url": "https://www.tarawray.net/yob"
+        },
+        {
+          "label": "Too Tired Project",
+          "url": "https://tootiredproject.com/"
+        },
+        {
+          "label": "NPR 2018-12-31｜Channeling The Pain Of Depression Into Photography",
+          "url": "https://www.npr.org/sections/pictureshow/2018/12/31/677341382/one-photographers-message-if-you-feel-too-tired-you-re-not-alone"
+        },
+        {
+          "label": "NPR 2021-03-07｜*Year of the Beast*",
+          "url": "https://www.npr.org/sections/pictureshow/2021/03/07/972571310/year-of-the-beast-how-tara-wray-used-photography-to-process-fear-and-uncertainty"
+        }
+      ],
+      "slug": "wray"
+    },
+    {
       "date": "2026-10-28",
       "title": "不敢看陌生人眼睛的人",
       "stream": "meaning",
@@ -1005,6 +1294,73 @@
         }
       ],
       "slug": "mannell"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Anna Pepper：公园里差点发作的恐慌，与每天出门去拍海岸的人",
+      "stream": "meaning",
+      "url": "meaning/2026-10-29-pepper.html",
+      "subtitle": "",
+      "summary": "英国温彻斯特（Winchester）兽医护士／自然摄影师；Instagram @annapepper.photography。",
+      "category": "28mm专题",
+      "tags": [
+        "28mm专题"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/pepper-durdle-door.jpg",
+          "alt": "Anna Pepper Durdle Door Jurassic Coast",
+          "caption": "*Durdle Door*｜Jurassic Coast, Dorset",
+          "w": 976,
+          "h": 549
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/pepper-barton-on-sea.jpg",
+          "alt": "Anna Pepper Barton on Sea sunrise",
+          "caption": "*Barton on Sea*｜Hampshire coast sunrise",
+          "w": 976,
+          "h": 549
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/pepper-kimmeridge.jpg",
+          "alt": "Anna Pepper Kimmeridge Jurassic Coast",
+          "caption": "*Kimmeridge*｜Jurassic Coast",
+          "w": 976,
+          "h": 549
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/pepper-new-forest-stream.jpg",
+          "alt": "Anna Pepper New Forest stream",
+          "caption": "*The New Forest*｜溪流与秋光",
+          "w": 976,
+          "h": 549
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/pepper-jurassic-foam.jpg",
+          "alt": "Anna Pepper Jurassic coast sea foam",
+          "caption": "*Jurassic coast*｜俯拍浪沫与礁石",
+          "w": 976,
+          "h": 549
+        }
+      ],
+      "links": [
+        {
+          "label": "Instagram @annapepper.photography",
+          "url": "https://www.instagram.com/annapepper.photography/"
+        },
+        {
+          "label": "BBC 报道内作品",
+          "url": "https://www.bbc.co.uk/news/uk-england-hampshire-60859905"
+        },
+        {
+          "label": "BBC｜'Photography completely turned my life around'（2022-03-26）",
+          "url": "https://www.bbc.co.uk/news/uk-england-hampshire-60859905"
+        }
+      ],
+      "slug": "pepper"
     },
     {
       "date": "2026-10-22",
