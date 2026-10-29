@@ -15,7 +15,7 @@ STREAMS = [
     {"key": "photographer", "folder": "photographer", "hash": "photographer", "label": "摄影师", "section": "learn"},
     {"key": "aesthetic", "folder": "aesthetic", "hash": "aesthetic", "label": "视觉语言", "section": "learn"},
     {"key": "28mm", "folder": "28mm", "hash": "28mm", "label": "28mm 专题", "section": "practice"},
-    {"key": "meaning", "folder": "meaning", "hash": "meaning", "label": "摄影与人生", "section": "life"},
+    {"key": "meaning", "folder": "meaning", "hash": "meaning", "label": "故事", "section": "life"},
 ]
 STREAM = {item["key"]: item for item in STREAMS}
 STREAM_ORDER = {item["key"]: index for index, item in enumerate(STREAMS)}
@@ -30,7 +30,7 @@ SECTIONS = [
     {"key": "home", "href": "index.html", "label": "首页"},
     {"key": "learn", "href": "learn.html", "label": "审美学习"},
     {"key": "practice", "href": "practice.html", "label": "摄影实践"},
-    {"key": "life", "href": "life.html", "label": "摄影与人生"},
+    {"key": "life", "href": "life.html", "label": "人物故事"},
     {"key": "archive", "href": "archive.html", "label": "归档"},
 ]
 
@@ -42,7 +42,7 @@ WEEKDAYS = "一二三四五六日"
 PRACTICE_PLAN = "只带一支 28mm 出门：先走近，再降低机位，再侧移半步。每课只练一件事，按顺序读。"
 LIFE_DEK = "摄影师在抑郁、焦虑和流离之中，怎样借一台相机重新出门、开口。"
 ABOUT = [
-    "这里按篇整理对摄影作品的看法：每篇先给一个判断，再用作品逐张说明，最后留一个出门就能做的练习。摄影师与视觉语言大致每天一篇，28mm 专题按课推进，摄影与人生不定期更新。",
+    "这里按篇整理对摄影作品的看法：每篇先给一个判断，再用作品逐张说明，最后留一个出门就能做的练习。摄影师与视觉语言大致每天一篇，28mm 专题按课推进，人物故事不定期更新。",
     "文中的「风格对照」常拿两位摄影师当坐标：Seiki Hayashi 的静滞与负空间，Alex Webb 的彩色叠层。坐标只用来对照，不是边界。",
     "图片版权归原作者。每篇文末列出作品出处与延伸阅读。",
 ]
@@ -684,7 +684,7 @@ class Site:
             depth=0,
             section="home",
             title="目力",
-            description="目力：摄影师、视觉语言、28mm 专题和摄影与人生的文章。",
+            description="目力：摄影师、视觉语言、28mm 专题和人物故事的文章。",
             main="\n".join(main),
             path="index.html",
             image=image,
@@ -785,11 +785,11 @@ class Site:
     def render_life(self) -> str:
         rows = "".join(self.row(entry) for entry in self.by_stream["meaning"])
         main = f"""<div class="page">
-  <header class="page-head"><h1>摄影与人生</h1><p class="page-dek">{esc(LIFE_DEK)}</p></header>
+  <header class="page-head"><h1>人物故事</h1><p class="page-dek">{esc(LIFE_DEK)}</p></header>
   <ol class="rows">{rows}</ol>
 </div>"""
         return self.layout(
-            depth=0, section="life", title="摄影与人生 · 目力",
+            depth=0, section="life", title="人物故事 · 目力",
             description=LIFE_DEK, main=main, path="life.html",
         )
 
