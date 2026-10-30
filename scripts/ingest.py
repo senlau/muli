@@ -34,7 +34,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from mdutil import md_to_html, plain  # noqa: E402
 from render_site import STREAMS, entry_path, render_site  # noqa: E402
 
-CDN = "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/"
+# GitHub raw is the canonical image host since picx WebP migration (Oct 2026).
+# Legacy jsDelivr URLs still accepted for backward compatibility during transition.
+CDN = "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/"
+CDN_LEGACY = "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/"
 ROOT = Path(__file__).resolve().parents[1]
 STREAM_FROM_JSON = {
     "photographer": "photographer",
@@ -79,12 +82,21 @@ def extract_images(md: str) -> list[dict]:
         if src_m:
             add(src_m.group(1), alt_m.group(1) if alt_m else "", "")
 
+    # Match CDN: annotation with caption (legacy jsDelivr or new GitHub raw)
     for match in re.finditer(
-        r"CDN:\s*(https://fastly\.jsdelivr\.net/[^\s]+)\s*\n\s*图注[：:]\s*([^\n]+)",
+        r"CDN:\s*(https://(?:fastly\.jsdelivr\.net/gh/senlau/picx-images-hosting@master|raw\.githubusercontent\.com/senlau/picx-images-hosting/master)/[^\s]+)\s*\n\s*图注[：:]\s*([^\n]+)",
         md,
     ):
         add(match.group(1), "", match.group(2).strip())
 
+    # Match standalone GitHub raw URLs (canonical)
+    for match in re.finditer(
+        r"https://raw\.githubusercontent\.com/senlau/picx-images-hosting/master/muli/[^\s)\"']+",
+        md,
+    ):
+        add(match.group(0), "", "")
+
+    # Match standalone jsDelivr URLs (legacy, still accepted)
     for match in re.finditer(
         r"https://fastly\.jsdelivr\.net/gh/senlau/picx-images-hosting@master/muli/[^\s)\"']+",
         md,
@@ -855,16 +867,27 @@ def publish(root: Path, entries: list[dict], generated_at: str) -> None:
 
 
 def self_test() -> None:
-    sample = """
-1. `/tmp/riobranco-dulce-jangadeiro.jpg`
-   CDN: https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/riobranco-dulce-jangadeiro.jpg
+    # Test new GitHub raw URL pattern (canonical)
+    sample_raw = """
+1. `/tmp/riobranco-dulce-jangadeiro.webp`
+   CDN: https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/riobranco-dulce-jangadeiro.webp
    图注：*Dulce Sudor Amargo*｜Piata 海滩
 """
-    images = extract_images(sample)
+    images = extract_images(sample_raw)
     assert len(images) == 1, images
     assert "Piata" in images[0]["caption"]
+
+    # Test legacy jsDelivr URL pattern (still accepted)
+    sample_legacy = """
+1. `/tmp/legacy.jpg`
+   CDN: https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/legacy.jpg
+   图注：*Legacy*｜test
+"""
+    images_legacy = extract_images(sample_legacy)
+    assert len(images_legacy) == 1, images_legacy
+
     figure = """
-<figure><img src="https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/parke-dream-shadow-stride.jpg" alt="Stride">
+<figure><img src="https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/parke-dream-shadow-stride.webp" alt="Stride">
 <figcaption>*Dream/Life*｜办公人</figcaption></figure>
 """
     parsed = extract_images(figure)
@@ -888,7 +911,7 @@ def self_test() -> None:
             "tags": ["大师", "测试"],
             "images": [
                 {
-                    "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/parke-dream-shadow-stride.jpg",
+                    "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/parke-dream-shadow-stride.webp",
                     "alt": "alt",
                     "caption": "*Dream/Life*",
                 }
