@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-29T21:11:07.067882+08:00",
+  "generatedAt": "2026-10-30T21:15:46.324281+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
-    "photographer": 8,
-    "aesthetic": 7,
+    "photographer": 9,
+    "aesthetic": 8,
     "28mm": 4,
-    "meaning": 8
+    "meaning": 9
   },
   "topics": [
     {
@@ -763,6 +763,80 @@
       ]
     },
     {
+      "date": "2026-10-30",
+      "title": "光切（Light Cut）· 非惊喜",
+      "stream": "aesthetic",
+      "url": "aesthetic/2026-10-30.html",
+      "subtitle": "",
+      "summary": "本周城市练习小问题仍是轮廓分离／换位去粘连——10/27 认了三种刀（光切／影切／色差切）；10/28 细拆了极限塌黑的「剪影可读」；10/29 专练色差切。今天专练尚未单开的一把：逆光／侧逆光把人外缘擦亮，或把背景抬亮、人塌暗——边靠明暗交界成立。人可以有中间调；不是「塌成一团黑还能命名」（那是剪影可读）。",
+      "category": "",
+      "tags": [
+        "Light Cut"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261030-hansen-gaza.jpg",
+          "alt": "Paul Hansen Gaza Burial",
+          "caption": "Hansen｜Gaza Burial｜巷道光柱擦亮人缘",
+          "w": 1920,
+          "h": 1280
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261030-richardson-hope.jpg",
+          "alt": "Warren Richardson Hope for a New Life",
+          "caption": "Richardson｜Hope for a New Life｜夜色边缘光切出人婴",
+          "w": 1920,
+          "h": 1280
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261030-scheidt-venezuela.jpg",
+          "alt": "Ronaldo Schemidt Venezuela Crisis",
+          "caption": "Schemidt｜Venezuela Crisis｜火光雕刻奔跑外轮廓",
+          "w": 1623,
+          "h": 1080
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261030-nissen-jon-alex.jpg",
+          "alt": "Mads Nissen Jon and Alex",
+          "caption": "Nissen｜Jon and Alex｜窗光侧切肩线与鼻梁",
+          "w": 1920,
+          "h": 1280
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/aesthetic-20261030-rodrigues-football.jpg",
+          "alt": "Daniel Rodrigues Football in Guinea-Bissau",
+          "caption": "Rodrigues｜Football｜尘雾侧逆光擦亮肩腿",
+          "w": 1920,
+          "h": 1280
+        }
+      ],
+      "links": [
+        {
+          "label": "Paul Hansen｜Gaza Burial（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2013/paul-hansen/1"
+        },
+        {
+          "label": "Warren Richardson｜Hope for a New Life（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2016/warren-richardson/1"
+        },
+        {
+          "label": "Ronaldo Schemidt｜Venezuela Crisis（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2018/ronaldo-schemidt/1"
+        },
+        {
+          "label": "Mads Nissen｜Jon and Alex（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2015/mads-nissen/1"
+        },
+        {
+          "label": "Daniel Rodrigues｜Football in Guinea-Bissau（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2013/daniel-rodrigues/1"
+        }
+      ]
+    },
+    {
       "date": "2026-10-27",
       "title": "把抑郁和焦虑拍成十条故事",
       "stream": "meaning",
@@ -1363,6 +1437,67 @@
       "slug": "pepper"
     },
     {
+      "date": "2026-10-30",
+      "title": "Steve Liddiard：Whiteford 灯塔，与差点出不了门的人",
+      "stream": "meaning",
+      "url": "meaning/2026-10-30-liddiard.html",
+      "subtitle": "",
+      "summary": "威尔士斯旺西（Swansea）医院 IT 人员／业余历史废墟摄影师；Instagram @steve.liddiard。",
+      "category": "28mm专题",
+      "tags": [
+        "28mm专题"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/liddiard-whiteford-lighthouse.jpg",
+          "alt": "Steve Liddiard Whiteford Lighthouse Gower",
+          "caption": "*Whiteford Lighthouse*｜Gower · Historical Photographer of the Year 2021",
+          "w": 976,
+          "h": 1200
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/liddiard-woollen-mill.jpg",
+          "alt": "Steve Liddiard abandoned Welsh woollen mill",
+          "caption": "*Abandoned woollen mill*｜Welsh mill · Historical Photographer of the Year 2022"
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/liddiard-eglwys-cwyfan.jpg",
+          "alt": "Steve Liddiard Eglwys Cwyfan Anglesey",
+          "caption": "*Eglwys Cwyfan*｜Llangadwaladr, Anglesey"
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/liddiard-tin-organ.jpg",
+          "alt": "Steve Liddiard tin Sunday school organ Ceredigion",
+          "caption": "*Tin Sunday school organ*｜Ceredigion"
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/liddiard-anglesey-barracks.jpg",
+          "alt": "Steve Liddiard Anglesey Barracks night rain",
+          "caption": "*Dre Newydd / Anglesey Barracks*｜采石工人小屋夜雨",
+          "w": 976,
+          "h": 920
+        }
+      ],
+      "links": [
+        {
+          "label": "Instagram @steve.liddiard",
+          "url": "https://www.instagram.com/steve.liddiard/"
+        },
+        {
+          "label": "BBC 报道内作品",
+          "url": "https://www.bbc.com/news/uk-wales-66337440"
+        },
+        {
+          "label": "BBC｜Mental health: 'Photography saved me from myself'（2023-08-12）",
+          "url": "https://www.bbc.com/news/uk-wales-66337440"
+        }
+      ],
+      "slug": "liddiard"
+    },
+    {
       "date": "2026-10-22",
       "title": "Graciela Iturbide",
       "stream": "photographer",
@@ -1899,6 +2034,79 @@
         {
           "label": "Polka Galerie · I, Tokyo",
           "url": "https://www.polkagalerie.com/en/jacob-aue-sobol-works-i-tokyo.htm"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Cristóbal Hara（当代／大师交界 · 西班牙）",
+      "stream": "photographer",
+      "url": "photographer/2026-10-30.html",
+      "subtitle": "马德里生（1946–），童年辗转菲律宾／德国／美国后回西班牙；1960 年代末在伦敦／巴黎做纪实，1980 年代初回马德里后转向彩色，Premio Nacional de Fotografía 2022。代表作／书线：Vanitas、An Imaginary Spaniard（Steidl, 2004）、Autobiography（Steidl）、España Color 1985–2020（RM）、以及 Los Ensayos Banales 系列。画面语言是伊比利亚 found-fantastic：节庆、葬礼、斗牛、村口道具与圣像入画，色饱和、构图常「不正规」，人与十字架／墙／动物／棺材靠色面台阶分开，而不是浅景深糊掉。",
+      "summary": "本周仍练：轮廓分离／换位去粘连——人贴电线杆、招牌、路人时，先换半步或蹲/起，看轮廓有没有切开。今天这位用西班牙村庄／宗教节庆／日常里的色块与站位，把人从驴／墙／十字架／彩旗／门洞边「切开」——不是港式光井、不是澳洲硬光刀、不是 Sobol 近距颗粒。",
+      "category": "当代／大师交界 · 西班牙",
+      "tags": [
+        "当代／大师交界 · 西班牙",
+        "当代",
+        "大师交界",
+        "西班牙"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/hara-almonacid-coffin-mitres.jpg",
+          "alt": "Cristóbal Hara Almonacid del Marquesado 1985 coffin mitres",
+          "caption": "Almonacid del Marquesado, 1985｜下葬：金十字棺材 vs 红尖帽／花纹服，人与道具色块切开",
+          "w": 1500,
+          "h": 997
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/hara-apron-coffin-wall.jpg",
+          "alt": "Cristóbal Hara apron coffin cross stone wall España Color",
+          "caption": "*España Color*｜黄花围裙前景 vs 石墙前木棺十字：色面台阶把人与死亡道具撕开",
+          "w": 1357,
+          "h": 900
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/hara-arcos-bishop-cape.jpg",
+          "alt": "Cristóbal Hara Arcos de la Frontera bishop cape wall",
+          "caption": "Arcos de la Frontera｜蓝斗篷背影 vs 白墙垛口：背影仍可读，人与墙不粘",
+          "w": 1337,
+          "h": 1482
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/hara-wooden-horse-plaza.jpg",
+          "alt": "Cristóbal Hara wooden horse plaza España Color",
+          "caption": "*España Color*｜广场木马 vs 橙梯工人／石墙店招：道具与人各占色面，边线分开",
+          "w": 1860,
+          "h": 1240
+        },
+        {
+          "src": "https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/hara-matador-soccer-pitch.jpg",
+          "alt": "Cristóbal Hara matador soccer pitch España Color",
+          "caption": "*España Color*｜土足球场斗牛服：闪灯把人从锈球门／树篱里抬出轮廓",
+          "w": 1860,
+          "h": 1232
+        }
+      ],
+      "links": [
+        {
+          "label": "Steidl · An Imaginary Spaniard",
+          "url": "https://steidl.de/Books/An-Imaginary-Spaniard-0708404151.html"
+        },
+        {
+          "label": "Huis Marseille · Cristóbal Hara",
+          "url": "https://huismarseille.nl/tentoonstellingen/cristobal-hara/"
+        },
+        {
+          "label": "Blanca Berlín · Cristóbal Hara",
+          "url": "https://blancaberlingaleria.com/project/cristobal-hara/"
+        },
+        {
+          "label": "Editorial RM · España Color 1985–2020",
+          "url": "https://editorialrm.com/en/producto/cristobal-hara-espana-color-1985-2020/"
         }
       ]
     }
