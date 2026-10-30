@@ -51,7 +51,7 @@ python3 -m http.server 8765
 
 ## 图片
 
-图都在 jsDelivr CDN 上（`https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/`），本仓库不放原片。卡片缩略图、文中大图和灯箱用的是同一个地址，按原比例显示，不裁切。图片版权归原作者，每篇文末列出作品出处和延伸阅读。
+图都在 GitHub raw 上（`https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/`，WebP 格式），本仓库不放原片。卡片缩略图、文中大图和灯箱用的是同一个地址，按原比例显示，不裁切。图片版权归原作者，每篇文末列出作品出处和延伸阅读。
 
 ## 字体
 

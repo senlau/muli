@@ -39,9 +39,11 @@
 
 ## 图片
 
-图片只用文中的 CDN 地址：
+图片只用 GitHub raw 地址（picx WebP 迁移后，2026-10 起）：
 
-`https://fastly.jsdelivr.net/gh/senlau/picx-images-hosting@master/muli/<文件名>`
+`https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/<文件名>.webp`
+
+所有图片已转为 WebP 格式。原有的 jsDelivr + `.jpg` URL 已失效（404）。
 
 不要把 jpg / png / webp 提交进这个仓库。非 HTTPS 的图片地址会让脚本直接报错退出。
 
@@ -92,7 +94,7 @@ category: "大师"
 tags: ["轮廓与剪影"]
 topics: ["轮廓与剪影"]     # 可选：主题，归档「按主题」和文末「同一主题」
 people: ["何藩 Fan Ho"]    # 可选：归档「按作者」
-thumbs: [{"src": "https://fastly.jsdelivr.net/...", "alt": "...", "caption": "...", "w": 1200, "h": 800}]
+thumbs: [{"src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/...", "alt": "...", "caption": "...", "w": 1200, "h": 800}]
 links: [{"label": "M+ 何藩馆藏", "url": "https://..."}]
 credit: "图片：..."        # 可选：文末的图片出处
 slug: "goldrei"           # 仅 meaning 需要，用于同日多条区分
