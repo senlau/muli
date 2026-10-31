@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-31T06:52:16.818957+08:00",
+  "generatedAt": "2026-10-31T21:11:49.203572+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
-    "photographer": 9,
-    "aesthetic": 8,
-    "28mm": 4,
-    "meaning": 9
+    "photographer": 10,
+    "aesthetic": 9,
+    "28mm": 5,
+    "meaning": 10
   },
   "topics": [
     {
@@ -303,8 +303,8 @@
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-19-winogrand-worlds-fair-nyc-1964.webp",
           "alt": "Garry Winogrand Worlds Fair New York 1964",
           "caption": "Winogrand｜World's Fair, NYC 1964",
-          "w": 1600,
-          "h": 1081
+          "w": 1500,
+          "h": 1013
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-20-winogrand-nyc-dog-street.webp",
@@ -330,6 +330,81 @@
         {
           "label": "Getty｜World's Fair, New York City",
           "url": "https://www.getty.edu/art/collection/object/104B15"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "title": "第五课：框中框／门缝落点",
+      "stream": "28mm",
+      "url": "28mm/2026-10-31.html",
+      "subtitle": "框中框／门缝落点",
+      "summary": "上一课练了斜构图的「可接受出轨」。这一课把周主题落到建筑上：用门洞、橱窗、廊柱缝当净面容器，把人的轮廓对齐放进框／缝里——不是事后裁，是站位对齐。接本周城市练习小问题＝轮廓分离／换位去粘连：侧移／进退半步，让轮廓落到框内净面／亮缝，而不是贴在杂墙上。",
+      "category": "第五课",
+      "tags": [
+        "第五课",
+        "28mm"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-21-winogrand-store-window-newspaper.webp",
+          "alt": "Garry Winogrand Woman Reading Newspaper by Store Window",
+          "caption": "Winogrand｜橱窗读报 · 约 1975",
+          "w": 1500,
+          "h": 1191
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-22-winogrand-nyc-icecream-store-window.webp",
+          "alt": "Garry Winogrand Laughing Woman with Ice Cream Cone New York 1968",
+          "caption": "Winogrand｜New York 橱窗大笑 · 1968",
+          "w": 1500,
+          "h": 1006
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-23-winogrand-central-park-women-door.webp",
+          "alt": "Garry Winogrand Entrance to Central Park Women Room",
+          "caption": "Winogrand｜Central Park WOMEN 门洞",
+          "w": 1500,
+          "h": 1192
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-24-moriyama-ginza-cafe-window.webp",
+          "alt": "Daido Moriyama Ginza cafe window GR III",
+          "caption": "森山大道｜银座 GR III · 窗格落点",
+          "w": 1120,
+          "h": 747
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-25-moriyama-ginza-lips-doorway.webp",
+          "alt": "Daido Moriyama Ginza lips wallpaper doorway GR III",
+          "caption": "森山大道｜银座 GR III · 门缝人影",
+          "w": 1120,
+          "h": 747
+        }
+      ],
+      "links": [
+        {
+          "label": "Art Institute｜Woman Reading Newspaper by Store Window",
+          "url": "https://www.artic.edu/artworks/130015/untitled-woman-reading-newspaper-by-store-window"
+        },
+        {
+          "label": "Whitney｜Laughing Woman with Ice Cream Cone",
+          "url": "https://whitney.org/collection/works/47913"
+        },
+        {
+          "label": "Five Colleges｜Central Park women's room entrance",
+          "url": "https://museums.fivecolleges.edu/collection/search/sc-2006-31-32-women-at-the-entrance-to-the-central-park-womens-room-from-women-are-beautiful-garry-winogrand-1975-negative-1981-print"
+        },
+        {
+          "label": "Fraenkel｜Garry Winogrand",
+          "url": "https://www.fraenkelgallery.com/artists/garry-winogrand"
+        },
+        {
+          "label": "Ricoh GR Official｜森山大道 银座 GR III 图库",
+          "url": "https://www.grblog.jp/en/article/1461/"
         }
       ]
     },
@@ -662,8 +737,8 @@
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261028-patjane-whale.webp",
           "alt": "潜水员在鲸旁只是小小的黑色剪影，仍能认出是人",
           "caption": "Anuar Patjane Floriuk — *Whale Whisperers*",
-          "w": 1800,
-          "h": 1194
+          "w": 1500,
+          "h": 995
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261028-chiba-straight-voice.webp",
@@ -781,15 +856,15 @@
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261030-hansen-gaza.webp",
           "alt": "Paul Hansen Gaza Burial",
           "caption": "Hansen｜Gaza Burial｜巷道光柱擦亮人缘",
-          "w": 1920,
-          "h": 1280
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261030-richardson-hope.webp",
           "alt": "Warren Richardson Hope for a New Life",
           "caption": "Richardson｜Hope for a New Life｜夜色边缘光切出人婴",
-          "w": 1920,
-          "h": 1280
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261030-scheidt-venezuela.webp",
@@ -802,15 +877,15 @@
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261030-nissen-jon-alex.webp",
           "alt": "Mads Nissen Jon and Alex",
           "caption": "Nissen｜Jon and Alex｜窗光侧切肩线与鼻梁",
-          "w": 1920,
-          "h": 1280
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261030-rodrigues-football.webp",
           "alt": "Daniel Rodrigues Football in Guinea-Bissau",
           "caption": "Rodrigues｜Football｜尘雾侧逆光擦亮肩腿",
-          "w": 1920,
-          "h": 1280
+          "w": 1500,
+          "h": 1000
         }
       ],
       "links": [
@@ -837,6 +912,78 @@
       ]
     },
     {
+      "date": "2026-10-31",
+      "title": "这个风格在看什么",
+      "stream": "aesthetic",
+      "url": "aesthetic/2026-10-31.html",
+      "subtitle": "",
+      "summary": "影切（Shadow Cut）· 非惊喜",
+      "category": "",
+      "tags": [],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261031-romenzi-syria-shadow.webp",
+          "alt": "Alessio Romenzi Syria cast shadow",
+          "caption": "Romenzi｜Syria｜人影上墙，檐下硬影切边",
+          "w": 1600,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261031-bronstein-kabul.webp",
+          "alt": "Paula Bronstein Kabul hospital",
+          "caption": "Bronstein｜Kabul｜硬影病房，人落仅剩亮带",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261031-munita-baracoa.webp",
+          "alt": "Tomas Munita Baracoa doorway",
+          "caption": "Munita｜Baracoa｜夜街硬影，门洞暖亮带",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261031-cai-bull-market.webp",
+          "alt": "Cai Sheng Xiang Bull Market",
+          "caption": "蔡盛祥｜Bull Market｜树影硬条，人落影间亮缝",
+          "w": 1600,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261031-platt-beirut.webp",
+          "alt": "Spencer Platt Beirut",
+          "caption": "Platt｜Beirut｜正午硬影切瓦砾，人落敞篷亮带",
+          "w": 1600,
+          "h": 1600
+        }
+      ],
+      "links": [
+        {
+          "label": "Alessio Romenzi｜Syria Under Siege（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2013/alessio-romenzi/1"
+        },
+        {
+          "label": "Paula Bronstein｜Daily Life 2017（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2017/paula-bronstein/1"
+        },
+        {
+          "label": "Tomas Munita｜Cuba on the Edge of Change（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2017/tomas-munita/1"
+        },
+        {
+          "label": "Cai Sheng Xiang｜The Bull Market（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2015/cai-sheng-xiang/1"
+        },
+        {
+          "label": "Spencer Platt｜2007 Photo of the Year（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2007/spencer-platt/1"
+        }
+      ]
+    },
+    {
       "date": "2026-10-27",
       "title": "把抑郁和焦虑拍成十条故事",
       "stream": "meaning",
@@ -859,36 +1006,36 @@
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/bryce-one-streetlights.webp",
           "alt": "夜里空荡的停车场，一个戴兜帽的人抱膝坐在路灯杆下",
           "caption": "*Streetlights*, 2010",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/bryce-one-who-are-you.webp",
           "alt": "两栋楼之间长长的通道，尽头站着一个很小的人影",
           "caption": "*Who are you?*, 2010",
-          "w": 1600,
-          "h": 2400
+          "w": 1000,
+          "h": 1500
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/bryce-one-lonely-surfer.webp",
           "alt": "一片发白的雾气里，一个冲浪者夹着板走在画面底部的地平线上",
           "caption": "*Lonely Surfer*, 2010",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/bryce-one-love-loneliness.webp",
           "alt": "红色的 LOVE 雕塑，底座的角落里坐着一个人",
           "caption": "*Love/Loneliness (The Fine Line)*, 2010",
-          "w": 1600,
-          "h": 2400
+          "w": 1000,
+          "h": 1500
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/bryce-one-back-to-one.webp",
           "alt": "灰色的空旷地面上，一个人蜷坐在中间，旁边叠着一个半透明的人影",
           "caption": "*Back To One*, 2010",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         }
       ],
       "links": [
@@ -934,36 +1081,36 @@
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/dukhan-tre-child-portrait.webp",
           "alt": "一个卷发的孩子咬着拳头，睁大眼睛看着镜头",
           "caption": "孩子的肖像",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/dukhan-athens-rain-couple.webp",
           "alt": "雅典的广场上，两个人合撑一把伞在雨中走过",
           "caption": "雅典，雨中",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/dukhan-profile-city-dusk.webp",
           "alt": "暮色里，一个年轻女人倚着栏杆的侧影，身后是城市",
           "caption": "暮色里的侧影",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/dukhan-ledge-autumn-valley.webp",
           "alt": "一个女人坐在岩台上，望向秋天的山谷",
           "caption": "秋天的山谷",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/dukhan-mountain-haze.webp",
           "alt": "层层叠叠的山脊隐在雾里",
           "caption": "山间的雾",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         }
       ],
       "links": [
@@ -1013,36 +1160,36 @@
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/bryce-one-streetlights.webp",
           "alt": "Bryce Evans One Streetlights",
           "caption": "*One*｜2 Streetlights",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/bryce-one-who-are-you.webp",
           "alt": "Bryce Evans One Who are you",
           "caption": "*One*｜4 Who are you?",
-          "w": 1600,
-          "h": 2400
+          "w": 1000,
+          "h": 1500
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/bryce-one-lonely-surfer.webp",
           "alt": "Bryce Evans One Lonely Surfer",
           "caption": "*One*｜5 Lonely Surfer",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/bryce-one-love-loneliness.webp",
           "alt": "Bryce Evans One Love Loneliness",
           "caption": "*One*｜7 Love/Loneliness (The Fine Line)",
-          "w": 1600,
-          "h": 2400
+          "w": 1000,
+          "h": 1500
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/bryce-one-back-to-one.webp",
           "alt": "Bryce Evans One Back To One",
           "caption": "*One*｜9 Back To One",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         }
       ],
       "links": [
@@ -1088,36 +1235,36 @@
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/goldrei-trois-garcons.webp",
           "alt": "三个穿牛仔衣裤的男人几乎同步走过 Maison Trois Garçons 的店门",
           "caption": "*Trois Garçons*, London, 2011",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/goldrei-go-down-skip.webp",
           "alt": "一个男人从门口探出身子，正对着门前的一个大垃圾箱",
           "caption": "*Go Down With The Skip*, Purkersdorf, 2018",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/goldrei-lady-in-red.webp",
           "alt": "穿红色泳衣的女人背对镜头，站在一座彩色瓷砖的浴场里",
           "caption": "*Lady in Red*, Budapest, 2016",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/goldrei-nest.webp",
           "alt": "绿墙上挂满花艺装置，下方坐着一个戴帽子的女人，帽檐遮住了脸",
           "caption": "*Nest*, London, 2016",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/goldrei-wallflower-miami.webp",
           "alt": "两个穿花衣服的女人站在图案鲜艳的墙前看画，衣服和墙纸几乎融在一起",
           "caption": "*The Perks of Being a Wallflower*, Miami, 2017",
-          "w": 2400,
-          "h": 1600
+          "w": 1500,
+          "h": 1000
         }
       ],
       "links": [
@@ -1248,7 +1395,9 @@
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/tara-ttfs-absurdist.webp",
           "alt": "Tara Wray Too Tired for Sunshine dog fogged glass",
-          "caption": "*Too Tired for Sunshine*｜雾窗后的狗"
+          "caption": "*Too Tired for Sunshine*｜雾窗后的狗",
+          "w": 1400,
+          "h": 933
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/tara-ttfs-isolation.webp",
@@ -1461,17 +1610,23 @@
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/liddiard-woollen-mill.webp",
           "alt": "Steve Liddiard abandoned Welsh woollen mill",
-          "caption": "*Abandoned woollen mill*｜Welsh mill · Historical Photographer of the Year 2022"
+          "caption": "*Abandoned woollen mill*｜Welsh mill · Historical Photographer of the Year 2022",
+          "w": 976,
+          "h": 1464
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/liddiard-eglwys-cwyfan.webp",
           "alt": "Steve Liddiard Eglwys Cwyfan Anglesey",
-          "caption": "*Eglwys Cwyfan*｜Llangadwaladr, Anglesey"
+          "caption": "*Eglwys Cwyfan*｜Llangadwaladr, Anglesey",
+          "w": 976,
+          "h": 985
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/liddiard-tin-organ.webp",
           "alt": "Steve Liddiard tin Sunday school organ Ceredigion",
-          "caption": "*Tin Sunday school organ*｜Ceredigion"
+          "caption": "*Tin Sunday school organ*｜Ceredigion",
+          "w": 976,
+          "h": 1314
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/liddiard-anglesey-barracks.webp",
@@ -1496,6 +1651,81 @@
         }
       ],
       "slug": "liddiard"
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Dola Posh：Omo Mi，与差点认不出自己的人",
+      "stream": "meaning",
+      "url": "meaning/2026-10-31-posh.html",
+      "subtitle": "",
+      "summary": "尼日利亚拉各斯出身／现居英国的摄影师与叙事者；系列 Omo Mi（约鲁巴语「我的孩子」）；Instagram / 官网 dolaposh.com。",
+      "category": "28mm专题",
+      "tags": [
+        "28mm专题"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/posh-breastfeeding.webp",
+          "alt": "Dola Posh Self-portrait Breastfeeding Omo Mi",
+          "caption": "*Self-portrait Breastfeeding*｜*Omo Mi* · 系列起点",
+          "w": 2048,
+          "h": 2560
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/posh-care.webp",
+          "alt": "Dola Posh Care Omo Mi",
+          "caption": "*Care*｜*Omo Mi* · 梳发与日常照料",
+          "w": 2048,
+          "h": 2560
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/posh-sleep.webp",
+          "alt": "Dola Posh Sleep Omo Mi",
+          "caption": "*Sleep*｜*Omo Mi* · 灯笼与熟睡的孩子",
+          "w": 1745,
+          "h": 2560
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/posh-carry.webp",
+          "alt": "Dola Posh Carry my child Omo Mi",
+          "caption": "*Carry my child*｜*Omo Mi* · 户外背娃",
+          "w": 1709,
+          "h": 791
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/posh-postpartum.webp",
+          "alt": "Dola Posh Postpartum story Omo Mi",
+          "caption": "*Postpartum story*｜*Omo Mi* · 产后自拍",
+          "w": 1709,
+          "h": 2560
+        }
+      ],
+      "links": [
+        {
+          "label": "Leica Blog｜OMO MI",
+          "url": "https://leica-camera.blog/en-gb/2024/03/14/omo-mi/"
+        },
+        {
+          "label": "Dola Posh 官网",
+          "url": "https://www.dolaposh.com/"
+        },
+        {
+          "label": "BBC｜Dola Posh: ‘I wasn’t me anymore’（2024-12-14）",
+          "url": "https://www.bbc.com/news/articles/cgr0p4er2l7o"
+        },
+        {
+          "label": "《卫报》｜Dola Posh’s best photograph（2024-10-23）",
+          "url": "https://www.theguardian.com/artanddesign/2024/oct/23/isolated-mother-breastfeeding-child-covid-dola-posh-pandemic-best-photograph"
+        },
+        {
+          "label": "Leica Women Foto Project｜OMO MI",
+          "url": "https://leica-camera.blog/en-gb/2024/03/14/omo-mi/"
+        }
+      ],
+      "slug": "posh"
     },
     {
       "date": "2026-10-22",
@@ -1541,8 +1771,8 @@
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/iturbide-cementerio.webp",
           "alt": "芦苇和布棚之间，一个妇人坐着弹电子琴，前景立着一支白蜡烛",
           "caption": "*Cementerio*（墓地）, 1990",
-          "w": 1200,
-          "h": 1846
+          "w": 975,
+          "h": 1500
         }
       ],
       "links": [
@@ -2016,6 +2246,41 @@
           "caption": "*I, Tokyo*｜实体与投影分离：倒悬脸 vs 梯上影，影调台阶切开（2006）",
           "w": 388,
           "h": 550
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/hayashi-countryside-road-walker.webp",
+          "alt": "Seiki Hayashi hayashi countryside road walker",
+          "caption": "*Countryside*｜弯道护栏与电杆：路人轮廓从挡墙／杆缝里切开",
+          "w": 1400,
+          "h": 935
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/hayashi-countryside-salaryman-drugstore.webp",
+          "alt": "Seiki Hayashi hayashi countryside salaryman drugstore",
+          "caption": "*Countryside*｜药店卷帘亮墙：西装剪影贴着浅面走，不粘招牌竖边",
+          "w": 1400,
+          "h": 935
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/hayashi-countryside-orchard-stride.webp",
+          "alt": "Seiki Hayashi hayashi countryside orchard stride",
+          "caption": "*Countryside*｜果树间隙跨步：腿线落在亮土负空间，头肩不粘树冠",
+          "w": 1280,
+          "h": 855
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/hayashi-countryside-signal-pole-walker.webp",
+          "alt": "Seiki Hayashi hayashi countryside signal pole walker",
+          "caption": "*Countryside*｜前景信号杆框景：人被浅灌木托开，杆／檐／人各占一层",
+          "w": 1400,
+          "h": 907
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/hayashi-countryside-dogwalk-slope.webp",
+          "alt": "Seiki Hayashi hayashi countryside dogwalk slope",
+          "caption": "*Countryside*｜坡道遛狗：前景剪影与坡上杆／人分层，负空间是柏油",
+          "w": 1400,
+          "h": 935
         }
       ],
       "links": [
@@ -2080,15 +2345,15 @@
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/hara-wooden-horse-plaza.webp",
           "alt": "Cristóbal Hara wooden horse plaza España Color",
           "caption": "*España Color*｜广场木马 vs 橙梯工人／石墙店招：道具与人各占色面，边线分开",
-          "w": 1860,
-          "h": 1240
+          "w": 1500,
+          "h": 1000
         },
         {
           "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/hara-matador-soccer-pitch.webp",
           "alt": "Cristóbal Hara matador soccer pitch España Color",
           "caption": "*España Color*｜土足球场斗牛服：闪灯把人从锈球门／树篱里抬出轮廓",
-          "w": 1860,
-          "h": 1232
+          "w": 1500,
+          "h": 994
         }
       ],
       "links": [
@@ -2107,6 +2372,78 @@
         {
           "label": "Editorial RM · España Color 1985–2020",
           "url": "https://editorialrm.com/en/producto/cristobal-hara-espana-color-1985-2020/"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Raghubir Singh（大师 · 印度）",
+      "stream": "photographer",
+      "url": "photographer/2026-10-31.html",
+      "subtitle": "",
+      "summary": "本周仍练：轮廓分离／换位去粘连——人贴电线杆、招牌、路人时，先换半步或蹲/起，看轮廓有没有切开。今天这位用印度街巷／集市／河岸／巴士／墙皮里的黄／红／绿／蓝色块与站位，把人从墙、车身、招牌、第二人边「切开」——不是西班牙民俗道具（Hara）、不是港式光井（Fan Ho）、不是澳洲硬光刀（Parke）、不是 Sobol 近距颗粒。",
+      "category": "大师 · 印度",
+      "tags": [
+        "大师 · 印度",
+        "大师",
+        "印度"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/singh-taxi-calcutta.webp",
+          "alt": "Raghubir Singh Taxi Driver Calcutta 1987",
+          "caption": "Taxi Driver, Calcutta, 1987｜黄出租车窗 vs 绿卡车／蓝盔／红摩托：人与车身色块切开",
+          "w": 1500,
+          "h": 1004
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/singh-clothing-shop-dadar.webp",
+          "alt": "Raghubir Singh Outside a Clothing Shop Dadar Bombay 1990",
+          "caption": "Outside a Clothing Shop, Dadar, 1990｜绿墙黄红招牌 vs 橱窗竖边：站者与躺者各占色面",
+          "w": 1500,
+          "h": 1011
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/singh-showroom-kemps.webp",
+          "alt": "Raghubir Singh Showroom Kemp",
+          "caption": "Showroom at Kemp's Corner, 1990｜蓝橱窗假人 vs 扫地人：玻璃竖边把真人／假人撕开",
+          "w": 1500,
+          "h": 990
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/singh-tailor-hoarding.webp",
+          "alt": "Raghubir Singh A Tailor and Hoarding Kemp",
+          "caption": "A Tailor and Hoarding, Kemp's Corner｜广告牌／挂布 vs 路人头肩：招牌当第二人，边线分开",
+          "w": 1500,
+          "h": 993
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/singh-victoria-terminus.webp",
+          "alt": "Raghubir Singh Victoria Terminus Bombay 1991",
+          "caption": "Victoria Terminus, Bombay, 1991｜前景蓝网罩色面：把站前人影从黄石站楼里托开",
+          "w": 1500,
+          "h": 1017
+        }
+      ],
+      "links": [
+        {
+          "label": "Met · Raghubir Singh collection",
+          "url": "https://www.metmuseum.org/art/collection/search?q=Raghubir%20Singh"
+        },
+        {
+          "label": "SFMOMA · Taxi Driver, Calcutta",
+          "url": "https://www.sfmoma.org/artwork/94.176/"
+        },
+        {
+          "label": "Howard Greenberg · Bombay",
+          "url": "https://www.howardgreenberg.com/exhibitions/72-raghubir-singh-bombay/"
+        },
+        {
+          "label": "MoMA · Raghubir Singh",
+          "url": "https://www.moma.org/artists/5447"
         }
       ]
     }
