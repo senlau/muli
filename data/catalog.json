@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-01T12:37:54.520340+08:00",
+  "generatedAt": "2026-11-01T21:08:24.424752+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
-    "photographer": 10,
-    "aesthetic": 9,
+    "photographer": 11,
+    "aesthetic": 10,
     "28mm": 5,
-    "meaning": 10
+    "meaning": 11
   },
   "topics": [
     {
@@ -986,6 +986,80 @@
       ]
     },
     {
+      "date": "2026-11-01",
+      "title": "换位去粘连（Reposition Unstick）· 非惊喜",
+      "stream": "aesthetic",
+      "url": "aesthetic/2026-11-01.html",
+      "subtitle": "",
+      "summary": "本周城市练习小问题仍是轮廓分离／换位去粘连——10/27 认了三种刀（光切／影切／色差切）；10/28 细拆了极限塌黑的「剪影可读」；10/29 专练色差切；10/30 专练光切；10/31 专练影切。今天是本周最后一天，补齐尚未单开的一把：视点几何——粘连往往不是光／色不够，而是机位与人／杆／墙／招牌对齐导致边糊；半步侧移／起蹲／前后半步，把边从同形背景错开。",
+      "category": "",
+      "tags": [
+        "Reposition Unstick"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261101-munita-latunas-truck.webp",
+          "alt": "Tomas Munita La Tunas truck window",
+          "caption": "Munita｜La Tunas｜卡车窗人缘贴绿竖杆仍可读",
+          "w": 1600,
+          "h": 1068
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261101-wang-tiejun-gymnasts.webp",
+          "alt": "Wang Tiejun Xuzhou gymnasts",
+          "caption": "王铁军｜Xuzhou｜四人靠墙纵深错开",
+          "w": 1600,
+          "h": 1127
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261101-frayer-coal-street.webp",
+          "alt": "Kevin Frayer Shanxi coal street",
+          "caption": "Frayer｜Shanxi｜人缘从烟囱／杆／巷墙松开",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261101-gronsky-sandpile-loader.webp",
+          "alt": "Alexander Gronsky Pastoral sandpile",
+          "caption": "Gronsky｜Moscow｜孩童不贴进黄铲斗",
+          "w": 1600,
+          "h": 1292
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261101-johnson-amish-basketball.webp",
+          "alt": "Krisanne Johnson German Baptist basketball",
+          "caption": "Johnson｜Farm｜持球人不贴轮辐／仓门边",
+          "w": 1600,
+          "h": 1044
+        }
+      ],
+      "links": [
+        {
+          "label": "Tomas Munita｜Cuba on the Edge of Change（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2017/tomas-munita/1"
+        },
+        {
+          "label": "Wang Tiejun｜Sweat Makes Champions（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2017/wang-tiejun/1"
+        },
+        {
+          "label": "Kevin Frayer｜China's Coal Addiction（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2016/kevin-frayer-dl/1"
+        },
+        {
+          "label": "Alexander Gronsky｜Pastoral（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2012/alexander-gronsky/1"
+        },
+        {
+          "label": "Krisanne Johnson｜Daily Life 2005（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2005/krisanne-johnson/1"
+        }
+      ]
+    },
+    {
       "date": "2026-10-27",
       "title": "把抑郁和焦虑拍成十条故事",
       "stream": "meaning",
@@ -1730,6 +1804,85 @@
       "slug": "posh"
     },
     {
+      "date": "2026-11-01",
+      "title": "Marjolein Martinot：Riverland，与河边重新连上自己的人",
+      "stream": "meaning",
+      "url": "meaning/2026-11-01-martinot.html",
+      "subtitle": "",
+      "summary": "荷兰摄影师／六个孩子的母亲；在法国住了大半辈子，平时住巴黎近郊；系列／摄影书 Riverland（Stanley/Barker，2025）；官网 marjoleinmartinot.com。",
+      "category": "28mm专题",
+      "tags": [
+        "28mm专题"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/martinot-boys-trees.webp",
+          "alt": "Marjolein Martinot boys in trees Creuse Riverland",
+          "caption": "*Boys in trees*｜Creuse／Indre · 她说是作品的芯",
+          "w": 1557,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/martinot-couple-grass.webp",
+          "alt": "Marjolein Martinot young couple grass Aveyron Riverland",
+          "caption": "*Young couple on grass*｜Aveyron／Tarn-et-Garonne",
+          "w": 1593,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/martinot-horses.webp",
+          "alt": "Marjolein Martinot horses Riverland",
+          "caption": "*Horses*｜南方河边 · 童话气质的一弯",
+          "w": 1557,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/martinot-lily-pads.webp",
+          "alt": "Marjolein Martinot water lily leaves Riverland",
+          "caption": "*Water lily leaves*｜Tarn-et-Garonne · 河如生活隐喻",
+          "w": 1557,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/martinot-dusk-swimmer.webp",
+          "alt": "Marjolein Martinot dusk swimmer Riverland",
+          "caption": "*Dusk swimmer*｜晨昏光 · 她说对诗意情绪至关重要",
+          "w": 1593,
+          "h": 1600
+        }
+      ],
+      "links": [
+        {
+          "label": "《卫报》图集｜Down by the river",
+          "url": "https://www.theguardian.com/artanddesign/gallery/2025/jun/11/down-by-the-river-a-meditation-on-mental-health-in-pictures"
+        },
+        {
+          "label": "Stanley/Barker｜Riverland",
+          "url": "https://stanleybarker.co.uk/products/riverland"
+        },
+        {
+          "label": "Marjolein Martinot 官网",
+          "url": "https://www.marjoleinmartinot.com/"
+        },
+        {
+          "label": "《卫报》｜Down by the river（2025-06-11）",
+          "url": "https://www.theguardian.com/artanddesign/gallery/2025/jun/11/down-by-the-river-a-meditation-on-mental-health-in-pictures"
+        },
+        {
+          "label": "inframe｜Interview Marjolein Martinot（2025-07-05）",
+          "url": "https://inframe.fr/interview-marjolein-martinot/"
+        },
+        {
+          "label": "About Photography｜Riverland interview",
+          "url": "https://aboutphotography.blog/blog/riverland-by-marjolein-martinot"
+        }
+      ],
+      "slug": "martinot"
+    },
+    {
       "date": "2026-10-22",
       "title": "Graciela Iturbide",
       "stream": "photographer",
@@ -2446,6 +2599,79 @@
         {
           "label": "MoMA · Raghubir Singh",
           "url": "https://www.moma.org/artists/5447"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Fred Herzog（大师 · 加拿大／温哥华）",
+      "stream": "photographer",
+      "url": "photographer/2026-11-01.html",
+      "subtitle": "",
+      "summary": "本周仍练：轮廓分离／换位去粘连——人贴电线杆、招牌、路人时，先换半步或蹲/起，看轮廓有没有切开。今天这位用温哥华街巷／店面／汽车／墙皮／招牌的色面与站位，把人从墙、车、招牌、玻璃边「切开」——不是印度黄绿蓝（Singh）、不是西班牙民俗道具（Hara）、不是港式光井（Fan Ho）、不是澳洲硬光刀（Parke）。",
+      "category": "大师 · 加拿大／温哥华",
+      "tags": [
+        "大师 · 加拿大／温哥华",
+        "大师",
+        "加拿大",
+        "温哥华"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/herzog-main-barber.webp",
+          "alt": "Fred Herzog Main Barber 1968",
+          "caption": "Main Barber, 1968｜窗金字／红白斜纹 vs 街外人影：玻璃把室内墙与行人切开",
+          "w": 2000,
+          "h": 1329
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/herzog-bogners-grocery.webp",
+          "alt": "Fred Herzog Bogner",
+          "caption": "Bogner's Grocery, 1960｜可口可乐红／7-Up 绿 vs 孩童肩线：招牌色面把人托开",
+          "w": 1500,
+          "h": 976
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/herzog-black-man-pender.webp",
+          "alt": "Fred Herzog Black Man Pender 1958",
+          "caption": "Black Man Pender, 1958｜红门楣／中文竖招／青绿窗框 vs 深色西装与浅蓝大衣：人从店面色面切开",
+          "w": 2000,
+          "h": 1254
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/herzog-hub-lux.webp",
+          "alt": "Fred Herzog Hub and Lux 1958",
+          "caption": "Hub & Lux, 1958｜霓虹竖牌／橙杯招牌 vs 人影与车尾：色面台阶在夜景里切开轮廓",
+          "w": 2000,
+          "h": 1337
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/herzog-granville-robson.webp",
+          "alt": "Fred Herzog Granville Robson 1959",
+          "caption": "Granville/Robson, 1959｜霓虹竖牌／红甲壳虫／蓝车身 vs 过街人：雨街反光里仍保色面切边",
+          "w": 2000,
+          "h": 1306
+        }
+      ],
+      "links": [
+        {
+          "label": "Equinox Gallery · Fred Herzog",
+          "url": "https://www.equinoxgallery.com/our-artists/fred-herzog/"
+        },
+        {
+          "label": "Equinox shop · Fred Herzog",
+          "url": "https://shop.equinoxgallery.com/collections/fred-herzog-photography-1"
+        },
+        {
+          "label": "Vancouver Art Gallery · Vancouver Photographs",
+          "url": "https://www.vanartgallery.bc.ca/exhibitions/fred-herzog-vancouver-photographs/"
+        },
+        {
+          "label": "Trépanier Baer · Fred Herzog",
+          "url": "https://trepanierbaer.com/artist/fred-herzog/"
         }
       ]
     }
