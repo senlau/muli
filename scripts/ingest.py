@@ -272,6 +272,38 @@ def finalize(entry: dict) -> dict:
     return entry
 
 
+AESTHETIC_SECTION_LABELS = frozenset({
+    "这个风格在看什么",
+    "常见误读",
+    "跟锚点的关系",
+    "可练一句",
+    "示例",
+    "技巧／好坏",
+    "查看更多",
+})
+
+
+def extract_aesthetic_style_title(md: str) -> str:
+    """Extract the style title from a bold line after the H1 heading.
+
+    For lesson files with format:
+        # 每日审美一课｜YYYY-MM-DD
+
+        **影切（Shadow Cut）· 非惊喜**
+
+    Returns the content of the first standalone bold line after H1,
+    or empty string if not found.
+    """
+    h1_match = re.search(r"^#\s+每日审美一课[｜|][^\n]+\n", md, re.M)
+    if not h1_match:
+        return ""
+    after_h1 = md[h1_match.end():]
+    bold_match = re.search(r"^\*\*([^*]+)\*\*\s*$", after_h1, re.M)
+    if bold_match:
+        return bold_match.group(1).strip()
+    return ""
+
+
 def entry_from_md(md: str, stream: str, fallback_date: str) -> dict:
     heading = first_heading(md)
     date, title = parse_date_title(heading, fallback_date)
@@ -280,9 +312,12 @@ def entry_from_md(md: str, stream: str, fallback_date: str) -> dict:
         h2 = ""
         h2m = re.search(r"^##\s+(.+)$", md, re.M)
         if h2m:
-            h2 = h2m.group(1).strip()
+            h2_candidate = h2m.group(1).strip()
+            if h2_candidate not in AESTHETIC_SECTION_LABELS:
+                h2 = h2_candidate
         if heading.startswith("每日审美一课"):
-            title = h2 or title or date
+            style_title = extract_aesthetic_style_title(md)
+            title = style_title or h2 or title or date
         elif not title:
             title = h2 or heading or date
     if stream == "photographer":
@@ -893,6 +928,38 @@ def self_test() -> None:
     parsed = extract_images(figure)
     assert parsed[0]["alt"] == "Stride"
     assert "办公人" in parsed[0]["caption"]
+
+    # Test aesthetic title extraction: bold line after H1, not section H2
+    lesson_md = """# 每日审美一课｜2026-10-31
+
+**影切（Shadow Cut）· 非惊喜**
+
+本周城市练习小问题仍是轮廓分离。
+
+## 这个风格在看什么
+
+影切看的是：硬影块是否把边切开。
+
+## 常见误读
+
+1. 以为等于剪影可读
+"""
+    aesthetic_entry = entry_from_md(lesson_md, "aesthetic", "2026-10-31")
+    assert aesthetic_entry["title"] == "影切（Shadow Cut）· 非惊喜", f"got: {aesthetic_entry['title']}"
+    assert aesthetic_entry["date"] == "2026-10-31"
+
+    # Test that rollup format still works (### YYYY-MM-DD｜Title)
+    rollup_md = """### 2026-10-30｜光切（Light Cut）· 非惊喜
+
+本周城市练习小问题。
+
+#### 这个风格在看什么
+
+光切看的是边。
+"""
+    rollup_entry = entry_from_md(rollup_md, "aesthetic", "2026-10-30")
+    assert rollup_entry["title"] == "光切（Light Cut）· 非惊喜", f"got: {rollup_entry['title']}"
+
     html_out = md_to_html("### 2026-10-27｜标题\n\n今天是**一句**。\n\n- 甲\n- 乙\n\n[Magnum](https://www.magnumphotos.com/)\n")
     assert "<h2>" not in html_out.split("</p>")[0] or "标题" not in html_out
     assert "标题" not in html_out
