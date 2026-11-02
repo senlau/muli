@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-01T21:08:24.424752+08:00",
+  "generatedAt": "2026-11-02T21:10:40.276256+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
-    "photographer": 11,
-    "aesthetic": 10,
+    "photographer": 12,
+    "aesthetic": 11,
     "28mm": 5,
-    "meaning": 11
+    "meaning": 12
   },
   "topics": [
     {
@@ -1060,6 +1060,80 @@
       ]
     },
     {
+      "date": "2026-11-02",
+      "title": "情节一瞬（Narrative Instant）· 惊喜",
+      "stream": "aesthetic",
+      "url": "aesthetic/2026-11-02.html",
+      "subtitle": "",
+      "summary": "情节一瞬（Narrative Instant）· 惊喜",
+      "category": "",
+      "tags": [
+        "Narrative Instant"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261102-hondros-talafar-girl.webp",
+          "alt": "Chris Hondros Samar Hassan Tal Afar",
+          "caption": "Hondros｜Tal Afar｜父母刚被误杀后的哭喊",
+          "w": 1600,
+          "h": 1135
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261102-aranda-yemen-fatima.webp",
+          "alt": "Samuel Aranda Fatima Yemen",
+          "caption": "Aranda｜Sanaa｜母亲护住受伤的儿子",
+          "w": 1600,
+          "h": 1065
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261102-hossaini-kabul-green.webp",
+          "alt": "Massoud Hossaini girl in green Kabul",
+          "caption": "Hossaini｜Kabul｜爆炸后绿裙女孩尖叫",
+          "w": 1600,
+          "h": 1206
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261102-ponomarev-lesbos-landing.webp",
+          "alt": "Sergey Ponomarev Lesbos landing",
+          "caption": "Ponomarev｜Lesbos｜橡皮艇靠岸刚踏上",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261102-grigorian-trousers.webp",
+          "alt": "Eric Grigorian boy with trousers",
+          "caption": "Grigorian｜Qazvin｜攥亡父长裤守将葬处",
+          "w": 1600,
+          "h": 1085
+        }
+      ],
+      "links": [
+        {
+          "label": "Chris Hondros｜Tal Afar Spot News（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2006/chris-hondros/1"
+        },
+        {
+          "label": "Samuel Aranda｜2012 Photo of the Year（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2012/samuel-aranda/1"
+        },
+        {
+          "label": "Massoud Hossaini｜Kabul Spot News（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2012/massoud-hossaini/1"
+        },
+        {
+          "label": "Sergey Ponomarev｜Reporting Europe's Refugee Crisis（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2016/sergey-ponomarev/1"
+        },
+        {
+          "label": "Eric Grigorian｜2003 Photo of the Year（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2003/eric-grigorian/1"
+        }
+      ]
+    },
+    {
       "date": "2026-10-27",
       "title": "把抑郁和焦虑拍成十条故事",
       "stream": "meaning",
@@ -1883,6 +1957,85 @@
       "slug": "martinot"
     },
     {
+      "date": "2026-11-02",
+      "title": "Fotokids：危地马拉垃圾场边，把镜头交回孩子手里",
+      "stream": "meaning",
+      "url": "meaning/2026-11-02-fotokids.html",
+      "subtitle": "",
+      "summary": "危地马拉／参与式摄影非营利组织；前路透社战地摄影师 Nancy McGirr 于 1991 年创办，初名 Out of the Dump；官网 fotokidsoriginal.org。",
+      "category": "28mm专题",
+      "tags": [
+        "28mm专题"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261102-fotokids-jumprope.webp",
+          "alt": "Fotokids student photograph jump rope railroad Guatemala",
+          "caption": "铁轨边跳绳｜学生作品 · 棚屋聚落日常",
+          "w": 572,
+          "h": 480
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261102-fotokids-play.webp",
+          "alt": "Fotokids student photograph children playing settlement",
+          "caption": "玩耍｜学生作品 · 黑白社区纪实",
+          "w": 651,
+          "h": 480
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261102-fotokids-chickens.webp",
+          "alt": "Fotokids student photograph girl with chickens",
+          "caption": "鸡舍｜学生作品 · 抱着两只鸡的女孩",
+          "w": 400,
+          "h": 533
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261102-fotokids-window.webp",
+          "alt": "Fotokids student photograph children through window",
+          "caption": "窗后｜学生作品 · 玻璃与凝视",
+          "w": 650,
+          "h": 480
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261102-fotokids-funeral.webp",
+          "alt": "Fotokids student photograph funeral procession Guatemala",
+          "caption": "葬礼队列｜学生作品 · 头顶小棺的社区取证",
+          "w": 727,
+          "h": 480
+        }
+      ],
+      "links": [
+        {
+          "label": "《卫报》图集｜Fotokids 20 years",
+          "url": "https://www.theguardian.com/global-development/gallery/2011/aug/31/fotokids-20-years-tackling-poverty-in-pictures"
+        },
+        {
+          "label": "Fotokids 官网",
+          "url": "https://fotokidsoriginal.org/"
+        },
+        {
+          "label": "《卫报》图集｜Two decades…（2011-08-31）",
+          "url": "https://www.theguardian.com/global-development/gallery/2011/aug/31/fotokids-20-years-tackling-poverty-in-pictures"
+        },
+        {
+          "label": "《华盛顿邮报》｜How photojournalists…（2015-03-12）",
+          "url": "https://www.washingtonpost.com/news/inspired-life/wp/2015/03/12/how-photojournalists-in-guatemala-rescued-children-from-the-garbage-dumps/"
+        },
+        {
+          "label": "NYT Lens｜From Out of the Dump…（2011-10-24）",
+          "url": "https://archive.nytimes.com/lens.blogs.nytimes.com/2011/10/24/from-out-of-the-dump-to-the-top-of-the-heap/"
+        },
+        {
+          "label": "Fotokids About",
+          "url": "https://fotokidsoriginal.org/about/"
+        }
+      ],
+      "slug": "fotokids"
+    },
+    {
       "date": "2026-10-22",
       "title": "Graciela Iturbide",
       "stream": "photographer",
@@ -2672,6 +2825,79 @@
         {
           "label": "Trépanier Baer · Fred Herzog",
           "url": "https://trepanierbaer.com/artist/fred-herzog/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Matt Stuart（当代 · 英国／伦敦）",
+      "stream": "photographer",
+      "url": "photographer/2026-11-02.html",
+      "subtitle": "",
+      "summary": "本周新练：边缘控制（2026-11-02–11-08）——框四边切什么、角里进什么、贴边是否可读；误切头脚／招牌半截／第三者脚尖当废法记。今天这位用伦敦街景把画框四边当加减刀：人、鸽、巴士、邮筒顶、报纸脸都在边线与角上完成巧合——不是昨 Herzog 店面色面切边，也不是 Singh 黄绿蓝、Hara 民俗道具、Fan Ho 光井。",
+      "category": "当代 · 英国／伦敦（Magnum nominee 2016 履历）",
+      "tags": [
+        "当代 · 英国／伦敦（Magnum nominee 2016 履历）",
+        "当代",
+        "英国",
+        "伦敦"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/stuart-oxford-street.webp",
+          "alt": "Matt Stuart Oxford Street",
+          "caption": "Oxford Street｜巴士棚罩贴头顶、前景男被底／右边切：框边与角完成头盔／绿柱鼻巧合",
+          "w": 2000,
+          "h": 1326
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/stuart-new-oxford.webp",
+          "alt": "Matt Stuart New Oxford Street",
+          "caption": "New Oxford Street｜左缘切半车花贴、顶缘切巴士：报纸脸替真头，边线先稳巧合才立",
+          "w": 2000,
+          "h": 1333
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/stuart-needham-road.webp",
+          "alt": "Matt Stuart Needham Road",
+          "caption": "Needham Road｜孩童被顶／右边切在邮筒顶：故意切头仍保攀爬可读，红车贴左边平衡",
+          "w": 2000,
+          "h": 1342
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/stuart-liverpool-street.webp",
+          "alt": "Matt Stuart Liverpool Street",
+          "caption": "Liverpool Street｜顶边切掉头：手与包里杂志对齐成立——故意切头示范",
+          "w": 2000,
+          "h": 1326
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/stuart-trafalgar-pigeon.webp",
+          "alt": "Matt Stuart Trafalgar Square pigeon",
+          "caption": "Trafalgar Square｜左边切鸽身、顶边切行人上身：红脚与鞋尖在边线对节奏",
+          "w": 2000,
+          "h": 1326
+        }
+      ],
+      "links": [
+        {
+          "label": "mattstuart.com · All That Life Can Afford Gallery",
+          "url": "https://www.mattstuart.com/all-that-life-can-afford-gallery"
+        },
+        {
+          "label": "mattstuart.com",
+          "url": "https://www.mattstuart.com/"
+        },
+        {
+          "label": "Books",
+          "url": "https://www.mattstuart.com/books"
+        },
+        {
+          "label": "About / Bio",
+          "url": "https://www.mattstuart.com/about"
         }
       ]
     }
