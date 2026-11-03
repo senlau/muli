@@ -16,6 +16,7 @@ on:
       - "aesthetic/**"
       - "28mm/**"
       - "meaning/**"
+      - "portrait-craft/**"
       - ".nojekyll"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
@@ -55,7 +56,7 @@ jobs:
           rm -rf _site
           mkdir -p _site
           cp ./*.html favicon.svg .nojekyll _site/
-          for dir in css js fonts data photographer aesthetic 28mm meaning; do
+          for dir in css js fonts data photographer aesthetic 28mm meaning portrait-craft; do
             if [ -d "$dir" ]; then cp -a "$dir" _site/; fi
           done
 

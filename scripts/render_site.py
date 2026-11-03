@@ -15,6 +15,7 @@ STREAMS = [
     {"key": "photographer", "folder": "photographer", "hash": "photographer", "label": "摄影师", "section": "learn"},
     {"key": "aesthetic", "folder": "aesthetic", "hash": "aesthetic", "label": "视觉语言", "section": "learn"},
     {"key": "28mm", "folder": "28mm", "hash": "28mm", "label": "28mm 专题", "section": "practice"},
+    {"key": "portrait-craft", "folder": "portrait-craft", "hash": "portrait-craft", "label": "人像技巧", "section": "practice"},
     {"key": "meaning", "folder": "meaning", "hash": "meaning", "label": "故事", "section": "life"},
 ]
 STREAM = {item["key"]: item for item in STREAMS}
@@ -22,7 +23,8 @@ STREAM_ORDER = {item["key"]: index for index, item in enumerate(STREAMS)}
 STREAM_HREF = {
     "photographer": "learn.html#photographer",
     "aesthetic": "learn.html#aesthetic",
-    "28mm": "practice.html",
+    "28mm": "practice.html#28mm",
+    "portrait-craft": "practice.html#portrait-craft",
     "meaning": "life.html",
 }
 
@@ -40,9 +42,10 @@ CREDIT = "觉非的 Grok Bot 作品"
 WEEKDAYS = "一二三四五六日"
 
 PRACTICE_PLAN = "只带一支 28mm 出门：先走近，再降低机位，再侧移半步。每课只练一件事，按顺序读。"
+PORTRAIT_PLAN = "人像技巧：每天一刀，练当场怎么站、怎么喊、怎么改距。审美认戏，这里交动作。"
 LIFE_DEK = "摄影师在抑郁、焦虑和流离之中，怎样借一台相机重新出门、开口。"
 ABOUT = [
-    "这里按篇整理对摄影作品的看法：每篇先给一个判断，再用作品逐张说明，最后留一个出门就能做的练习。摄影师与视觉语言大致每天一篇，28mm 专题按课推进，人物故事不定期更新。",
+    "这里按篇整理对摄影作品的看法：每篇先给一个判断，再用作品逐张说明，最后留一个出门就能做的练习。摄影师与视觉语言大致每天一篇，28mm 专题按课推进，人像技巧每天一刀，人物故事不定期更新。",
     "文中的「风格对照」常拿两位摄影师当坐标：Seiki Hayashi 的静滞与负空间，Alex Webb 的彩色叠层。坐标只用来对照，不是边界。",
     "图片版权归原作者。每篇文末列出作品出处与延伸阅读。",
 ]
@@ -68,8 +71,17 @@ RENAME = [
     (re.compile(r"^技巧"), "为什么成立"),
     (re.compile(r"^可借力点"), "可以借用的做法"),
     (re.compile(r"^出处"), "资料来源"),
+    (re.compile(r"^刀口一句话"), "核心判断"),
+    (re.compile(r"^看什么"), "在看什么"),
+    (re.compile(r"^常见废"), "常见问题"),
+    (re.compile(r"^现场口令"), "现场口令"),
+    (re.compile(r"^对照练习"), "对照练习"),
+    (re.compile(r"^样片"), "作品观察"),
+    (re.compile(r"^与审美"), "风格对照"),
+    (re.compile(r"^出门可练"), "今日练习"),
+    (re.compile(r"^来源"), "资料来源"),
 ]
-DROP_SECTION = re.compile(r"^(类别|入口|查看更多|可合并进|课后补记)")
+DROP_SECTION = re.compile(r"^(类别|入口|查看更多|可合并进|课后补记|执行备忘|配图编排)")
 DROP_LINE = re.compile(r"(喜欢\s*/\s*一般\s*/\s*不感兴趣|回一句就行|有用\s*/\s*一般\s*/\s*想换方向|^\s*\*\*反馈\*\*)")
 INTERNAL = re.compile(
     r"(昨天|昨日|昨审美|（昨）|今早|今天上午|今天这位|已推|复推|复读|本周|周主题|选题硬规则|基于你|你点名|你已|你问过|你认|你喜欢|反馈|"
@@ -80,6 +92,7 @@ INTERNAL = re.compile(
 ORDER = {
     "核心判断": 0, "在看什么": 1, "作品观察": 2,
     "语言特征": 3, "为什么成立": 3, "看片时注意": 3, "判断词": 3, "为什么是 28mm": 3, "怎么站": 3,
+    "现场口令": 3, "对照练习": 3,
     "风格对照": 4, "常见问题": 5, "常见构图问题": 5, "今日练习": 6, "可以借用的做法": 6,
     "书与系列": 7, "资料来源": 8,
 }
@@ -111,7 +124,7 @@ def weekday(iso: str) -> str:
 
 
 def entry_id(entry: dict) -> str:
-    if entry["stream"] == "meaning" and entry.get("slug"):
+    if entry.get("slug"):
         return f'{entry["stream"]}-{entry["date"]}-{entry["slug"]}'
     return f'{entry["stream"]}-{entry["date"]}'
 
@@ -121,7 +134,7 @@ entry_dom_id = entry_id
 
 def entry_path(entry: dict) -> str:
     folder = STREAM[entry["stream"]]["folder"]
-    if entry["stream"] == "meaning" and entry.get("slug"):
+    if entry.get("slug"):
         return f'{folder}/{entry["date"]}-{entry["slug"]}.html'
     return f'{folder}/{entry["date"]}.html'
 
@@ -174,6 +187,8 @@ def title_of(entry: dict) -> str:
         title = re.sub(r"（[^）]*）", "", title)
     elif entry["stream"] == "28mm":
         title = re.sub(r"^第[一二三四五六七八九十\d]+课[：:]\s*", "", title)
+    elif entry["stream"] == "portrait-craft":
+        title = re.sub(r"^第[一二三四五六七八九十\d]+期[^｜|]*[｜|]\s*", "", title)
     return title.strip() or plain(entry.get("title") or "")
 
 
@@ -193,6 +208,12 @@ def subtitle_of(entry: dict) -> str:
     if entry["stream"] == "28mm":
         match = re.match(r"^(第[一二三四五六七八九十\d]+课)", title)
         return match.group(1) if match else (entry.get("category") or "")
+    if entry["stream"] == "portrait-craft":
+        match = re.match(r"^(第[一二三四五六七八九十\d]+期)", title)
+        if match:
+            return match.group(1)
+        category = entry.get("category") or ""
+        return category if category.startswith("第") else ""
     subtitle = plain(entry.get("subtitle") or "")
     return subtitle if len(subtitle) <= 40 else ""
 
@@ -217,7 +238,7 @@ def dek_of(entry: dict) -> str:
 
 
 def lesson_label(entry: dict) -> str:
-    return subtitle_of(entry) if entry["stream"] == "28mm" else ""
+    return subtitle_of(entry) if entry["stream"] in ("28mm", "portrait-craft") else ""
 
 
 # ── article body ──────────────────────────────────────────────
@@ -232,6 +253,7 @@ def clean_raw(entry: dict, blocks: list[dict]) -> list[dict]:
         kind = block["type"]
         if kind == "heading":
             text = re.sub(r"\s*[·・]\s*(?:非)?惊喜\s*$", "", plain(block["text"]))
+            text = re.sub(r"^\d+\.\s+", "", text)
             if dropping is not None:
                 if block["level"] > dropping:
                     continue
@@ -251,6 +273,14 @@ def clean_raw(entry: dict, blocks: list[dict]) -> list[dict]:
             out.append({**block, "text": text})
             continue
         if dropping is not None or kind in ("code", "hr"):
+            continue
+        if kind == "quote":
+            flat = plain(block["text"])
+            if any(token in flat for token in ("人像技巧", "样片规则", "打样课", "课序", "Asia/Shanghai")):
+                continue
+            cleaned = scrub(block["text"])
+            if cleaned:
+                out.append({**block, "text": cleaned})
             continue
         if kind == "para":
             raw = block["text"]
@@ -447,6 +477,21 @@ class Page:
             elif kind == "image":
                 titled = previous is not None and previous["type"] == "heading"
                 out.append(self.plate(block, caption=not titled))
+            elif kind == "quote":
+                out.append(f"<blockquote><p>{self.text(block['text'])}</p></blockquote>")
+            elif kind == "table":
+                rows = block.get("rows") or []
+                if rows:
+                    head, body = rows[0], rows[1:]
+                    thead = "<thead><tr>" + "".join(f"<th>{self.text(cell)}</th>" for cell in head) + "</tr></thead>"
+                    tbody = ""
+                    if body:
+                        trs = []
+                        for row in body:
+                            padded = row + [""] * (len(head) - len(row))
+                            trs.append("<tr>" + "".join(f"<td>{self.text(cell)}</td>" for cell in padded[: len(head)]) + "</tr>")
+                        tbody = "<tbody>" + "".join(trs) + "</tbody>"
+                    out.append(f"<table>{thead}{tbody}</table>")
             elif kind == "hr":
                 out.append('<hr class="rule">')
             previous = block
@@ -583,6 +628,14 @@ class Site:
 </html>
 """
 
+    def sort_toggle(self) -> str:
+        return (
+            '<div class="sort" role="group" aria-label="排序">'
+            '<button type="button" class="sort-btn" data-sort="desc" aria-pressed="true">最新</button>'
+            '<button type="button" class="sort-btn" data-sort="asc" aria-pressed="false">最早</button>'
+            "</div>"
+        )
+
     def kicker(self, entry: dict) -> str:
         stream = STREAM[entry["stream"]]
         return f'<span class="kicker k-{stream["section"]}">{esc(stream["label"])}</span>'
@@ -616,7 +669,8 @@ class Site:
         sub = f'<span class="row-sub">{rich(subtitle)}</span>' if subtitle and not label else ""
         dek_html = f'<span class="row-dek">{rich(dek)}</span>' if dek else ""
         return (
-            f'<li class="row"><a class="row-link" href="{self.href(depth, entry_path(entry))}">'
+            f'<li class="row" data-date="{esc(entry["date"])}" data-slug="{esc(entry.get("slug") or "")}">'
+            f'<a class="row-link" href="{self.href(depth, entry_path(entry))}">'
             f'<span class="row-meta">{meta}</span>'
             f'<span class="row-text"><span class="row-title">{esc(title_of(entry))}</span>{sub}{dek_html}</span>'
             f"{self.strip(entry)}</a></li>"
@@ -627,7 +681,8 @@ class Site:
         date_html = f'<time datetime="{esc(entry["date"])}">{fmt_date(entry["date"])}</time>' if show_date else ""
         sub = f'<span class="ix-sub">{rich(subtitle)}</span>' if subtitle else ""
         return (
-            f'<li><a href="{self.href(depth, entry_path(entry))}">{date_html}{self.kicker(entry)}'
+            f'<li data-date="{esc(entry["date"])}" data-slug="{esc(entry.get("slug") or "")}">'
+            f'<a href="{self.href(depth, entry_path(entry))}">{date_html}{self.kicker(entry)}'
             f'<span class="ix-title">{esc(title_of(entry))}</span>{sub}</a></li>'
         )
 
@@ -755,9 +810,9 @@ class Site:
         panels = []
         for index, (key, label) in enumerate(tabs):
             rows = "".join(self.row(entry) for entry in self.by_stream[key])
-            panels.append(self.panel("", key, label, f'<ol class="rows">{rows}</ol>', index == 0))
+            panels.append(self.panel("", key, label, f'<ol class="rows" data-sortable>{rows}</ol>', index == 0))
         main = f"""<div class="page">
-  <header class="page-head"><h1>审美学习</h1></header>
+  <header class="page-head"><div class="page-head-text"><h1>审美学习</h1></div>{self.sort_toggle()}</header>
   <div class="tabs-head">{self.tablist("", "审美学习栏目", tabs, sync=True)}</div>
   {"".join(panels)}
 </div>"""
@@ -768,26 +823,38 @@ class Site:
         )
 
     def render_practice(self) -> str:
-        lessons = self.chronological("28mm")
-        rows = "".join(self.row(entry, label=esc(lesson_label(entry) or fmt_date(entry["date"]))) for entry in lessons)
+        tabs = []
+        if self.by_stream["28mm"]:
+            tabs.append(("28mm", "28mm 专题"))
+        if self.by_stream["portrait-craft"]:
+            tabs.append(("portrait-craft", "人像技巧"))
+        panels = []
+        copy = {"28mm": PRACTICE_PLAN, "portrait-craft": PORTRAIT_PLAN}
+        for index, (key, label) in enumerate(tabs):
+            rows = "".join(
+                self.row(entry, label=esc(lesson_label(entry) or fmt_date(entry["date"])))
+                for entry in self.by_stream[key]
+            )
+            body = f'<p class="series-dek">{esc(copy[key])}</p><ol class="rows" data-sortable>{rows}</ol>'
+            panels.append(self.panel("", key, label, body, index == 0))
+        tablist = self.tablist("", "摄影实践栏目", tabs, sync=True) if len(tabs) > 1 else ""
+        tabs_head = f'<div class="tabs-head">{tablist}</div>' if tablist else ""
         main = f"""<div class="page">
-  <header class="page-head"><h1>摄影实践</h1></header>
-  <section class="series" id="series-28mm" aria-labelledby="series-28mm-title">
-    <div class="series-head"><h2 id="series-28mm-title">28mm 专题</h2><p>{esc(PRACTICE_PLAN)}</p></div>
-    <ol class="rows">{rows}</ol>
-  </section>
+  <header class="page-head"><div class="page-head-text"><h1>摄影实践</h1></div>{self.sort_toggle()}</header>
+  {tabs_head}
+  {"".join(panels)}
 </div>"""
         return self.layout(
             depth=0, section="practice", title="摄影实践 · 目力",
-            description="28mm 专题：走近、低机位、侧移半步，每课一件出门就能练的事。",
+            description="28mm 专题与人像技巧：每课一件出门就能练的事。",
             main=main, path="practice.html",
         )
 
     def render_life(self) -> str:
         rows = "".join(self.row(entry) for entry in self.by_stream["meaning"])
         main = f"""<div class="page">
-  <header class="page-head"><h1>人物故事</h1><p class="page-dek">{esc(LIFE_DEK)}</p></header>
-  <ol class="rows">{rows}</ol>
+  <header class="page-head"><div class="page-head-text"><h1>人物故事</h1><p class="page-dek">{esc(LIFE_DEK)}</p></div>{self.sort_toggle()}</header>
+  <ol class="rows" data-sortable>{rows}</ol>
 </div>"""
         return self.layout(
             depth=0, section="life", title="人物故事 · 目力",
@@ -801,23 +868,25 @@ class Site:
             items = "".join(self.index_item(entry) for entry in topic["entries"])
             topic_html.append(
                 f'<section class="topic" id="topic-{esc(topic["slug"])}"><div class="topic-head"><h3>{esc(topic["name"])}</h3>{note}</div>'
-                f'<ul class="index">{items}</ul></section>'
+                f'<ul class="index" data-sortable>{items}</ul></section>'
             )
         untagged = [entry for entry in self.entries if not entry.get("topics")]
         if untagged:
             items = "".join(self.index_item(entry) for entry in untagged)
             topic_html.append(
-                f'<section class="topic" id="topic-other"><div class="topic-head"><h3>其他</h3></div><ul class="index">{items}</ul></section>'
+                f'<section class="topic" id="topic-other"><div class="topic-head"><h3>其他</h3></div>'
+                f'<ul class="index" data-sortable>{items}</ul></section>'
             )
         people_html = []
         for person in self.people:
             items = "".join(
-                f'<li><a href="{entry_path(entry)}">{self.kicker(entry)}<span class="ix-title">{esc(title_of(entry))}</span></a></li>'
+                f'<li data-date="{esc(entry["date"])}" data-slug="{esc(entry.get("slug") or "")}">'
+                f'<a href="{entry_path(entry)}">{self.kicker(entry)}<span class="ix-title">{esc(title_of(entry))}</span></a></li>'
                 for entry in person["entries"]
             )
             people_html.append(
                 f'<section class="person" id="person-{esc(person["slug"])}"><h3>{esc(person["name"])}</h3>'
-                f'<ul class="mini">{items}</ul></section>'
+                f'<ul class="mini" data-sortable>{items}</ul></section>'
             )
         days: dict[str, list[dict]] = {}
         for entry in self.entries:
@@ -826,20 +895,20 @@ class Site:
         for day, found in days.items():
             items = "".join(self.index_item(entry, show_date=False) for entry in found)
             day_html.append(
-                f'<section class="day"><h3><time datetime="{esc(day)}">{fmt_date(day)}</time>'
+                f'<section class="day" data-date="{esc(day)}"><h3><time datetime="{esc(day)}">{fmt_date(day)}</time>'
                 f'<span class="weekday">{weekday(day)}</span></h3><ul class="index">{items}</ul></section>'
             )
         tabs = [("topics", "按主题"), ("people", "按作者"), ("timeline", "按时间")]
         bodies = {
             "topics": f'<div class="topics">{"".join(topic_html)}</div>',
             "people": f'<div class="people">{"".join(people_html)}</div>',
-            "timeline": f'<div class="timeline">{"".join(day_html)}</div>',
+            "timeline": f'<div class="timeline" data-sortable>{"".join(day_html)}</div>',
         }
         panels = "".join(self.panel("", key, label, bodies[key], index == 0) for index, (key, label) in enumerate(tabs))
         first = self.entries[-1]["date"] if self.entries else ""
         span = f"{fmt_date(first)} — {fmt_date(self.latest)} · {len(self.entries)} 篇" if self.entries else ""
         main = f"""<div class="page">
-  <header class="page-head"><h1>归档</h1><p class="page-meta">{span}</p></header>
+  <header class="page-head"><div class="page-head-text"><h1>归档</h1><p class="page-meta">{span}</p></div>{self.sort_toggle()}</header>
   <div class="tabs-head">{self.tablist("", "归档方式", tabs, sync=True)}</div>
   {panels}
 </div>"""
@@ -985,9 +1054,11 @@ class Site:
         return (
             "<script>(function(){var k=" + known + ",s=" + sections + ","
             "h=location.hash.slice(1),q=new URLSearchParams(location.search),t=q.get('tab'),n=q.get('entry'),"
-            "m={photographer:'photographer',aesthetic:'aesthetic','28mm':'28mm',mm28:'28mm',meaning:'meaning'};"
+            "m={photographer:'photographer',aesthetic:'aesthetic','28mm':'28mm',mm28:'28mm',"
+            "meaning:'meaning','portrait-craft':'portrait-craft'};"
             "if(t&&m[t])h=m[t]+(n?'-'+n:'');"
-            "var u=k[h];if(!u){var p=/^(photographer|aesthetic|28mm|meaning)(?:-|$)/.exec(h);u=p?s[p[1]]:s[h];}"
+            "var u=k[h];if(!u){var p=/^(photographer|aesthetic|28mm|meaning|portrait-craft)(?:-|$)/.exec(h);"
+            "u=p?s[p[1]]:s[h];}"
             "if(u)location.replace(u);})();</script>"
         )
 

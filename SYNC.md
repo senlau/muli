@@ -10,7 +10,7 @@
 
 摄影与人生（vault 里叫意义长卷）和另外三个栏目相对独立，不定期更新。
 
-## 四个栏目的本地文件
+## 栏目的本地文件
 
 工作目录里认这些路径（日期用 `YYYY-MM-DD`）：
 
@@ -18,10 +18,12 @@
 | --- | --- | --- |
 | 摄影师 | `daily/YYYY-MM-DD/recommendation.md` | `photographer/YYYY-MM-DD.html` |
 | 视觉语言 | `daily/YYYY-MM-DD-aesthetic/lesson.md` | `aesthetic/YYYY-MM-DD.html` |
+| 视觉语言（同日加更） | `daily/YYYY-MM-DD-aesthetic-{slug}/lesson.md` | `aesthetic/YYYY-MM-DD-{slug}.html` |
 | 28mm 专题 | `28mm/YYYY-MM-DD/lesson.md` | `28mm/YYYY-MM-DD.html` |
+| 人像技巧 | `人像技巧/YYYY-MM-DD-中文名.md` | `portrait-craft/YYYY-MM-DD-{slug}.html` |
 | 摄影与人生 | `daily/meaning-stories/YYYY-MM-DD/` 或 `意义长卷.md` | `meaning/YYYY-MM-DD-{slug}.html` |
 
-只把 `lesson.md` / `recommendation.md` 当正课。`28mm` 下面的 garden 出行参考、`SOURCES.md`、聊天稿，不会单独入库。视觉语言只谈风格和类型，不要放构图技法课；站位、换位留在 28mm 专题。
+只把 `lesson.md` / `recommendation.md` 当正课。`28mm` 下面的 garden 出行参考、`SOURCES.md`、聊天稿，不会单独入库。视觉语言只谈风格和类型，不要放构图技法课；站位、换位留在 28mm 专题。人像技巧是独立线（practice 标签「人像技巧」），同日多课必须带 slug，中文文件名映射见 `scripts/ingest.py` 的 `PORTRAIT_CRAFT_SLUGS`。视觉语言同日加更也必须带 slug（例如 `relation`），不可覆盖当天已有的审美课。
 
 摄影与人生：
 - 同一日期可有多条故事（按作者/主题分 slug），文件名 `YYYY-MM-DD-{slug}.md`
@@ -87,7 +89,7 @@ git push origin main
 ```yaml
 date: "2026-10-28"
 title: "何藩 Fan Ho"
-stream: "photographer"    # photographer | aesthetic | 28mm | meaning
+stream: "photographer"    # photographer | aesthetic | 28mm | portrait-craft | meaning
 subtitle: "香港 · 光楔与剪影"
 summary: "他用楼梯、烟尘和从楼缝楔进来的阳光……"   # 导语：标题下、卡片和 meta description 都用它
 category: "大师"
@@ -97,12 +99,14 @@ people: ["何藩 Fan Ho"]    # 可选：归档「按作者」
 thumbs: [{"src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/...", "alt": "...", "caption": "...", "w": 1200, "h": 800}]
 links: [{"label": "M+ 何藩馆藏", "url": "https://..."}]
 credit: "图片：..."        # 可选：文末的图片出处
-slug: "goldrei"           # 仅 meaning 需要，用于同日多条区分
+slug: "goldrei"           # meaning / 人像技巧 / 视觉语言同日加更：同日多条区分
 edited: true              # 可选：人工编辑过，同步不再覆盖
 featured: true            # 可选：指定首页的本期精选
 ```
 
 - `topics` 的名字对应 `content/topics.json` 里的 `name`，那里定 slug（`archive.html#topic-<slug>`）和排序。新名字会自动成为一个主题，但 slug 是自动生成的；长期用的主题请加进 `topics.json`。
+- 对外标题去掉「惊喜／非惊喜」。Seiki Hayashi 只写罗马音。
+- 列表页（learn／practice／life／archive）默认最新在前，可用「最新」「最早」切换。
 - `thumbs[0]` 是卡片、首页大图和分享图。`thumbs` 里的图都应在正文出现一次；没放进正文的会补在第一个有图的小节末尾。
 - `links` 进文末「作品与延伸阅读」。正文里已经链过的地址不再重复列出。
 - 首页的本期精选默认取最新一天、按 摄影师 → 视觉语言 → 28mm 专题 → 摄影与人生 的顺序第一篇有图的文章。`featured: true` 会一直置顶（有多篇时取最新的一篇），换期时记得去掉。

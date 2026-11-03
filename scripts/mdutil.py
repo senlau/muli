@@ -9,7 +9,8 @@ from typing import Callable
 LINK = re.compile(r"\[([^\]]+)\]\(((?:https?://|#)[^)\s]+)\)")
 IMAGE_LINE = re.compile(r'^!\[([^\]]*)\]\((\S+?)(?:\s+"[^"]*")?\)$')
 LIST_ITEM = re.compile(r"^\s*([-*+]|\d+[.)])\s+")
-BLOCK_START = re.compile(r"^(#{1,6}\s+|[-*+]\s+|\d+[.)]\s+|!\[|```|~~~)")
+BLOCK_START = re.compile(r"^(#{1,6}\s+|[-*+]\s+|\d+[.)]\s+|!\[|```|~~~|>|\|)")
+TABLE_SEP = re.compile(r"^:?-+:?$")
 
 
 def plain(text: str) -> str:
@@ -108,6 +109,32 @@ def parse_blocks(md: str) -> list[dict]:
             blocks.append({"type": "image", "alt": match.group(1), "src": match.group(2)})
             i += 1
             continue
+        if stripped.startswith(">") and not stripped.startswith(">!"):
+            buf: list[str] = []
+            while i < len(lines):
+                nxt = lines[i].strip()
+                if not nxt.startswith(">"):
+                    break
+                buf.append(re.sub(r"^>\s?", "", nxt))
+                i += 1
+            text = join_lines(buf).strip()
+            if text:
+                blocks.append({"type": "quote", "text": text})
+            continue
+        if stripped.startswith("|") and "|" in stripped[1:]:
+            rows: list[list[str]] = []
+            while i < len(lines):
+                nxt = lines[i].strip()
+                if not nxt.startswith("|"):
+                    break
+                cells = [cell.strip() for cell in nxt.strip("|").split("|")]
+                i += 1
+                if cells and all(TABLE_SEP.match(re.sub(r"\s", "", cell)) for cell in cells):
+                    continue
+                rows.append(cells)
+            if rows:
+                blocks.append({"type": "table", "rows": rows})
+            continue
         if LIST_ITEM.match(stripped):
             ordered = bool(re.match(r"^\d+[.)]\s+", stripped))
             marker = re.compile(r"^\s*\d+[.)]\s+" if ordered else r"^\s*[-*+]\s+")
@@ -123,7 +150,14 @@ def parse_blocks(md: str) -> list[dict]:
                     i += 1
                     continue
                 break
-            blocks.append({"type": "list", "ordered": ordered, "items": [join_lines(item) for item in items]})
+            cleaned = []
+            for item in items:
+                text = join_lines(item)
+                text = re.sub(r"^\[([ xX])\]\s+", "", text)
+                if text:
+                    cleaned.append(text)
+            if cleaned:
+                blocks.append({"type": "list", "ordered": ordered, "items": cleaned})
             continue
         para = [raw]
         i += 1
@@ -136,6 +170,19 @@ def parse_blocks(md: str) -> list[dict]:
             i += 1
         blocks.append({"type": "para", "text": join_lines(para)})
     return blocks
+
+
+def _table_html(rows: list[list[str]], format_cell: Callable[[str], str]) -> str:
+    if not rows:
+        return ""
+    head, body = rows[0], rows[1:]
+    thead = "<thead><tr>" + "".join(f"<th>{format_cell(cell)}</th>" for cell in head) + "</tr></thead>"
+    tbody_rows = []
+    for row in body:
+        padded = row + [""] * (len(head) - len(row))
+        tbody_rows.append("<tr>" + "".join(f"<td>{format_cell(cell)}</td>" for cell in padded[: len(head)]) + "</tr>")
+    tbody = "<tbody>" + "".join(tbody_rows) + "</tbody>" if tbody_rows else ""
+    return f"<table>{thead}{tbody}</table>"
 
 
 def md_to_html(md: str) -> str:
@@ -159,6 +206,10 @@ def md_to_html(md: str) -> str:
             out.append(f"<{tag}>{items}</{tag}>")
         elif kind == "image":
             out.append(f'<p><img src="{html.escape(block["src"], quote=True)}" alt="{html.escape(block["alt"], quote=True)}"></p>')
+        elif kind == "quote":
+            out.append(f"<blockquote><p>{inline(block['text'])}</p></blockquote>")
+        elif kind == "table":
+            out.append(_table_html(block["rows"], inline))
         elif kind == "hr":
             out.append("<hr>")
     return "\n".join(out)

@@ -382,11 +382,48 @@ figcaption {
 /* ── section pages ──────────────────────────────────── */
 
 .page { padding-top: 56px; padding-bottom: 104px; }
-.page-head { margin-bottom: 36px; }
+.page-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px 24px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+}
+.page-head-text { min-width: 0; }
 .page-head h1 { font-size: 40px; line-height: 1.25; }
 .page-dek { margin-top: 14px; max-width: var(--measure); font-size: 17px; line-height: 1.85; color: var(--ink-soft); }
 .page-meta { margin-top: 12px; font-size: 13px; color: var(--muted); letter-spacing: 0.04em; }
 .page > .tabs-head { margin-bottom: 4px; border-bottom: 1px solid var(--line); }
+
+.sort { display: flex; gap: 4px; flex: none; }
+.sort-btn {
+  appearance: none;
+  margin: 0;
+  padding: 6px 14px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.sort-btn:hover { color: var(--ink); }
+.sort-btn[aria-pressed="true"] {
+  background: var(--blue-soft);
+  color: var(--blue);
+  font-weight: 500;
+}
+
+.series-dek {
+  max-width: var(--measure);
+  margin: 8px 0 28px;
+  font-size: 16px;
+  line-height: 1.85;
+  color: var(--ink-soft);
+}
 
 .rows { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--line); }
 .row + .row { border-top: 1px solid var(--line); }
@@ -480,7 +517,27 @@ figcaption {
 .article-head .dek { margin-top: 24px; font-size: 18px; line-height: 1.9; color: var(--ink-soft); }
 
 .article-body { max-width: var(--wide); margin-inline: auto; }
-.article-body :is(p, ul, ol, h2, h3, hr) { max-width: var(--measure); margin-inline: auto; }
+.article-body :is(p, ul, ol, h2, h3, hr, table, blockquote) { max-width: var(--measure); margin-inline: auto; }
+.article-body blockquote {
+  margin-block: 0 1.2em;
+  padding-left: 16px;
+  border-left: 2px solid var(--line);
+  color: var(--ink-soft);
+}
+.article-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-block: 8px 1.4em;
+  font-size: 15px;
+}
+.article-body th,
+.article-body td {
+  border-bottom: 1px solid var(--line);
+  padding: 8px 12px 8px 0;
+  text-align: left;
+  vertical-align: top;
+}
+.article-body th { font-weight: 500; color: var(--muted); }
 .article-body p,
 .article-body li { font-size: 17px; line-height: 1.9; }
 .article-body p { margin-block: 0 1.05em; }

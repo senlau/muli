@@ -74,6 +74,50 @@
   followHash();
   window.addEventListener("hashchange", followHash);
 
+  /* ── list sort (newest first by default) ──────────── */
+
+  const SORT_KEY = "muli-sort";
+
+  function sortOrder() {
+    try {
+      return localStorage.getItem(SORT_KEY) === "asc" ? "asc" : "desc";
+    } catch (err) {
+      return "desc";
+    }
+  }
+
+  function applySort(order) {
+    document.querySelectorAll("[data-sortable]").forEach((list) => {
+      const items = Array.from(list.children);
+      items.sort((a, b) => {
+        const da = a.getAttribute("data-date") || "";
+        const db = b.getAttribute("data-date") || "";
+        const sa = a.getAttribute("data-slug") || "";
+        const sb = b.getAttribute("data-slug") || "";
+        const cmp = da === db ? sa.localeCompare(sb) : da.localeCompare(db);
+        return order === "desc" ? -cmp : cmp;
+      });
+      items.forEach((item) => list.appendChild(item));
+    });
+    document.querySelectorAll(".sort-btn").forEach((btn) => {
+      btn.setAttribute("aria-pressed", btn.getAttribute("data-sort") === order ? "true" : "false");
+    });
+  }
+
+  document.querySelectorAll(".sort-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const order = btn.getAttribute("data-sort") === "asc" ? "asc" : "desc";
+      try {
+        localStorage.setItem(SORT_KEY, order);
+      } catch (err) {
+        /* private mode */
+      }
+      applySort(order);
+    });
+  });
+
+  if (document.querySelector(".sort")) applySort(sortOrder());
+
   /* ── broken images ────────────────────────────────── */
 
   const BROKEN = "图片暂时无法加载";
