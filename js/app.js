@@ -74,6 +74,52 @@
   followHash();
   window.addEventListener("hashchange", followHash);
 
+  /* ── list sort: 最新 / 最早 ───────────────────────── */
+
+  const SORT_KEY = "muli-sort";
+  let sortOrder = "desc";
+  try {
+    sortOrder = sessionStorage.getItem(SORT_KEY) || "desc";
+  } catch (err) {
+    sortOrder = "desc";
+  }
+  if (sortOrder !== "asc" && sortOrder !== "desc") sortOrder = "desc";
+
+  function sortList(list, order) {
+    const items = Array.from(list.children);
+    items.sort((a, b) => {
+      const dateA = a.getAttribute("data-date") || "";
+      const dateB = b.getAttribute("data-date") || "";
+      if (dateA !== dateB) {
+        return order === "desc" ? dateB.localeCompare(dateA) : dateA.localeCompare(dateB);
+      }
+      const keyA = a.getAttribute("data-key") || "";
+      const keyB = b.getAttribute("data-key") || "";
+      return order === "desc" ? keyB.localeCompare(keyA) : keyA.localeCompare(keyB);
+    });
+    items.forEach((item) => list.appendChild(item));
+  }
+
+  function applySort(order) {
+    sortOrder = order;
+    document.querySelectorAll("[data-sortable]").forEach((list) => sortList(list, order));
+    document.querySelectorAll(".sort [data-sort]").forEach((btn) => {
+      const on = btn.getAttribute("data-sort") === order;
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.classList.toggle("is-active", on);
+    });
+    try {
+      sessionStorage.setItem(SORT_KEY, order);
+    } catch (err) {
+      /* private mode */
+    }
+  }
+
+  document.querySelectorAll(".sort [data-sort]").forEach((btn) => {
+    btn.addEventListener("click", () => applySort(btn.getAttribute("data-sort")));
+  });
+  applySort(sortOrder);
+
   /* ── broken images ────────────────────────────────── */
 
   const BROKEN = "图片暂时无法加载";

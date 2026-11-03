@@ -1,6 +1,6 @@
 # 目力
 
-摄影文章站，四个栏目：摄影师、视觉语言、28mm 专题、人物故事。
+摄影文章站，五个栏目：摄影师、视觉语言、28mm 专题、人像技巧、人物故事。
 
 站点：<https://senlau.github.io/muli/>
 
@@ -11,11 +11,11 @@ Settings → Pages 的 Source 是 **GitHub Actions**。推到 `main` 后，工�
 | 页面 | 内容 |
 | --- | --- |
 | `index.html` 首页 | 本期精选（最新一天的主图和选题）→ 近期文章（四个栏目切换，每栏三篇，不重复本期精选里已有的）→ 关于 `#about` |
-| `learn.html` 审美学习 | 两个标签：摄影师 `#photographer`、视觉语言 `#aesthetic` |
-| `practice.html` 摄影实践 | 28mm 专题，按课的顺序排，不设标签 |
+| `learn.html` 审美学习 | 两个标签：摄影师 `#photographer`、视觉语言 `#aesthetic`。列表默认最新在前，可用「最新／最早」切换 |
+| `practice.html` 摄影实践 | 两个标签：28mm 专题 `#28mm`、人像技巧 `#portrait-craft`。列表默认最新在前 |
 | `life.html` 人物故事 | 全部故事，新的在前。首页标签、面包屑和文章小标签用短名「故事」 |
-| `archive.html` 归档 | 三个标签：按主题 `#topics`、按作者 `#people`、按时间 `#timeline` |
-| `photographer/` `aesthetic/` `28mm/` `meaning/` | 每篇一页，如 `photographer/2026-10-28.html`、`meaning/2026-10-28-mannell.html` |
+| `archive.html` 归档 | 三个标签：按主题 `#topics`、按作者 `#people`、按时间 `#timeline`。列表默认最新在前 |
+| `photographer/` `aesthetic/` `28mm/` `portrait-craft/` `meaning/` | 每篇一页，如 `photographer/2026-10-28.html`、`portrait-craft/2026-11-03-multi-stance.html`、`meaning/2026-10-28-mannell.html` |
 
 分法：要专门去的地方做成页面；同一类内容换个角度看，做成标签。每篇文章都是独立页面，可以直接分享。
 
@@ -31,7 +31,8 @@ Settings → Pages 的 Source 是 **GitHub Actions**。推到 `main` 后，工�
 | --- | --- |
 | `index.html#photographer-2026-10-27`、`#meaning-2026-10-27-goldrei` | 对应的文章页 |
 | `#photographer`、`#aesthetic` | `learn.html` 的对应标签 |
-| `#28mm` | `practice.html` |
+| `#28mm` | `practice.html#28mm` |
+| `#portrait-craft` | `practice.html#portrait-craft` |
 | `#meaning` | `life.html` |
 | `?tab=aesthetic&entry=2026-10-27`（含 `tab=mm28`） | 同上规则 |
 
@@ -66,17 +67,18 @@ python3 -m http.server 8765
 | 路径 | 作用 |
 | --- | --- |
 | `index.html` `learn.html` `practice.html` `life.html` `archive.html` | 生成的栏目页，不要手改 |
-| `photographer/` `aesthetic/` `28mm/` `meaning/` | 生成的文章页，不要手改 |
+| `photographer/` `aesthetic/` `28mm/` `portrait-craft/` `meaning/` | 生成的文章页，不要手改 |
 | `css/site.css` | 版式；颜色变量沿用原来的配色 |
 | `js/app.js` | 标签切换、灯箱、坏图占位 |
 | `fonts/` | 阿里巴巴普惠体 3.0 与法律声明 |
 | `content/photographer/` | 摄影师 |
 | `content/aesthetic/` | 视觉语言 |
 | `content/28mm/` | 28mm 专题 |
+| `content/portrait-craft/` | 人像技巧 |
 | `content/meaning/` | 人物故事 |
 | `content/topics.json` | 主题表，用于归档「按主题」和文末「同一主题」 |
 | `data/catalog.json` | 给同步脚本和检索用的结构化目录 |
 | `scripts/ingest.py` | 写入内容并重写全部页面 |
 | `scripts/render_site.py` | 页面模板 |
 
-栏目分工：视觉语言只谈风格和类型，不收构图技法；站位、换位这类练习放在 28mm 专题；人物故事不定期更新，和另外三个栏目互不依赖。
+栏目分工：视觉语言只谈风格和类型，不收构图技法；站位、换位这类练习放在 28mm 专题；人像技巧练当场怎么拍成（引导／距离／姿态），与审美「认好肖像」分开；人物故事不定期更新。

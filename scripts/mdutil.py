@@ -9,7 +9,18 @@ from typing import Callable
 LINK = re.compile(r"\[([^\]]+)\]\(((?:https?://|#)[^)\s]+)\)")
 IMAGE_LINE = re.compile(r'^!\[([^\]]*)\]\((\S+?)(?:\s+"[^"]*")?\)$')
 LIST_ITEM = re.compile(r"^\s*([-*+]|\d+[.)])\s+")
-BLOCK_START = re.compile(r"^(#{1,6}\s+|[-*+]\s+|\d+[.)]\s+|!\[|```|~~~)")
+BLOCK_START = re.compile(r"^(#{1,6}\s+|[-*+]\s+|\d+[.)]\s+|!\[|```|~~~|\|)")
+TABLE_ROW = re.compile(r"^\s*\|.+\|\s*$")
+TABLE_SEP = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*$")
+
+
+def split_cells(line: str) -> list[str]:
+    text = line.strip()
+    if text.startswith("|"):
+        text = text[1:]
+    if text.endswith("|"):
+        text = text[:-1]
+    return [cell.strip() for cell in text.split("|")]
 
 
 def plain(text: str) -> str:
@@ -108,6 +119,17 @@ def parse_blocks(md: str) -> list[dict]:
             blocks.append({"type": "image", "alt": match.group(1), "src": match.group(2)})
             i += 1
             continue
+        if TABLE_ROW.match(stripped) and not TABLE_SEP.match(stripped):
+            rows: list[str] = []
+            while i < len(lines) and TABLE_ROW.match(lines[i].strip()):
+                rows.append(lines[i].strip())
+                i += 1
+            body_rows = [split_cells(row) for row in rows if not TABLE_SEP.match(row)]
+            if body_rows:
+                header = body_rows[0]
+                rest = body_rows[1:]
+                blocks.append({"type": "table", "header": header, "rows": rest})
+            continue
         if LIST_ITEM.match(stripped):
             ordered = bool(re.match(r"^\d+[.)]\s+", stripped))
             marker = re.compile(r"^\s*\d+[.)]\s+" if ordered else r"^\s*[-*+]\s+")
@@ -159,6 +181,13 @@ def md_to_html(md: str) -> str:
             out.append(f"<{tag}>{items}</{tag}>")
         elif kind == "image":
             out.append(f'<p><img src="{html.escape(block["src"], quote=True)}" alt="{html.escape(block["alt"], quote=True)}"></p>')
+        elif kind == "table":
+            head = "".join(f"<th>{inline(cell)}</th>" for cell in block["header"])
+            rows = []
+            for row in block["rows"]:
+                cells = "".join(f"<td>{inline(cell)}</td>" for cell in row)
+                rows.append(f"<tr>{cells}</tr>")
+            out.append(f"<table><thead><tr>{head}</tr></thead><tbody>{''.join(rows)}</tbody></table>")
         elif kind == "hr":
             out.append("<hr>")
     return "\n".join(out)
