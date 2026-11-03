@@ -167,7 +167,7 @@ def title_of(entry: dict) -> str:
     title = plain(entry.get("title") or "")
     if entry.get("edited"):
         return title
-    title = re.sub(r"\s*·\s*非惊喜\s*$", "", title)
+    title = re.sub(r"\s*[·・]\s*(?:非)?惊喜\s*$", "", title)
     if entry["stream"] == "photographer":
         title = re.sub(r"（[^）]*）\s*$", "", title)
     elif entry["stream"] == "aesthetic":
@@ -201,6 +201,7 @@ def dek_of(entry: dict) -> str:
     text = plain(entry.get("summary") or "")
     if entry.get("edited"):
         return text
+    text = re.sub(r"\s*[·・]\s*(?:非)?惊喜\s*$", "", text)
     subtitle = plain(entry.get("subtitle") or "")
     if entry["stream"] == "photographer" and len(subtitle) >= 24:
         text = subtitle
@@ -230,7 +231,7 @@ def clean_raw(entry: dict, blocks: list[dict]) -> list[dict]:
     for block in blocks:
         kind = block["type"]
         if kind == "heading":
-            text = re.sub(r"\s*·\s*非惊喜\s*$", "", plain(block["text"]))
+            text = re.sub(r"\s*[·・]\s*(?:非)?惊喜\s*$", "", plain(block["text"]))
             if dropping is not None:
                 if block["level"] > dropping:
                     continue
