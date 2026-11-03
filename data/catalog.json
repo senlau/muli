@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-11-03T12:00:49.128135+08:00",
+  "generatedAt": "2026-11-03T21:22:25.982737+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
-    "photographer": 12,
-    "aesthetic": 11,
-    "28mm": 5,
-    "meaning": 12
+    "photographer": 13,
+    "aesthetic": 13,
+    "28mm": 6,
+    "portrait-craft": 2,
+    "meaning": 13
   },
   "topics": [
     {
@@ -405,6 +406,81 @@
         {
           "label": "Ricoh GR Official｜森山大道 银座 GR III 图库",
           "url": "https://www.grblog.jp/en/article/1461/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "title": "第六课：边线咬合／等人进边",
+      "stream": "28mm",
+      "url": "28mm/2026-11-03.html",
+      "subtitle": "边线咬合／等人进边",
+      "summary": "上一课用门洞／橱窗当净面容器。这一课把尺子挪到取景器四边本身：人、伞、招牌、手肩——等人干净地进边，或被边干净地切。不是框中框（建筑容器），不是侧移解粘，不是斜构图。",
+      "category": "第六课",
+      "tags": [
+        "第六课",
+        "28mm"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-26-winogrand-nyc-1973-edge.webp",
+          "alt": "Garry Winogrand New York City 1973 edge bite",
+          "caption": "Winogrand｜New York City · 1973",
+          "w": 1400,
+          "h": 932
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-27-winogrand-nyc-ca1970-shoulder.webp",
+          "alt": "Garry Winogrand New York ca 1970 shoulder edge",
+          "caption": "Winogrand｜New York · 约 1970",
+          "w": 1052,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-28-moriyama-ginza-uniqlo-R0000407.webp",
+          "alt": "Daido Moriyama Ginza Uniqlo GR III R0000407",
+          "caption": "森山大道｜银座 GR III · Uniqlo 边咬",
+          "w": 1120,
+          "h": 747
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-29-moriyama-ginza-crowd-R0000410.webp",
+          "alt": "Daido Moriyama Ginza crowd GR III R0000410",
+          "caption": "森山大道｜银座 GR III · 双向边咬",
+          "w": 1120,
+          "h": 747
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-30-webb-istanbul-barbershop-2001.webp",
+          "alt": "Alex Webb Istanbul barbershop Taksim 2001",
+          "caption": "Alex Webb｜Istanbul 理发店 · 2001",
+          "w": 1600,
+          "h": 1070
+        }
+      ],
+      "links": [
+        {
+          "label": "Fraenkel｜Garry Winogrand In the Street",
+          "url": "https://fraenkelgallery.com/portfolios/garry-winogrand-in-the-street"
+        },
+        {
+          "label": "Fraenkel｜Women are Beautiful",
+          "url": "https://fraenkelgallery.com/portfolios/garry-winogrand-women-are-beautiful"
+        },
+        {
+          "label": "Ricoh GR Official｜森山大道 银座 GR III 图库",
+          "url": "https://www.grblog.jp/en/article/1461/"
+        },
+        {
+          "label": "Magnum｜Alex Webb City of a Hundred Names",
+          "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/alex-webb-city-of-hundred-names/"
+        },
+        {
+          "label": "Magnum｜Alex Webb barbershop Istanbul 2001",
+          "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/alex-webb-city-of-hundred-names/attachment/nyc28135-3/"
         }
       ]
     },
@@ -1130,6 +1206,155 @@
         {
           "label": "Eric Grigorian｜2003 Photo of the Year（World Press Photo）",
           "url": "https://www.worldpressphoto.org/collection/photo-contest/2003/eric-grigorian/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "title": "关系可读（Readable Relation）",
+      "stream": "aesthetic",
+      "url": "aesthetic/2026-11-02-relation.html",
+      "subtitle": "",
+      "summary": "人像审美第一课（加更）。由 Portrait of Humanity（BJP）勾起整期人像审美：光影／构图／故事／情节／内涵，不是「人进框即过」。课序已定：关系可读 → 情节一瞬 → 手与身体说话 → 环境肖像 → 留白与压迫 → 脸里有戏 → 光塑脸。",
+      "category": "",
+      "tags": [
+        "Readable Relation"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261102-bouju-najaf-father-son.webp",
+          "alt": "Jean-Marc Bouju Najaf father son",
+          "caption": "Bouju｜Najaf｜蒙头父亲安抚幼子",
+          "w": 1600,
+          "h": 1140
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261102-nissen-first-embrace.webp",
+          "alt": "Mads Nissen First Embrace",
+          "caption": "Nissen｜São Paulo｜隔帘第一拥抱",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261102-smith-kosovo-widow.webp",
+          "alt": "Dayna Smith Kosovo widow",
+          "caption": "Smith｜Kosovo｜亲友环抱安慰遗孀",
+          "w": 1600,
+          "h": 1056
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261102-kenare-bam-father-sons.webp",
+          "alt": "Atta Kenare Bam father sons",
+          "caption": "Kenare｜Bam｜父亲抱两子去下葬",
+          "w": 1600,
+          "h": 1040
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261102-moore-border-crying-girl.webp",
+          "alt": "John Moore Crying Girl on the Border",
+          "caption": "Moore｜McAllen｜母女边境瞬间断裂",
+          "w": 1600,
+          "h": 1100
+        }
+      ],
+      "links": [
+        {
+          "label": "Jean-Marc Bouju｜2004 Photo of the Year（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2004/jean-marc-bouju/1"
+        },
+        {
+          "label": "Mads Nissen｜The First Embrace（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2021/mads-nissen/1"
+        },
+        {
+          "label": "Dayna Smith｜1999 Photo of the Year（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/1999/dayna-smith/1"
+        },
+        {
+          "label": "Atta Kenare｜Bam Earthquake（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2004/atta-kenare/1"
+        },
+        {
+          "label": "John Moore｜Crying Girl on the Border（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2019/john-moore/1"
+        }
+      ],
+      "slug": "relation"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "贴边张力（Edge Tension）",
+      "stream": "aesthetic",
+      "url": "aesthetic/2026-11-03.html",
+      "subtitle": "",
+      "summary": "本周城市练习小问题仍是边缘控制（2026-11-02–11-08）。晨间摄影师 Shin Noguchi 用取景器四边咬人／伞／招；今日 28mm「边线咬合／等人进边」练的是站位与等人进缝。本课主菜换一把认风格刀：贴边张力——不问「等不等到人进缝」，问「人／关键形是否已经压在或被咬进框边，张力是否成立」。",
+      "category": "",
+      "tags": [
+        "Edge Tension"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261103-perkins-bus-boy.webp",
+          "alt": "Lucian Perkins boy in Chechnya bus window",
+          "caption": "Perkins｜Chechnya｜双手顶窗上沿、头抵下沿",
+          "w": 1600,
+          "h": 1090
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261103-chang-wedding-limo.webp",
+          "alt": "Chien-Chi Chang exhausted wedding limo",
+          "caption": "张乾琦｜Taiwan｜新娘睡贴左窗、孩童咬右下角",
+          "w": 1600,
+          "h": 1053
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261103-murphy-tunnel-shaft.webp",
+          "alt": "Seamus Murphy Gaza tunnel shaft",
+          "caption": "Murphy｜Gaza｜下井人被左下角与底边咬住",
+          "w": 1600,
+          "h": 1047
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261103-nabrdalik-orphanage-corner.webp",
+          "alt": "Maciek Nabrdalik orphanage corner",
+          "caption": "Nabrdalik｜Warsaw｜女孩贴墙角底边与左边",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261103-pistilli-train-window.webp",
+          "alt": "Francesco Pistilli Belgrade train window",
+          "caption": "Pistilli｜Belgrade｜人贴方窗，窗框四面咬住",
+          "w": 1600,
+          "h": 1067
+        }
+      ],
+      "links": [
+        {
+          "label": "Lucian Perkins｜1996 Photo of the Year（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/1996/lucian-perkins/1"
+        },
+        {
+          "label": "Chien-Chi Chang｜Daily Life 1998（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/1998/chien-chi-chang/1"
+        },
+        {
+          "label": "Seamus Murphy｜Gaza tunnels（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2006/seamus-murphy/6"
+        },
+        {
+          "label": "Maciek Nabrdalik｜Nicolette at the orphanage（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2014/maciek-nabrdalik/1"
+        },
+        {
+          "label": "Francesco Pistilli｜Lives In Limbo（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2018/francesco-pistilli/3"
         }
       ]
     },
@@ -2036,6 +2261,89 @@
       "slug": "fotokids"
     },
     {
+      "date": "2026-11-03",
+      "title": "Paul Sanders：从每天审两万张图，到为自己慢拍",
+      "stream": "meaning",
+      "url": "meaning/2026-11-03-sanders.html",
+      "subtitle": "",
+      "summary": "英国摄影师／前《泰晤士报》图片主编（2004–2011）；离职后以长曝光风景为治疗，系列／手工书 Solace，工作室 Still：discoverstill.com。",
+      "category": "28mm专题",
+      "tags": [
+        "28mm专题"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261103-sanders-lyme-regis.webp",
+          "alt": "Paul Sanders Solace Lyme Regis long exposure pier wave",
+          "caption": "Lyme Regis｜Solace · 防波堤长曝光撞浪",
+          "w": 1250,
+          "h": 893
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261103-sanders-sycamore-gap.webp",
+          "alt": "Paul Sanders Solace Sycamore Gap Hadrian Wall tree",
+          "caption": "Sycamore Gap｜Solace · 哈德良长城边孤树",
+          "w": 1200,
+          "h": 388
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261103-sanders-scotland-pano.webp",
+          "alt": "Paul Sanders Solace Scotland panorama loch island",
+          "caption": "Scotland panorama｜Solace · 湖中一岛长曝光",
+          "w": 800,
+          "h": 414
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261103-sanders-glen-coe.webp",
+          "alt": "Paul Sanders Solace Glen Coe frosted trees mist",
+          "caption": "Glen Coe｜Solace · 雾雪里的树丛",
+          "w": 1250,
+          "h": 530
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261103-sanders-cornwall-copse.webp",
+          "alt": "Paul Sanders Solace Cornwall Copse trees on ridge",
+          "caption": "Cornwall Copse｜Solace · 山脊孤立树丛",
+          "w": 1250,
+          "h": 623
+        }
+      ],
+      "links": [
+        {
+          "label": "Still｜discoverstill.com",
+          "url": "https://www.discoverstill.com/"
+        },
+        {
+          "label": "Solace 版画／作品向",
+          "url": "https://www.discoverstill.com/prints"
+        },
+        {
+          "label": "Photo Space｜SOLACE 展（2018）",
+          "url": "https://tpsc.online/exhibitions/pauls"
+        },
+        {
+          "label": "Still About｜Paul Sanders",
+          "url": "https://www.discoverstill.com/about"
+        },
+        {
+          "label": "Amateur Photographer｜How mindful photography brought me back from the brink",
+          "url": "https://amateurphotographer.com/technique/interviews/how-mindful-photography-brought-me-back-from-the-brink/"
+        },
+        {
+          "label": "Biblioscapes｜Solace",
+          "url": "https://biblioscapes.com/library/solace"
+        },
+        {
+          "label": "the Photo Space｜SOLACE（2018-10-17）",
+          "url": "https://tpsc.online/exhibitions/pauls"
+        }
+      ],
+      "slug": "sanders"
+    },
+    {
       "date": "2026-10-22",
       "title": "Graciela Iturbide",
       "stream": "photographer",
@@ -2900,6 +3208,278 @@
           "url": "https://www.mattstuart.com/about"
         }
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Shin Noguchi（新锐 · 日本／镰仓·东京）",
+      "stream": "photographer",
+      "url": "photographer/2026-11-03.html",
+      "subtitle": "",
+      "summary": "本周练：边缘控制（2026-11-02–11-08）——框四边切什么、角里进什么、贴边是否可读；误切头脚／招牌半截／第三者脚尖当废法记。今天这位用日本日常街景把取景器四边当构图刀：人、伞、招牌、孩子被顶边或侧边咬住仍可读——不是昨 Matt Stuart 伦敦街具＋框边巧合幽默，也不是 Kanemura 基础设施蛛网、Hayashi 地方黑白静滞。禁摆拍、禁无取景器乱扫；等的是电影感人性一瞬，不是街头道具笑话。",
+      "category": "新锐 · 日本／镰仓·东京（iN-PUBLiC／UP；*Something Here*）",
+      "tags": [
+        "新锐 · 日本／镰仓·东京（iN-PUBLiC／UP；*Something Here*）",
+        "新锐",
+        "日本",
+        "镰仓",
+        "东京"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/noguchi-shibuya-forehead-orange.webp",
+          "alt": "Shin Noguchi Shibuya forehead orange wall",
+          "caption": "涩谷｜额头贴橙墙：左／右边切行人与 TATTOO 招，顶切蓝棚——边咬仍保孤独可读",
+          "w": 1500,
+          "h": 1000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/noguchi-shibuya-ballgown.webp",
+          "alt": "Shin Noguchi Shibuya ballgown crossing",
+          "caption": "涩谷斑马线｜礼服站定：左边切半人、右下角咬孩脸——角探进仍电影",
+          "w": 1500,
+          "h": 1000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/noguchi-kamakura-kimono-umbrella.webp",
+          "alt": "Shin Noguchi Kamakura kimono red umbrella snow",
+          "caption": "镰仓小町雪｜红伞／红柱：右缘柱当刀切身，伞骨贴边仍可读",
+          "w": 1500,
+          "h": 1000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/noguchi-yellow-skirt-paving.webp",
+          "alt": "Shin Noguchi yellow skirt heels paving",
+          "caption": "雨夜街｜顶边切上身：黄裙对黄盲道，右缘切半腿——故意切示范",
+          "w": 1500,
+          "h": 1000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/noguchi-toy-gun-child.webp",
+          "alt": "Shin Noguchi child toy gun beach",
+          "caption": "海边活动区｜玩具枪：底边咬粉帽孩脸、右边切持枪孩、左边切橙衣——孩被边咬仍成立",
+          "w": 1500,
+          "h": 1000
+        }
+      ],
+      "links": [
+        {
+          "label": "shinnoguchiphotography.com · Something Here",
+          "url": "https://shinnoguchiphotography.com/photo/something_here/"
+        },
+        {
+          "label": "Something Here gallery",
+          "url": "https://shinnoguchiphotography.com/photo/something_here/"
+        },
+        {
+          "label": "shinnoguchiphotography.com",
+          "url": "https://shinnoguchiphotography.com/"
+        },
+        {
+          "label": "Lenscratch · Something Here",
+          "url": "https://lenscratch.com/2018/04/shin-noguchi-something-here/"
+        },
+        {
+          "label": "It's Nice That",
+          "url": "https://www.itsnicethat.com/articles/shin-noguchi-something-here-photography-240719"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "title": "近景半身肖像",
+      "stream": "portrait-craft",
+      "url": "portrait-craft/2026-11-03-half-body.html",
+      "subtitle": "第2期",
+      "summary": "近景半身＝用脚步把人框到「头—肩—手」可读，背景被压干净或有意留一层；眼神／嘴角／肩线先立住，再谈表情戏。",
+      "category": "第2期",
+      "tags": [
+        "第2期",
+        "人像技巧"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-hb01-michel-monk.webp",
+          "alt": "Monk chest-up portrait dark background 28mm",
+          "caption": "Christopher Michel｜EOS 5D Mark II · EXIF 28mm｜好在：紧胸像档钉死——脸居中带、鼻梁不鼓；红袍肩线可读；右手笔＋左手碗＝第三锚；身后灯柜虚成一层，没抢脸。",
+          "w": 1415,
+          "h": 2000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-hb02-leicaq-last-look.webp",
+          "alt": "Woman looking over shoulder half-body Leica Q",
+          "caption": "Drew Coffman｜LEICA Q · EXIF 28mm＝28eq｜好在：半身回望把肩线打开，眼神有落点；逆光只勾边不吃脸；绿叶压成一层，非字墙脏底。近了仍像「看人」，不像扫街怼脸。",
+          "w": 2000,
+          "h": 1333
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-hb04-mira-front-yellow.webp",
+          "alt": "MIRÁ body painting waist-up front portrait",
+          "caption": "Jimmy Baikovicius｜LEICA Q2 · EXIF 28mm＝28eq｜好在：腰上档位清楚，肩微侧有呼吸；展厅拱廊虚成一层，建筑再花也不穿头。摆拍意图明确。",
+          "w": 2000,
+          "h": 1334
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-hb03-leicaq-viewfinder.webp",
+          "alt": "Woman at telescope half-body hand on eyepiece",
+          "caption": "Drew Coffman｜LEICA Q · EXIF 28mm＝28eq｜好在：手扶目镜＝第三锚；脸在框中心带，手前探未变巨掌；城市虚成一层「在哪儿」。",
+          "w": 2000,
+          "h": 1333
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-hb06-mira-headdress.webp",
+          "alt": "Performer waist-up hands on hips headdress",
+          "caption": "Jimmy Baikovicius｜LEICA Q2 · EXIF 28mm＝28eq｜好在：双手有落点，肩线拉开；低机位抬气势仍控比例，未仰成鼻孔秀。体态先于表情。",
+          "w": 2000,
+          "h": 1645
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-hb07-mira-hands-reach.webp",
+          "alt": "Performer waist-up hands reaching forward",
+          "caption": "Jimmy Baikovicius｜LEICA Q2 · EXIF 28mm＝28eq｜好在：对照用——手朝镜头仍贴叙事、未夸张成废相巨掌；腰上档＋展厅顶作一层底。练「可控近」。",
+          "w": 1334,
+          "h": 2000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-hb05-mira-back-painting.webp",
+          "alt": "Back half-body shoulder line body painting",
+          "caption": "Jimmy Baikovicius｜LEICA Q2 · EXIF 28mm＝28eq｜好在：不一定要正脸——颈／肩胛／肩线自己说话；背上的画是叙事。半身背面仍是肖像意图。",
+          "w": 1334,
+          "h": 2000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-hb10-michelle-signing.webp",
+          "alt": "Michelle Obama signing half-body hand narrative",
+          "caption": "Amanda Lucidon｜EOS 5D Mark III · EXIF 28mm｜好在：手是主叙事（笔落点），镜中脸补眼神；头肩手分工清楚。",
+          "w": 1500,
+          "h": 1000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-hb09-leicaq-sipping-santa.webp",
+          "alt": "Close chest-up hands on mug lifestyle",
+          "caption": "Drew Coffman｜LEICA Q · EXIF 28mm＝28eq｜好在：近到胸像档，但手扶杯＋表情停顿＝有意图的近，不是扫街怼脸默认距；浅景深把背景压成灯点一层。",
+          "w": 2000,
+          "h": 1333
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-hb08-backpackers-chestup.webp",
+          "alt": "Backpackers chest-up couple posed selfie 27eq",
+          "caption": "Trougnouf｜FUJIFILM X-T1 · EXIF 18mm＝27eq｜好在：两肩贴合、头线齐，关系一眼可读；胸口以上裁切干净，山湖只作一层环境。自拍臂进框也没把脸挤成球鼻。",
+          "w": 1999,
+          "h": 1334
+        }
+      ],
+      "links": [],
+      "slug": "half-body"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "多人站位与关系位",
+      "stream": "portrait-craft",
+      "url": "portrait-craft/2026-11-03-multi-stance.html",
+      "subtitle": "第1期",
+      "summary": "两人及以上进框时，先立「关系位」——肩线别平行并排、视线有交接或明确不交、中间气口可读、高度差可用——再按快门。",
+      "category": "第1期",
+      "tags": [
+        "第1期",
+        "人像技巧"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-p01-michel-three-girls.webp",
+          "alt": "Three girls environmental portrait 28mm",
+          "caption": "Christopher Michel｜5D Mark II · EXIF 28mm｜三人坐姿三角：左倾肩、中持机、右看中——肩线错层＋视线枢纽",
+          "w": 1600,
+          "h": 1069
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-p03-powershed-trio.webp",
+          "alt": "Three builders standing portrait 28mm",
+          "caption": "Trougnouf｜ILCE-7C · EXIF 28eq｜三人站立小群：肩线微不齐、中间气口清楚——环境群像站位",
+          "w": 1600,
+          "h": 1049
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-p05-gilden-nyc-couple.webp",
+          "alt": "Gilden close couple linked arms",
+          "caption": "Bruce Gilden｜文献主力 28mm｜双人近距错肩挽臂——前后重叠可控，头缝可读",
+          "w": 837,
+          "h": 1280
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-p04-powershed-couple.webp",
+          "alt": "Couple arm around shoulder 28mm",
+          "caption": "Trougnouf｜ILCE-7C · EXIF 28eq｜挽肩触碰连结；双看镜头可作「合影模式」对照——先练触碰，再改口令互看",
+          "w": 1600,
+          "h": 1065
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-p08-souza-oval-layers.webp",
+          "alt": "Oval Office layered conversation 28mm",
+          "caption": "Pete Souza｜5D II + EF 28mm（Commons 分类）｜多层：右侧重对话交接 vs 前景背影／侧坐读稿——视线有交、有不交",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-p09-eod-helmet-help.webp",
+          "alt": "EOD helmet fitting two-person",
+          "caption": "Defense.gov｜Nikon D3 · EXIF 28eq｜双人协作：他看手／盔，她回看任务点——功能关系位",
+          "w": 1600,
+          "h": 1062
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-p12-field-aid-triangle.webp",
+          "alt": "Field medical aid triangle group",
+          "caption": "Defense.gov｜5D Mark II · EXIF 28mm｜跪坐三角共看伤处＋孩童回看——共看一点最强",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-p10-soldier-kids-reach.webp",
+          "alt": "Soldier reaching to children height gap",
+          "caption": "Defense.gov｜5D Mark II · EXIF 28mm｜伸手交接＋车斗高度差——视线与高度同时成立",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-p06-winogrand-worlds-fair.webp",
+          "alt": "Winogrand Worlds Fair bench clusters",
+          "caption": "Garry Winogrand｜文献主力 28mm｜长椅多簇：耳语密簇 vs 侧坐自顾——气口切分「谁在一场」",
+          "w": 1600,
+          "h": 1081
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-p02-souza-obama-children.webp",
+          "alt": "Obama with children height layers",
+          "caption": "Pete Souza｜5D Mark III · EXIF 28mm｜坐－站－抱：高度层把护／听读出来；一人看外＝轻出戏对照",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-p07-souza-watpho.webp",
+          "alt": "Obama Clinton monk walking colonnade",
+          "caption": "Pete Souza｜5D Mark III · EXIF 28mm｜前双人引导＋后随行辅——前后主辅，气口沿廊柱节奏",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261103-p11-fragers-podium-group.webp",
+          "alt": "Podium speaker with flanking aides",
+          "caption": "WH／Defense 公开｜D3S · EXIF 28eq｜讲台主＋侧列辅：主说话、辅不抢缝",
+          "w": 1600,
+          "h": 1065
+        }
+      ],
+      "links": [],
+      "slug": "multi-stance"
     }
   ]
 }

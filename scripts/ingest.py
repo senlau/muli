@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Ingest 目力's four streams into content markdown and the static site.
+"""Ingest 目力's streams into content markdown and the static site.
 
 Trigger contract: after 掌印 / 目力 confirms the day's push files, run
 
     python3 scripts/ingest.py --brief /path/to/vault
 
-That upserts content/{photographer,aesthetic,28mm}/YYYY-MM-DD.md and
-content/meaning/YYYY-MM-DD-slug.md, then rewrites every page (index.html,
-learn.html, practice.html, life.html, archive.html and one page per article)
-plus data/catalog.json. Entries marked `edited` are never overwritten.
-Commit with `git add -A` and push main.
+That upserts content/{photographer,aesthetic,28mm}/YYYY-MM-DD.md,
+content/{aesthetic,portrait-craft,meaning}/YYYY-MM-DD-slug.md when a slug is
+set, then rewrites every page (index.html, learn.html, practice.html,
+life.html, archive.html and one page per article) plus data/catalog.json.
+Entries marked `edited` are never overwritten. Commit with `git add -A`
+and push main.
 
     python3 scripts/ingest.py --json path/to/content.json --brief /path/to/brief
     python3 scripts/ingest.py --from-content
@@ -32,7 +33,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from mdutil import md_to_html, plain  # noqa: E402
-from render_site import STREAMS, entry_path, render_site  # noqa: E402
+from render_site import STREAMS, entry_path, render_site, slugify  # noqa: E402
 
 # GitHub raw is the canonical image host since picx WebP migration (Oct 2026).
 # Legacy jsDelivr URLs still accepted for backward compatibility during transition.
@@ -44,8 +45,25 @@ STREAM_FROM_JSON = {
     "aesthetic": "aesthetic",
     "mm28": "28mm",
     "28mm": "28mm",
+    "portrait-craft": "portrait-craft",
+    "portrait_craft": "portrait-craft",
     "meaning": "meaning",
 }
+AESTHETIC_SLUGS = {
+    "关系可读": "relation",
+    "readable relation": "relation",
+}
+PORTRAIT_SLUGS = {
+    "多人站位与关系位": "multi-stance",
+    "近景半身肖像": "half-body",
+}
+SURPRISE_TAG = re.compile(r"\s*[·・]\s*(?:非)?惊喜")
+YAML_FENCE = re.compile(r"^---\s*\n[\s\S]*?\n---\s*\n")
+FLEX_DIV = re.compile(r'<div\s+style="display:flex;[^"]*"[^>]*>([\s\S]*?)</div>', re.I)
+FIGURE_BLOCK = re.compile(
+    r"<figure[^>]*>\s*<img\b([^>]+)>(?:\s*<figcaption[^>]*>(.*?)</figcaption>)?\s*</figure>",
+    re.I | re.S,
+)
 FOLDER_OF = {item["hash"]: item["folder"] for item in STREAMS}
 
 
@@ -117,12 +135,15 @@ def strip_figures(md: str) -> str:
 def extract_links(md: str) -> list[dict]:
     links = []
     seen = set()
-    for label, url in re.findall(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", md):
-        key = (label.strip(), url.strip())
+    for match in re.finditer(r"(?<!!)\[([^\]]+)\]\((https?://[^)\s]+)\)", md):
+        label, url = match.group(1).strip(), match.group(2).strip()
+        if re.search(r"\.(jpg|jpeg|png|webp|gif)(?:\?|$)", url, re.I):
+            continue
+        key = (label, url)
         if key in seen:
             continue
         seen.add(key)
-        links.append({"label": label.strip(), "url": url.strip()})
+        links.append({"label": label, "url": url})
     return links
 
 
@@ -136,13 +157,63 @@ def parse_date_title(heading: str, fallback_date: str) -> tuple[str, str]:
     match = re.match(r"^(\d{4}-\d{2}-\d{2})\s*[｜|]\s*(.+)$", heading)
     if match:
         return match.group(1), match.group(2).strip()
-    match = re.match(r"^每日审美一课\s*[｜|]\s*(\d{4}-\d{2}-\d{2})\s*$", heading)
+    match = re.match(r"^每日审美一课\s*[｜|]\s*(\d{4}-\d{2}-\d{2})", heading)
     if match:
         return match.group(1), ""
     match = re.match(r"^28mm\s*专题\s*[｜|]\s*(.+)$", heading)
     if match:
         return fallback_date, match.group(1).strip()
+    match = re.match(r"^第[一二三四五六七八九十\d]+期[^｜|]*[｜|]\s*(.+)$", heading)
+    if match:
+        return fallback_date, match.group(1).strip()
     return fallback_date, heading
+
+
+def strip_surprise_tag(text: str) -> str:
+    return SURPRISE_TAG.sub("", text or "").strip()
+
+
+def strip_yaml(md: str) -> str:
+    return YAML_FENCE.sub("", md, count=1) if md.startswith("---") else md
+
+
+def keep_inline_images(md: str) -> str:
+    """Turn HTML figures into markdown images so they stay in their original sections."""
+    md = FLEX_DIV.sub(lambda match: match.group(1), md)
+
+    def repl(match: re.Match[str]) -> str:
+        attrs, cap = match.group(1), match.group(2) or ""
+        src_m = re.search(r'src=["\']([^"\']+)["\']', attrs, re.I)
+        if not src_m:
+            return ""
+        src = unescape(src_m.group(1)).rstrip("）)。.,")
+        alt_m = re.search(r'alt=["\']([^"\']*)["\']', attrs, re.I)
+        alt = unescape(alt_m.group(1) if alt_m else "").strip()
+        cap_txt = re.sub(r"<[^>]+>", "", cap).strip()
+        if not alt and cap_txt:
+            alt = plain(cap_txt)[:180]
+        return f"\n\n![{alt}]({src})\n\n"
+
+    return FIGURE_BLOCK.sub(repl, md)
+
+
+def derive_aesthetic_slug(title: str) -> str:
+    text = strip_surprise_tag(plain(title or ""))
+    for key, slug in AESTHETIC_SLUGS.items():
+        if key.lower() in text.lower():
+            return slug
+    return ""
+
+
+def derive_portrait_slug(title: str, filename_rest: str = "") -> str:
+    rest = (filename_rest or "").strip()
+    if re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", rest):
+        return rest
+    blob = f"{title} {rest}"
+    for name, slug in PORTRAIT_SLUGS.items():
+        if name in blob:
+            return slug
+    return slugify(rest or title) if (rest or title) else ""
 
 
 def make_summary(md_clean: str) -> str:
@@ -153,7 +224,14 @@ def make_summary(md_clean: str) -> str:
             if lines:
                 break
             continue
-        if stripped.startswith("#") or stripped.startswith("|") or stripped.startswith("!"):
+        if (
+            stripped.startswith("#")
+            or stripped.startswith("|")
+            or stripped.startswith("!")
+            or stripped.startswith(">")
+            or re.fullmatch(r"-{3,}", stripped)
+            or re.fullmatch(r"\*\*[^*]+\*\*", stripped)
+        ):
             if lines:
                 break
             continue
@@ -179,7 +257,7 @@ def make_summary(md_clean: str) -> str:
     summary = "".join(parts[:3])
     if len(parts) == 1 and len(summary) > 240:
         summary = summary[:240].rstrip("，、；, ") + "…"
-    return summary
+    return strip_surprise_tag(summary)
 
 
 def tags_from(stream: str, title: str, category: str) -> list[str]:
@@ -193,6 +271,8 @@ def tags_from(stream: str, title: str, category: str) -> list[str]:
                 tags.append(piece)
     if stream == "28mm" and "28mm" not in tags:
         tags.append("28mm")
+    if stream == "portrait-craft" and "人像技巧" not in tags:
+        tags.append("人像技巧")
     out: list[str] = []
     seen = set()
     for tag in tags:
@@ -262,8 +342,22 @@ def finalize(entry: dict) -> dict:
         polish_image(image)
     if not entry.get("links"):
         entry["links"] = extract_links(entry["body"])
-    if not entry.get("summary"):
+    summary = (entry.get("summary") or "").strip()
+    title_plain = strip_surprise_tag(plain(entry.get("title") or ""))
+    if (
+        not summary
+        or summary.startswith(">")
+        or summary.startswith("课序")
+        or summary in {"---", "—", "-"}
+        or SURPRISE_TAG.search(summary)
+        or strip_surprise_tag(plain(summary)) == title_plain
+    ):
         entry["summary"] = make_summary(entry["body"])
+    entry["links"] = [
+        link
+        for link in (entry.get("links") or [])
+        if not re.search(r"\.(jpg|jpeg|png|webp|gif)(?:\?|$)", link.get("url") or "", re.I)
+    ]
     if entry["stream"] == "photographer":
         match = re.search(r"今天这位是\*\*([^*]+)\*\*[：:]([^\n]+)", entry["body"])
         if match:
@@ -300,11 +394,12 @@ def extract_aesthetic_style_title(md: str) -> str:
     after_h1 = md[h1_match.end():]
     bold_match = re.search(r"^\*\*([^*]+)\*\*\s*$", after_h1, re.M)
     if bold_match:
-        return bold_match.group(1).strip()
+        return strip_surprise_tag(bold_match.group(1).strip())
     return ""
 
 
 def entry_from_md(md: str, stream: str, fallback_date: str) -> dict:
+    md = strip_yaml(md)
     heading = first_heading(md)
     date, title = parse_date_title(heading, fallback_date)
     subtitle = ""
@@ -320,6 +415,7 @@ def entry_from_md(md: str, stream: str, fallback_date: str) -> dict:
             title = style_title or h2 or title or date
         elif not title:
             title = h2 or heading or date
+        title = strip_surprise_tag(title)
     if stream == "photographer":
         match = re.search(r"今天这位是\*\*([^*]+)\*\*[：:]([^\n]+)", md)
         if match:
@@ -327,6 +423,12 @@ def entry_from_md(md: str, stream: str, fallback_date: str) -> dict:
         category = category_photographer(md, title)
     elif stream == "aesthetic":
         category = category_aesthetic(md, title or heading)
+    elif stream == "meaning":
+        category = ""
+    elif stream == "portrait-craft":
+        match = re.search(r"第[一二三四五六七八九十\d]+期", heading + "\n" + md[:400])
+        category = match.group(0) if match else ""
+        subtitle = category
     else:
         match = re.search(r"专题名：\*\*([^*]+)\*\*", md)
         if match:
@@ -334,6 +436,9 @@ def entry_from_md(md: str, stream: str, fallback_date: str) -> dict:
         category = category_mm28(md, title)
     if not title:
         title = heading or fallback_date
+    title = strip_surprise_tag(title)
+    images = extract_images(md)
+    body = keep_inline_images(md) if stream == "portrait-craft" else md
     entry = blank_entry()
     entry.update(
         {
@@ -343,9 +448,9 @@ def entry_from_md(md: str, stream: str, fallback_date: str) -> dict:
             "subtitle": subtitle,
             "category": category,
             "tags": tags_from(stream, title, category),
-            "images": extract_images(md),
+            "images": images,
             "links": extract_links(md),
-            "body": md.strip() + "\n",
+            "body": body.strip() + "\n",
         }
     )
     return finalize(entry)
@@ -394,9 +499,12 @@ def upsert(entries: list[dict], incoming: dict) -> list[dict]:
             merge_images(entry, incoming.get("images") or [])
             incoming_body = (incoming.get("body") or "").strip()
             current_body = (entry.get("body") or "").strip()
-            if len(plain(current_body)) < 400 and len(incoming_body) > len(current_body) + 80:
+            incoming_images = len(incoming.get("images") or [])
+            current_images = len(entry.get("images") or [])
+            richer = incoming_images > current_images and len(incoming_body) > len(current_body) + 80
+            if richer or (len(plain(current_body)) < 400 and len(incoming_body) > len(current_body) + 80):
                 entry["body"] = incoming["body"]
-                if incoming.get("title"):
+                if incoming.get("title") and incoming["title"] != incoming.get("date"):
                     entry["title"] = incoming["title"]
                 if incoming.get("subtitle"):
                     entry["subtitle"] = incoming["subtitle"]
@@ -442,8 +550,12 @@ def parse_brief(root: Path) -> list[dict]:
                 rec = folder / "recommendation.md"
                 if rec.exists():
                     entries.append(entry_from_md(rec.read_text(encoding="utf-8"), "photographer", folder.name))
-            if folder.name.endswith("-aesthetic"):
-                date = folder.name[: -len("-aesthetic")]
+            aesthetic_folder = re.fullmatch(
+                r"(\d{4}-\d{2}-\d{2})-aesthetic(?:-([a-z0-9]+(?:-[a-z0-9]+)*))?",
+                folder.name,
+            )
+            if aesthetic_folder:
+                date, folder_slug = aesthetic_folder.group(1), aesthetic_folder.group(2) or ""
                 lesson = folder / "lesson.md"
                 if not lesson.exists():
                     continue
@@ -453,16 +565,30 @@ def parse_brief(root: Path) -> list[dict]:
                     chat_md = chat.read_text(encoding="utf-8")
                     if len(chat_md) > len(md):
                         md = chat_md
-                entries.append(entry_from_md(md, "aesthetic", date))
+                incoming = entry_from_md(md, "aesthetic", date)
+                slug = folder_slug or derive_aesthetic_slug(incoming["title"])
+                if slug:
+                    incoming["slug"] = slug
+                entries = upsert(entries, incoming)
         meaning_stories = daily / "meaning-stories"
         if meaning_stories.is_dir():
             for date_folder in sorted(path for path in meaning_stories.iterdir() if path.is_dir()):
                 if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date_folder.name):
                     continue
                 for md_file in sorted(date_folder.glob("*.md")):
+                    if md_file.name.startswith("_") or md_file.stem == "vault_section":
+                        continue
                     md = md_file.read_text(encoding="utf-8")
                     incoming = entry_from_md(md, "meaning", date_folder.name)
-                    slug = derive_meaning_slug(incoming["title"])
+                    file_slug = ""
+                    named = re.fullmatch(r"story-([a-z0-9-]+)\.md", md_file.name)
+                    if named:
+                        file_slug = named.group(1)
+                    if not incoming["title"] or incoming["title"] == date_folder.name:
+                        bold = re.search(r"^\*\*([^*]+)\*\*\s*$", md, re.M)
+                        if bold:
+                            incoming["title"] = bold.group(1).strip()
+                    slug = file_slug or derive_meaning_slug(incoming["title"])
                     if slug:
                         incoming["slug"] = slug
                     entries = upsert(entries, incoming)
@@ -473,6 +599,21 @@ def parse_brief(root: Path) -> list[dict]:
             lesson = folder / "lesson.md"
             if lesson.exists():
                 entries.append(entry_from_md(lesson.read_text(encoding="utf-8"), "28mm", folder.name))
+
+    craft = root / "人像技巧"
+    if craft.is_dir():
+        for md_file in sorted(craft.glob("*.md")):
+            if md_file.name.startswith("_"):
+                continue
+            named = re.fullmatch(r"(\d{4}-\d{2}-\d{2})-(.+)\.md", md_file.name)
+            if not named:
+                continue
+            date, rest = named.group(1), named.group(2)
+            incoming = entry_from_md(md_file.read_text(encoding="utf-8"), "portrait-craft", date)
+            slug = derive_portrait_slug(incoming["title"], rest)
+            if slug:
+                incoming["slug"] = slug
+            entries = upsert(entries, incoming)
 
     rollups = [
         (root / "作者长卷.md", "photographer", "## 专题批次"),
@@ -486,9 +627,17 @@ def parse_brief(root: Path) -> list[dict]:
         for date, title, body in rollup_sections(path.read_text(encoding="utf-8"), stop):
             incoming = entry_from_md(body, stream, date)
             if title and (not incoming["title"] or incoming["title"] == date):
-                incoming["title"] = title
+                incoming["title"] = strip_surprise_tag(title)
             if stream == "meaning":
                 slug = derive_meaning_slug(incoming["title"])
+                if slug:
+                    incoming["slug"] = slug
+            elif stream == "aesthetic":
+                slug = derive_aesthetic_slug(incoming["title"])
+                if slug:
+                    incoming["slug"] = slug
+            elif stream == "portrait-craft":
+                slug = derive_portrait_slug(incoming["title"])
                 if slug:
                     incoming["slug"] = slug
             entries = upsert(entries, incoming)
@@ -677,7 +826,7 @@ def parse_front_matter(text: str) -> dict:
 
 def content_path(root: Path, entry: dict) -> Path:
     folder = FOLDER_OF[entry["stream"]]
-    if entry["stream"] == "meaning" and entry.get("slug"):
+    if entry.get("slug"):
         return root / "content" / folder / f'{entry["date"]}-{entry["slug"]}.md'
     return root / "content" / folder / f'{entry["date"]}.md'
 
@@ -895,10 +1044,8 @@ def publish(root: Path, entries: list[dict], generated_at: str) -> None:
     for entry in entries:
         counts[entry["stream"]] += 1
         images += len(entry["images"])
-    print(
-        f"entries photographer={counts['photographer']} aesthetic={counts['aesthetic']} 28mm={counts['28mm']} "
-        f"meaning={counts['meaning']} images={images} pages={len(pages)}"
-    )
+    parts = " ".join(f"{stream['hash']}={counts[stream['hash']]}" for stream in STREAMS)
+    print(f"entries {parts} images={images} pages={len(pages)}")
 
 
 def self_test() -> None:
@@ -945,7 +1092,7 @@ def self_test() -> None:
 1. 以为等于剪影可读
 """
     aesthetic_entry = entry_from_md(lesson_md, "aesthetic", "2026-10-31")
-    assert aesthetic_entry["title"] == "影切（Shadow Cut）· 非惊喜", f"got: {aesthetic_entry['title']}"
+    assert aesthetic_entry["title"] == "影切（Shadow Cut）", f"got: {aesthetic_entry['title']}"
     assert aesthetic_entry["date"] == "2026-10-31"
 
     # Test that rollup format still works (### YYYY-MM-DD｜Title)
@@ -958,7 +1105,7 @@ def self_test() -> None:
 光切看的是边。
 """
     rollup_entry = entry_from_md(rollup_md, "aesthetic", "2026-10-30")
-    assert rollup_entry["title"] == "光切（Light Cut）· 非惊喜", f"got: {rollup_entry['title']}"
+    assert rollup_entry["title"] == "光切（Light Cut）", f"got: {rollup_entry['title']}"
 
     html_out = md_to_html("### 2026-10-27｜标题\n\n今天是**一句**。\n\n- 甲\n- 乙\n\n[Magnum](https://www.magnumphotos.com/)\n")
     assert "<h2>" not in html_out.split("</p>")[0] or "标题" not in html_out
@@ -1020,19 +1167,46 @@ def self_test() -> None:
     )
     edited = parse_front_matter(dump_front_matter(edited))
     assert edited["edited"] and edited["slug"] == "mannell" and edited["topics"] == ["陌生人与肖像"]
-    entries = [finalize(entry), finalize(lesson), edited]
+
+    relation = blank_entry()
+    relation.update(
+        {
+            "date": "2026-10-28",
+            "title": "关系可读（Readable Relation）",
+            "stream": "aesthetic",
+            "slug": "relation",
+            "body": "## 关系可读\n\n先问谁对谁。\n\n## 跟锚点的关系\n\n见 Parke。\n\n## 可练一句\n\n等触碰再按。\n",
+        }
+    )
+    craft = blank_entry()
+    craft.update(
+        {
+            "date": "2026-10-28",
+            "title": "多人站位与关系位",
+            "stream": "portrait-craft",
+            "slug": "multi-stance",
+            "category": "第1期",
+            "subtitle": "第1期",
+            "body": "# 第1期｜多人站位与关系位\n\n## 1. 刀口一句话\n\n先立关系位再按。\n\n## 8. 出门可练清单\n\n- 错肩三张\n",
+        }
+    )
+    entries = [finalize(entry), finalize(lesson), edited, finalize(relation), finalize(craft)]
 
     raw_twin = dict(edited, edited=False, title="原稿", body="原稿正文。\n")
     assert upsert(entries, raw_twin)[2]["title"] == "不敢看陌生人眼睛的人"
     other_story = dict(raw_twin, slug="bryce")
-    assert len(upsert(list(entries), other_story)) == 4
+    assert len(upsert(list(entries), other_story)) == 6
     snapshot = keep_edited(entries, [raw_twin])
     assert snapshot[0]["title"] == "不敢看陌生人眼睛的人"
 
     pages = render_site(entries, "2026-10-28T00:00:00+08:00", [{"slug": "portrait", "name": "陌生人与肖像", "note": ""}])
     home = pages["index.html"]
-    for path in ("learn.html", "practice.html", "life.html", "archive.html",
-                 "photographer/2026-10-27.html", "aesthetic/2026-10-28.html", "meaning/2026-10-27-mannell.html"):
+    for path in (
+        "learn.html", "practice.html", "life.html", "archive.html",
+        "photographer/2026-10-27.html", "aesthetic/2026-10-28.html",
+        "aesthetic/2026-10-28-relation.html", "meaning/2026-10-27-mannell.html",
+        "portrait-craft/2026-10-28-multi-stance.html",
+    ):
         assert path in pages, path
     assert home.count("<h1") == 1
     assert '"photographer-2026-10-27":"photographer/2026-10-27.html"' in home
@@ -1051,6 +1225,16 @@ def self_test() -> None:
     assert "<li>不存在</li>" in story
     assert "图片：Portrait Per Day" in story
     assert 'href="../archive.html#topic-portrait"' in story
+    learn = pages["learn.html"]
+    assert 'data-sortable' in learn and 'data-sort="desc"' in learn and ">最新</button>" in learn
+    practice = pages["practice.html"]
+    assert "人像技巧" in practice and "portrait-craft" in practice
+    assert 'data-sortable' in practice and ">最早</button>" in practice
+    craft_page = pages["portrait-craft/2026-10-28-multi-stance.html"]
+    assert "<h1>多人站位与关系位</h1>" in craft_page
+    assert "核心判断" in craft_page and "今日练习" in craft_page
+    relation_page = pages["aesthetic/2026-10-28-relation.html"]
+    assert "<h1>关系可读</h1>" in relation_page and "Readable Relation" in relation_page
     print("self-test ok")
 
 

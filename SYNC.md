@@ -18,15 +18,19 @@
 | --- | --- | --- |
 | 摄影师 | `daily/YYYY-MM-DD/recommendation.md` | `photographer/YYYY-MM-DD.html` |
 | 视觉语言 | `daily/YYYY-MM-DD-aesthetic/lesson.md` | `aesthetic/YYYY-MM-DD.html` |
+| 视觉语言（同日加更） | `daily/YYYY-MM-DD-aesthetic-{slug}/lesson.md` | `aesthetic/YYYY-MM-DD-{slug}.html` |
 | 28mm 专题 | `28mm/YYYY-MM-DD/lesson.md` | `28mm/YYYY-MM-DD.html` |
+| 人像技巧 | `人像技巧/YYYY-MM-DD-….md` | `portrait-craft/YYYY-MM-DD-{slug}.html` |
 | 摄影与人生 | `daily/meaning-stories/YYYY-MM-DD/` 或 `意义长卷.md` | `meaning/YYYY-MM-DD-{slug}.html` |
 
-只把 `lesson.md` / `recommendation.md` 当正课。`28mm` 下面的 garden 出行参考、`SOURCES.md`、聊天稿，不会单独入库。视觉语言只谈风格和类型，不要放构图技法课；站位、换位留在 28mm 专题。
+只把 `lesson.md` / `recommendation.md` 当正课。`28mm` 下面的 garden 出行参考、`SOURCES.md`、聊天稿，不会单独入库。视觉语言只谈风格和类型，不要放构图技法课；站位、换位留在 28mm 专题。人像技巧是独立线（中文名「人像技巧」，slug `portrait-craft`），归摄影实践；同日多课必须带 slug，不可覆盖已有日期页。
 
 摄影与人生：
 - 同一日期可有多条故事（按作者/主题分 slug），文件名 `YYYY-MM-DD-{slug}.md`
 - 长卷 `意义长卷.md` 用 `### YYYY-MM-DD｜作者：标题` 分节，解析时按小节拆成多条
 - 每条需有 `slug` 字段（如 `goldrei`、`tara`、`bryce`、`dukhan`）以区分同日多条；同步按日期和 slug 一起匹配，同日几条不会互相覆盖
+- 视觉语言同日加更同样用 slug（如 `relation`），生成 `aesthetic/YYYY-MM-DD-{slug}.html`，不会覆盖当天无 slug 的那一篇
+- 人像技巧同日多课用 slug（如 `multi-stance`、`half-body`）
 
 若当日文件缺失，脚本会到这几份长卷里补同日小节：
 
@@ -65,7 +69,7 @@ python3 scripts/ingest.py --brief /path/to/目力工作目录
 
 1. 读取上面的 markdown，抽出日期、标题、标签、CDN 图和图注、外链
 2. upsert 到 `content/<栏目>/YYYY-MM-DD.md`（摄影与人生是 `YYYY-MM-DD-{slug}.md`）；标了 `edited: true` 的文件不动
-3. 重写全部页面：`index.html`、`learn.html`、`practice.html`、`life.html`、`archive.html`，每篇一页的 `photographer/` `aesthetic/` `28mm/` `meaning/`，以及 `data/catalog.json`
+3. 重写全部页面：`index.html`、`learn.html`、`practice.html`、`life.html`、`archive.html`，每篇一页的 `photographer/` `aesthetic/` `28mm/` `portrait-craft/` `meaning/`，以及 `data/catalog.json`
 4. `content/` 里已经没有的文章，对应的旧文章页会被删掉
 
 然后：
@@ -87,7 +91,7 @@ git push origin main
 ```yaml
 date: "2026-10-28"
 title: "何藩 Fan Ho"
-stream: "photographer"    # photographer | aesthetic | 28mm | meaning
+stream: "photographer"    # photographer | aesthetic | 28mm | portrait-craft | meaning
 subtitle: "香港 · 光楔与剪影"
 summary: "他用楼梯、烟尘和从楼缝楔进来的阳光……"   # 导语：标题下、卡片和 meta description 都用它
 category: "大师"
@@ -97,7 +101,7 @@ people: ["何藩 Fan Ho"]    # 可选：归档「按作者」
 thumbs: [{"src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/...", "alt": "...", "caption": "...", "w": 1200, "h": 800}]
 links: [{"label": "M+ 何藩馆藏", "url": "https://..."}]
 credit: "图片：..."        # 可选：文末的图片出处
-slug: "goldrei"           # 仅 meaning 需要，用于同日多条区分
+slug: "goldrei"           # meaning / 同日加更的 aesthetic / portrait-craft 用来区分同日多条
 edited: true              # 可选：人工编辑过，同步不再覆盖
 featured: true            # 可选：指定首页的本期精选
 ```
