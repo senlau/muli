@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-03T21:22:25.982737+08:00",
+  "generatedAt": "2026-11-06T17:45:42.997669+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
-    "photographer": 13,
-    "aesthetic": 13,
-    "28mm": 6,
-    "portrait-craft": 2,
-    "meaning": 13
+    "photographer": 16,
+    "aesthetic": 16,
+    "28mm": 7,
+    "portrait-craft": 5,
+    "meaning": 16
   },
   "topics": [
     {
@@ -481,6 +481,77 @@
         {
           "label": "Magnum｜Alex Webb barbershop Istanbul 2001",
           "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/alex-webb-city-of-hundred-names/attachment/nyc28135-3/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "title": "第七课：半步前后改边线权重",
+      "stream": "28mm",
+      "url": "28mm/2026-11-05.html",
+      "subtitle": "半步前后改边线权重",
+      "summary": "上一课练取景器四边等人进边。这一课把尺子挪到脚前后半步：同一场面，前半步让近处边线物变「重」，后半步让边线权重重新分配——不是侧移解粘，不是高低机位压顶底，不是斜构图。接本周城市练习小问题＝边缘控制：边线谁重谁轻，由站位距离决定。",
+      "category": "第七课",
+      "tags": [
+        "第七课",
+        "28mm"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-31-moriyama-ginza-flowers-R0000402.webp",
+          "alt": "Daido Moriyama Ginza flowers R0000402",
+          "caption": "森山｜银座 GR III · 花边压右",
+          "w": 1120,
+          "h": 747
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-32-moriyama-cafe-chair-R0000379.webp",
+          "alt": "Daido Moriyama cafe chair R0000379",
+          "caption": "森山｜银座 GR III · 椅背／花盆压边",
+          "w": 1120,
+          "h": 747
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-33-moriyama-backpack-edge-R0000421.webp",
+          "alt": "Daido Moriyama backpack edge R0000421",
+          "caption": "森山｜银座 GR III · 左缘背包变重",
+          "w": 1120,
+          "h": 747
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-34-winogrand-woman-car-edge.webp",
+          "alt": "Garry Winogrand woman and car edge",
+          "caption": "Winogrand｜近距人＋车尾贴边",
+          "w": 1062,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-35-winogrand-box-left-edge.webp",
+          "alt": "Garry Winogrand box left edge zoo",
+          "caption": "Winogrand｜左缘纸箱块面压边",
+          "w": 1600,
+          "h": 1068
+        }
+      ],
+      "links": [
+        {
+          "label": "Ricoh GR Official｜森山大道 银座 GR III 图库",
+          "url": "https://www.grblog.jp/en/article/1461/"
+        },
+        {
+          "label": "Fraenkel｜Garry Winogrand",
+          "url": "https://fraenkelgallery.com/artists/garry-winogrand"
+        },
+        {
+          "label": "Fraenkel｜In the Street",
+          "url": "https://fraenkelgallery.com/portfolios/garry-winogrand-in-the-street"
+        },
+        {
+          "label": "Fraenkel｜Women are Beautiful",
+          "url": "https://fraenkelgallery.com/portfolios/garry-winogrand-women-are-beautiful"
         }
       ]
     },
@@ -1355,6 +1426,228 @@
         {
           "label": "Francesco Pistilli｜Lives In Limbo（World Press Photo）",
           "url": "https://www.worldpressphoto.org/collection/photo-contest/2018/francesco-pistilli/3"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "title": "框中框（Frame within Frame）",
+      "stream": "aesthetic",
+      "url": "aesthetic/2026-11-04.html",
+      "subtitle": "",
+      "summary": "本周城市练习小问题仍是边缘控制（2026-11-02–11-08）。昨日「贴边张力」问的是人／关键形是否压在或被咬进画幅边；今日换认风格词：框中框——问「画面里是否另有一重门／窗／洞／镜／建筑开口当内框，内外框是否一起工作」。同属边缘控制周，刀口不同。",
+      "category": "",
+      "tags": [
+        "Frame within Frame"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261104-dod-doorway.webp",
+          "alt": "Dod Miller smoker in doorway",
+          "caption": "Dod Miller｜Doorway｜人被门洞矩形收住",
+          "w": 1600,
+          "h": 1288
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261104-ommanney-window.webp",
+          "alt": "Charles Ommanney Barbara Bush window",
+          "caption": "Ommanney｜Walkers Point｜窗格嵌套室外的人",
+          "w": 1600,
+          "h": 1063
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261104-protick-stairwell.webp",
+          "alt": "Sarker Protick Prova stairwell",
+          "caption": "Protick｜Stairwell｜隔断开口收住 Prova",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261104-hannah-curtain.webp",
+          "alt": "Hannah Reyes Morales through curtain",
+          "caption": "Hannah｜Manila｜珠帘当软内框",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261104-nacar-corridor.webp",
+          "alt": "Samuel Nacar Sednaya corridor",
+          "caption": "Nacar｜Sednaya｜多重门洞套娃",
+          "w": 1600,
+          "h": 1066
+        }
+      ],
+      "links": [
+        {
+          "label": "Dod Miller｜Nature 1996（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/1996/dod-miller/4"
+        },
+        {
+          "label": "Charles Ommanney｜Portraits 2004（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2004/charles-ommanney/1"
+        },
+        {
+          "label": "Sarker Protick｜Daily Life 2015（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2015/sarker-protick/7"
+        },
+        {
+          "label": "Hannah Reyes Morales｜Home for the Golden Gays（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2023/Hannah-Reyes-Morales/1"
+        },
+        {
+          "label": "Samuel Nacar｜The Shadows Already Have Names（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2025/Samuel-Nacar/4"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "title": "手与身体说话（Hands & Body Speak）",
+      "stream": "aesthetic",
+      "url": "aesthetic/2026-11-05.html",
+      "subtitle": "",
+      "summary": "本周城市练习小问题仍是边缘控制（2026-11-02–11-08）。昨日「框中框」问内框是否成立；今日换认风格词：手与身体说话——问「若遮住脸，手／姿态／肢体关系是否仍把戏说完」。同属边缘控制周可对读：手与身体常贴边、探角、被框切仍可读——但本课主菜是认「肢体在叙事」，不是再练贴边 checklist。",
+      "category": "",
+      "tags": [
+        "Hands & Body Speak"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261105-smialowski-hands.webp",
+          "alt": "Brendan Smialowski Unilateral hands",
+          "caption": "Smialowski｜White House｜牵手＋平掌挡镜头",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261105-fatemi-hands.webp",
+          "alt": "Hossein Fatemi Tara Soroush hands prayer",
+          "caption": "Fatemi｜Chicago｜新人牵手＋前景跪拜",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261105-brouillet-point.webp",
+          "alt": "Jerome Brouillet Medina pointing",
+          "caption": "Brouillet｜Tahiti｜食指指天",
+          "w": 1600,
+          "h": 1063
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261105-mielnikiewicz-embrace.webp",
+          "alt": "Justyna Mielnikiewicz embrace hand on head",
+          "caption": "Mielnikiewicz｜Tbilisi｜手按后脑的拥抱",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261105-johnson-gestures.webp",
+          "alt": "Temiloluwa Johnson gestures fans",
+          "caption": "Johnson｜Lagos｜举手／扇面／张开的手指",
+          "w": 1600,
+          "h": 1067
+        }
+      ],
+      "links": [
+        {
+          "label": "Brendan Smialowski｜2019（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2019/brendan-smialowski/1"
+        },
+        {
+          "label": "Hossein Fatemi｜2017（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2017/hossein-fatemi/4"
+        },
+        {
+          "label": "Jerome Brouillet｜2025（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2025/Jerome-Brouillet/1"
+        },
+        {
+          "label": "Justyna Mielnikiewicz｜2009（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2009/justyna-mielnikiewicz/9"
+        },
+        {
+          "label": "Temiloluwa Johnson｜2025（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2025/Temiloluwa-Johnson/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "title": "角咬（Corner Bite）",
+      "stream": "aesthetic",
+      "url": "aesthetic/2026-11-06.html",
+      "subtitle": "",
+      "summary": "本周城市练习小问题仍是边缘控制（2026-11-02–11-08）。昨日「手与身体说话」问遮住脸后肢体是否仍把戏说完；今日换认风格词：角咬——问「人形是否被咬进画幅一角（两邻边同时咬），角是否成为工作面、对角张力是否成立」。同属边缘控制周，刀口更窄：贴边问任意一边；角咬必须是角（两边交汇处）。",
+      "category": "",
+      "tags": [
+        "Corner Bite"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261106-ozbilici-gallery-corner.webp",
+          "alt": "Burhan Ozbilici gallery corner huddle",
+          "caption": "Ozbilici｜Ankara｜人群蹲进画廊墙角",
+          "w": 1588,
+          "h": 1080
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261106-bruce-grief-corner.webp",
+          "alt": "Andrea Bruce mourning Latakia corner",
+          "caption": "Bruce｜Latakia｜哀悼压进左下角",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261106-pistilli-bus-face-corner.webp",
+          "alt": "Francesco Pistilli refugee bus face corner",
+          "caption": "Pistilli｜Belgrade｜巴士脸占左下角",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261106-murphy-tunnel-leg-corner.webp",
+          "alt": "Seamus Murphy Gaza tunnel leg corner",
+          "caption": "Murphy｜Gaza｜腿靴咬右上角",
+          "w": 1600,
+          "h": 1035
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261106-pistilli-wash-corner.webp",
+          "alt": "Francesco Pistilli washing cold corner",
+          "caption": "Pistilli｜Belgrade｜左下蹲搓＋右边探桶",
+          "w": 1600,
+          "h": 1066
+        }
+      ],
+      "links": [
+        {
+          "label": "Burhan Ozbilici｜2017（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2017/burhan-ozbilici-sns/5"
+        },
+        {
+          "label": "Andrea Bruce｜2014（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2014/andrea-bruce/1"
+        },
+        {
+          "label": "Francesco Pistilli｜2018（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2018/francesco-pistilli/5"
+        },
+        {
+          "label": "Seamus Murphy｜2006（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2006/seamus-murphy/4"
+        },
+        {
+          "label": "Francesco Pistilli｜2018（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2018/francesco-pistilli/8"
         }
       ]
     },
@@ -2344,6 +2637,54 @@
       "slug": "sanders"
     },
     {
+      "date": "2026-11-04",
+      "title": "John Dearden：胸以下瘫痪之后，先从拍日落开始",
+      "stream": "meaning",
+      "url": "meaning/2026-11-04-dearden.html",
+      "subtitle": "",
+      "summary": "英国圣海伦斯／Haydock；2019 无故袭击后胸以下瘫痪、轮椅；风景与动物园野生动物；IG／YouTube：ChairView Chronicles（@jpdeardenphotography）。",
+      "category": "",
+      "tags": [],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [],
+      "links": [],
+      "slug": "dearden"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Theragraphic Project：抑郁最深处，把慢走拍照做成一条共同的路",
+      "stream": "meaning",
+      "url": "meaning/2026-11-05-theragraphic.html",
+      "subtitle": "",
+      "summary": "加拿大安大略 Niagara／Grimsby；摄影师 Mitchell Brown 创办的月度自然慢走拍照社区；官网 theragraphic.ca（约 2025 起）。",
+      "category": "",
+      "tags": [],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [],
+      "links": [],
+      "slug": "theragraphic"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "刘涛：抄完表，再把合肥街头走成自己的长卷",
+      "stream": "meaning",
+      "url": "meaning/2026-11-06-liutao.html",
+      "subtitle": "",
+      "summary": "安徽合肥；长期是供水集团抄表工，业余街拍十余年；作品上过《时代》、央视，结集《走来走去》（Lens）。",
+      "category": "",
+      "tags": [],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [],
+      "links": [],
+      "slug": "liutao"
+    },
+    {
       "date": "2026-10-22",
       "title": "Graciela Iturbide",
       "stream": "photographer",
@@ -3288,6 +3629,235 @@
       ]
     },
     {
+      "date": "2026-11-04",
+      "title": "Lee Friedlander（大师 · 美国）",
+      "stream": "photographer",
+      "url": "photographer/2026-11-04.html",
+      "subtitle": "",
+      "summary": "本周练：边缘控制（2026-11-02–11-08）——框四边切什么、角里进什么、贴边是否可读；误切头脚／招牌半截／第三者脚尖当废法记。今天这位把美国街景的杆线／窗镜／车窗当成构图语法本身：影子压进别人轮廓边、竖杆从正中切开脸、店窗竖框叠反射与肖像、车门／A柱／侧镜当框中框——不是昨 Shin Noguchi 彩色日常里「等进边线缝仍电影」，也不是 Matt Stuart 伦敦街具＋框边巧合幽默。禁只扫「街上有杆／有窗」却说不出谁被哪条边咬；杆切完、窗叠完、车框咬完，关系仍要一眼可读。",
+      "category": "大师 · 美国（社会景观／街头；*Self Portrait*／*America by Car*）",
+      "tags": [
+        "大师 · 美国（社会景观／街头；*Self Portrait*／*America by Car*）",
+        "大师",
+        "美国"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/friedlander-nyc-1966-shadow.webp",
+          "alt": "Lee Friedlander New York City 1966 shadow on coat",
+          "caption": "纽约 1966｜影子贴大衣背：主体占左缘前景，右留街与楼——把自己压进别人轮廓边",
+          "w": 2000,
+          "h": 1330
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/friedlander-pole-bisect.webp",
+          "alt": "Lee Friedlander pole bisecting face with tambourine",
+          "caption": "竖杆切脸｜杆当中刀只留一眼与手鼓——故意用立柱切开主体仍可读",
+          "w": 2000,
+          "h": 1341
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/friedlander-nyc-1962-window-kennedy.webp",
+          "alt": "Lee Friedlander New York City 1962 window Kennedy",
+          "caption": "纽约 1962｜窗框竖劈：左反射＋白牌「斩头」、右门字与 Kennedy 肖像叠层",
+          "w": 1024,
+          "h": 709
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/friedlander-abc-nyc-window-mirror.webp",
+          "alt": "Lee Friedlander America by Car NYC window mirror",
+          "caption": "America by Car｜车窗／A柱／侧镜当框中框，街景被车内边线咬住",
+          "w": 1969,
+          "h": 2000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/friedlander-abc-mural-mirror.webp",
+          "alt": "Lee Friedlander America by Car mural and side mirror",
+          "caption": "America by Car｜车窗框墙绘与路人；侧镜咬进自拍影——边线即构图",
+          "w": 1009,
+          "h": 1024
+        }
+      ],
+      "links": [
+        {
+          "label": "Fraenkel · Lee Friedlander",
+          "url": "https://fraenkelgallery.com/artists/lee-friedlander"
+        },
+        {
+          "label": "America by Car",
+          "url": "https://fraenkelgallery.com/portfolios/lee-friedlander-america-by-car"
+        },
+        {
+          "label": "America by Car portfolio",
+          "url": "https://fraenkelgallery.com/portfolios/lee-friedlander-america-by-car"
+        },
+        {
+          "label": "Fundación MAPFRE · New York City",
+          "url": "https://www.fundacionmapfre.org/en/art-and-culture/collections/lee-friedlander/new-york-city-04/"
+        },
+        {
+          "label": "Whitney · America by Car",
+          "url": "https://whitney.org/exhibitions/lee-friedlander"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Siegfried Hansen（当代 · 德国／汉堡）",
+      "stream": "photographer",
+      "url": "photographer/2026-11-05.html",
+      "subtitle": "",
+      "summary": "本周练：边缘控制（2026-11-02–11-08）——框四边切什么、角里进什么、贴边是否可读；误切头脚／招牌半截／第三者脚尖当废法记。今天这位把汉堡／欧洲城市的线、色块与几何当成构图语法：黄球场角里只留一截腿与球影、黑杆贴右边切断街道、双肘几乎顶满左右边、侧脸剪影死死压住左边、西装头被顶边干净切掉——不是昨 Lee Friedlander 杆线／窗镜／车窗当中刀，也不是 Matt Stuart 伦敦街具＋框边巧合幽默，更不是 Shin Noguchi 彩色日常等进边线缝仍电影。禁只扫「街上有几何／有杆」却说不出谁被哪条边咬、哪条线在工作；线切完、角咬完、色块压完，关系仍要一眼可读。",
+      "category": "当代 · 德国／汉堡（几何街拍／*Hold the Line*；UN-PUBLIC）",
+      "tags": [
+        "当代 · 德国／汉堡（几何街拍／*Hold the Line*；UN-PUBLIC）",
+        "当代",
+        "德国",
+        "汉堡"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/hansen-hamburg-2009-yellow-court.webp",
+          "alt": "Siegfried Hansen Hamburg 2009 yellow court legs corner",
+          "caption": "汉堡 2009｜黄球场：左上角只进一截腿与球影——角里只留有用的人",
+          "w": 850,
+          "h": 567
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/hansen-london-2009-pole-tape.webp",
+          "alt": "Siegfried Hansen London 2009 pole white tape",
+          "caption": "伦敦 2009｜黑杆贴右边＋白胶带环——竖杆当右边本身",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/hansen-muenchen-2015-elbows-edge.webp",
+          "alt": "Siegfried Hansen Muenchen 2015 elbows to edges",
+          "caption": "慕尼黑 2015｜双肘几乎顶满左右边，头顶轻切——左右边同时咬身体",
+          "w": 1066,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/hansen-silhouette-left-edge.webp",
+          "alt": "Siegfried Hansen silhouette left edge graphic",
+          "caption": "剪影压左边｜侧脸死贴左缘，右留红蓝白色块——人变成左边竖边",
+          "w": 1000,
+          "h": 667
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/hansen-suit-headcrop-trees.webp",
+          "alt": "Siegfried Hansen suit head crop plaza trees",
+          "caption": "广场｜西装头顶被顶边干净切掉，左右树干当次边锚——敢切头仍可读",
+          "w": 750,
+          "h": 500
+        }
+      ],
+      "links": [
+        {
+          "label": "siegfried-hansen.de · Street",
+          "url": "https://siegfried-hansen.de/street-photography-germany"
+        },
+        {
+          "label": "Fine Art",
+          "url": "https://siegfried-hansen.de/fineartphotography"
+        },
+        {
+          "label": "UP Photographers · Siegfried Hansen",
+          "url": "https://upphotographers.com/photographer/siegfried-hansen/"
+        },
+        {
+          "label": "About",
+          "url": "https://siegfried-hansen.de/en/about-2/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "title": "卢广（大师 · 中国）",
+      "stream": "photographer",
+      "url": "photographer/2026-11-06.html",
+      "subtitle": "",
+      "summary": "本周练：边缘控制（2026-11-02–11-08）——框四边切什么、角里进什么、贴边是否可读。今天这位示范的不是街拍几何里杆线／色块咬边，而是纪实现场里的边：病房／村落／污染带里，四边决定「伤放进多少、环境证据留多少、人是否被边切掉信息」——顶边切到照顾者后脑还是留空房梁；底边是床脚／污管口／屋顶，还是无关脚尖；左边伸出去的瘦腿是可读证据，还是误切碎掉。故意收紧边线让伤口与污染可读，vs 误切让证据碎掉、只剩「有人／有烟」。",
+      "category": "大师 · 中国（社会／环境纪实；艾滋病村／污染／煤窑等）",
+      "tags": [
+        "大师 · 中国（社会／环境纪实；艾滋病村／污染／煤窑等）",
+        "大师",
+        "中国"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luguang-aids-wife-dying-husband.webp",
+          "alt": "Lu Guang AIDS village wife cares dying husband 2002",
+          "caption": "艾滋病村 2002｜妻子照顾垂死丈夫：顶边切照顾者头，底边切手——收紧边线让伤可读",
+          "w": 1489,
+          "h": 1920
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luguang-aids-qi-guihua.webp",
+          "alt": "Lu Guang Qi Guihua held by husband AIDS village 2002",
+          "caption": "艾滋病村 2002｜齐桂花：顶边切丈夫头，左边瘦腿伸边，右边蓝蚊帐贴边——环境证据当右边",
+          "w": 1920,
+          "h": 1371
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luguang-aids-orphanage-sleep.webp",
+          "alt": "Lu Guang AIDS orphanage children sleep 2003",
+          "caption": "艾滋病村 2003｜孤儿院并排睡：左右切两端孩子，顶边鞋排——切两端暗示延续",
+          "w": 1920,
+          "h": 1288
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luguang-pollution-wuan-houses-chimneys.webp",
+          "alt": "Lu Guang Wu",
+          "caption": "污染 2014｜武安民居贴底边切开，烟囱压顶边——人居与污染证据对撞",
+          "w": 1920,
+          "h": 1280
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luguang-pollution-sewage-pipe.webp",
+          "alt": "Lu Guang sewage pipe discharge pollution China",
+          "caption": "污染｜破管口贴底边进框，白沫贴右边——污染源直接当底边证据",
+          "w": 1920,
+          "h": 1280
+        }
+      ],
+      "links": [
+        {
+          "label": "2004 Contemporary Issues · AIDS villages",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2004/lu-guang/1"
+        },
+        {
+          "label": "2015 Long-Term Projects · Development and Pollution",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2015/lu-guang/1"
+        },
+        {
+          "label": "worldpressphoto.org/lu-guang",
+          "url": "https://www.worldpressphoto.org/lu-guang"
+        },
+        {
+          "label": "World Press Photo · Lu Guang",
+          "url": "https://www.worldpressphoto.org/lu-guang"
+        },
+        {
+          "label": "2004 AIDS villages",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2004/lu-guang/1"
+        },
+        {
+          "label": "2015 Development and Pollution",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2015/lu-guang/1"
+        }
+      ]
+    },
+    {
       "date": "2026-11-03",
       "title": "近景半身肖像",
       "stream": "portrait-craft",
@@ -3480,6 +4050,290 @@
       ],
       "links": [],
       "slug": "multi-stance"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "框人：人像构图底刀",
+      "stream": "portrait-craft",
+      "url": "portrait-craft/2026-11-04-frame-person.html",
+      "subtitle": "第3期",
+      "summary": "不是「人出现在画面里就算人像」；是「头顶有没有气、肩／关节切得干不干净、背景有没有长在人头上、人贴边还是留得住呼吸」。半身课练档位与头肩手；本课把镜头拉回 取景器四边——底刀。",
+      "category": "第3期",
+      "tags": [
+        "第3期",
+        "人像技巧"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261104-r3-01-benyusuf-elsie.webp",
+          "alt": "Zaida Ben-Yusuf Elsie full-length portrait",
+          "caption": "Zaida Ben-Yusuf｜Elsie（约 1899–1900s，开放馆藏／PD）｜好在：全身框——帽羽最高点有气，裙摆与脚落在下沿之内；暗底一层，边不啃人。",
+          "w": 940,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261104-r3-02-kasebier-manger.webp",
+          "alt": "Käsebier The Manger figure in space",
+          "caption": "Gertrude Käsebier｜The Manger（1899，PD）｜好在：人落在稳定气场里——头与上沿、身与地面都有缝；窗光边是环境边，不是乱切。",
+          "w": 1112,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261104-r3-03-parks-american-gothic.webp",
+          "alt": "Gordon Parks American Gothic Ella Watson",
+          "caption": "Gordon Parks｜American Gothic（Ella Watson，1942，FSA／PD）｜好在：偏中腰上肖像——扫帚与拖把把左右边「钉」住；旗是一层背景，头上无穿杆。",
+          "w": 1131,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261104-r3-11-hine-young-newsie.webp",
+          "alt": "Lewis Hine young newsie St Louis",
+          "caption": "Lewis Hine｜Young newsie, St. Louis（1910，PD）｜好在：胸像档气口量在帽顶；肩完整进框，门板一层底不穿头。",
+          "w": 1242,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261104-r3-04-evans-allie-mae.webp",
+          "alt": "Walker Evans Allie Mae Burroughs",
+          "caption": "Walker Evans｜Allie Mae Burroughs（1936，FSA／PD）｜好在：偏中紧胸像——木板横纹当一层底，头肩边线清晰；紧但不切顶、不啃肩。",
+          "w": 1230,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261104-r3-09-strand-blind-woman.webp",
+          "alt": "Paul Strand Blind woman",
+          "caption": "Paul Strand｜Blind（1916，PD）｜好在：紧框＋胸前标牌压重心；头与上沿仍有薄气，石墙竖缝不穿脑勺。",
+          "w": 1180,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261104-r3-12-weston-tina-modotti.webp",
+          "alt": "Edward Weston Tina Modotti portrait",
+          "caption": "Edward Weston｜Tina Modotti（1924，PD）｜好在：近距侧倾仍见颈肩切点；暗底干净，边在「肉」上走，非关节卡边。",
+          "w": 1168,
+          "h": 1452
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261104-r3-05-abbott-joyce.webp",
+          "alt": "Berenice Abbott James Joyce seated",
+          "caption": "Berenice Abbott｜James Joyce（1920s，开放馆藏／PD）｜好在：坐姿 3/4——椅背与手杖给出手部落点；下沿切在腿上段而非膝正中。",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261104-r3-06-vanvechten-faulkner.webp",
+          "alt": "Van Vechten William Faulkner brick wall",
+          "caption": "Carl Van Vechten｜William Faulkner｜好在：半身靠砖墙——肩线完整，砖缝是纹理不是穿头竖杆；框边不咬关节。",
+          "w": 1137,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261104-r3-10-vanvechten-pearl-bailey.webp",
+          "alt": "Van Vechten Pearl Bailey hands in frame",
+          "caption": "Carl Van Vechten｜Pearl Bailey（1946）｜好在：手在腰际张开＝意图延伸而非残肢切；头上气口够，牌面背景一层不抢边。",
+          "w": 1086,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261104-r3-07-kasebier-demeyer.webp",
+          "alt": "Käsebier Baron de Meyer profile leading space",
+          "caption": "Gertrude Käsebier｜Baron Adolf de Meyer（侧面）｜好在：视线／鼻尖方向留气；后脑侧可紧——偏侧面落点教科书。",
+          "w": 1030,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261104-r3-08-johnston-new-woman.webp",
+          "alt": "Frances Benjamin Johnston New Woman environmental",
+          "caption": "Frances Benjamin Johnston｜Self-portrait as 「New Woman」（约 1896，LOC／PD）｜好在：人偏壁炉一侧，环境占框但仍以坐姿肩膝切点可读；偏三分服务叙事空间。",
+          "w": 1269,
+          "h": 1600
+        }
+      ],
+      "links": [],
+      "slug": "frame-person"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "熟人引导：口令与节奏",
+      "stream": "portrait-craft",
+      "url": "portrait-craft/2026-11-05-known-guide.html",
+      "subtitle": "第4期",
+      "summary": "不是「让对方摆姿势库」；是「你说得清楚、对方听得懂、你敢等」。框人课练四边立住；本课把镜头留给 人：视线落点、转身角度、手位安放、表情停顿。熟人场＝最低成本练引导肌肉；练不成，别急着上街。",
+      "category": "第4期",
+      "tags": [
+        "第4期",
+        "人像技巧"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261105-r4-01-billie-holiday-hands.webp",
+          "alt": "Van Vechten Billie Holiday hands at chest",
+          "caption": "Carl Van Vechten｜Billie Holiday（1949，PD）｜好在：双手被安在胸前——像「手放到这儿」的口令结果；肩松、指形可读，不是悬空僵臂。",
+          "w": 990,
+          "h": 1514
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261105-r4-05-leontyne-price-hands.webp",
+          "alt": "Van Vechten Leontyne Price hands on hips",
+          "caption": "Carl Van Vechten｜Leontyne Price（1953，PD）｜好在：双手叉腰＝明确手位口令落地；肘开、腰线稳，一次只改「手」也能撑住半身。",
+          "w": 1118,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261105-r4-08-ellen-terry-hand.webp",
+          "alt": "Cameron Ellen Terry hand on necklace",
+          "caption": "Julia Margaret Cameron｜Ellen Terry at Age Sixteen／Sadness（1864，PD）｜好在：手握项链＝给手一个安放物；眼睑低垂是停顿表情，不是「笑一下」硬拧。",
+          "w": 1588,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261105-r4-11-benyusuf-lucia-seat.webp",
+          "alt": "Ben-Yusuf Lucia Chamberlain hands on chair",
+          "caption": "Zaida Ben-Yusuf｜Lucia Chamberlain（约 1900s，开放馆藏／PD）｜好在：坐姿＋双手搭椅背——「手扶椅背」类口令教科书；身侧头回，一次转身一件事。",
+          "w": 937,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261105-r4-02-billie-holiday-gaze-prop.webp",
+          "alt": "Van Vechten Billie Holiday looking at sculpture",
+          "caption": "Carl Van Vechten｜Billie Holiday（持雕塑半身，LOC／PD）｜好在：视线钉在手里的头像上——「看手里的东西」有具体落点；表情跟着注意力走，不是空飘眼。",
+          "w": 1136,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261105-r4-06-langston-hughes-gaze.webp",
+          "alt": "Van Vechten Langston Hughes direct gaze",
+          "caption": "Carl Van Vechten｜Langston Hughes（1936，PD）｜好在：钉镜头／钉拍摄者的停顿——像「看我」说完等两拍；嘴不笑，眼神先稳。",
+          "w": 1017,
+          "h": 1506
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261105-r4-09-sarah-bernhardt-gaze.webp",
+          "alt": "Nadar Sarah Bernhardt three-quarter gaze",
+          "caption": "Nadar｜Sarah Bernhardt（约 1864，PD）｜好在：3/4 视线离镜——「看那边」类口令；头肩同向，落点在画外，停得住。",
+          "w": 1207,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261105-r4-12-kanaga-frances-pause.webp",
+          "alt": "Kanaga Frances with a Flower eyes closed",
+          "caption": "Consuelo Kanaga｜Frances with a Flower（约 1930s，开放馆藏）｜好在：闭眼贴花＝注意力落点＋停顿；不喊笑，用「停／靠过去」换表情。",
+          "w": 1256,
+          "h": 1536
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261105-r4-04-truman-capote-turn.webp",
+          "alt": "Van Vechten Truman Capote body vs head turn",
+          "caption": "Carl Van Vechten｜Truman Capote（1948，PD）｜好在：身体朝一侧、头急转剖面——「身侧、头再转」一次一件仍可读；转身对照极清楚。",
+          "w": 1137,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261105-r4-10-anna-may-wong-profile.webp",
+          "alt": "Van Vechten Anna May Wong sharp profile",
+          "caption": "Carl Van Vechten｜Anna May Wong（1932，PD）｜好在：锐利全侧面＋手持杯——剖面口令落地；视线向前上方，手有物可安。",
+          "w": 1238,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261105-r4-03-zora-hurston.webp",
+          "alt": "Van Vechten Zora Neale Hurston studio pose",
+          "caption": "Carl Van Vechten｜Zora Neale Hurston（工作室半身，LOC／PD）｜好在：3/4 站姿＋帽沿压视线——像「肩转一点、眼看这边」收束后的定格；一次姿态一件事。",
+          "w": 1100,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261105-r4-07-alvin-ailey-pause.webp",
+          "alt": "Van Vechten Alvin Ailey eyes closed pause",
+          "caption": "Carl Van Vechten｜Alvin Ailey（LOC／PD）｜好在：闭眼仰头＝纯停顿口令结果；说完等呼吸落下再按——节奏课的样板，不是连拍撞表情。",
+          "w": 1273,
+          "h": 1600
+        }
+      ],
+      "links": [],
+      "slug": "known-guide"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "街拍接近与拒绝",
+      "stream": "portrait-craft",
+      "url": "portrait-craft/2026-11-06-street-approach.html",
+      "subtitle": "第5期",
+      "summary": "不是偷拍练胆；是「敢开口、会站距、会退出」。熟人引导练短口令；本课把对象换成陌生人／半生不熟的公共空间人：先问、再举机、再按。对方知情、表情松、站距不压人——才算接近成功。",
+      "category": "第5期",
+      "tags": [
+        "第5期",
+        "人像技巧"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261106-r5-01-shepherd-rajasthan.webp",
+          "alt": "Shepherd waving Rajasthan",
+          "caption": "Paramanu Sarkar｜Jawai Bandh 牧羊人（Rajasthan；CC BY-SA 4.0）｜好在：招手＋笑＝开口成功后的身体回应；站距可读，不是贴脸硬怼；对方明确在配合。",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261106-r5-02-fishmonger-maracaibo.webp",
+          "alt": "Fishmonger smiling Maracaibo market",
+          "caption": "Wilfredor｜马拉开波街头鱼贩（Venezuela；CC0）｜好在：市场环境里大笑松弛——知情后的放松脸；半身对话距，不像偷拍被抓的僵。",
+          "w": 1600,
+          "h": 1096
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261106-r5-08-alex-graz-wave.webp",
+          "alt": "Sanitation worker waving Graz",
+          "caption": "Kevin Griebaum／Holding Graz｜环卫工 Alex 招手（Graz；CC BY 2.0）｜好在：工作现场招手回应＝短开口后的友好闭环；斜向站位、不堵路，退出也容易。",
+          "w": 1066,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261106-r5-04-laotian-man-temple.webp",
+          "alt": "Laotian man at temple",
+          "caption": "Basile Morin｜老挝寺庙前男子胸像（CC BY-SA 4.0）｜好在：公共空间半身／胸像；笑意松、肩不缩——获允后留气的站距样板。",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261106-r5-05-louis-mendes.webp",
+          "alt": "Louis Mendes street photographer portrait",
+          "caption": "Michael Kowalczyk｜街头摄影师 Louis Mendes（2017；CC BY-SA 2.0）｜好在：都市人行道上的明确肖像意图；对方持机对视——互相知情的街距，不是偷袭。",
+          "w": 1060,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261106-r5-07-mime-street-portrait.webp",
+          "alt": "Mime street portrait cafe",
+          "caption": "madras91｜咖啡馆前哑剧妆肖像（CC BY 2.0）｜好在：公共座位点头后的近距半身；眼看镜头、肩松——对话距成立，无贴脸畸变。",
+          "w": 1600,
+          "h": 1105
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261106-r5-06-kayan-weaver-tachileik.webp",
+          "alt": "Kayan weaver Tachileik looking at camera",
+          "caption": "CEphoto, Uwe Aranas｜Tachileik 克耶织女回看镜头（Myanmar；CC BY-SA 4.0）｜好在：工作中抬头看镜头＝知情；环境锚（织机／布）在，人仍是肖像主体——接近后的环境肖像。",
+          "w": 1600,
+          "h": 1148
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261106-r5-03-laughing-boy-laos.webp",
+          "alt": "Laughing boy golden hour Laos",
+          "caption": "Basile Morin｜Si Phan Don 金色时刻笑孩（Laos；CC BY-SA 4.0）｜好在：正面钉镜头的大笑——开口／靠近后对方完全知情；眼平视，无俯拍压迫。",
+          "w": 1200,
+          "h": 1600
+        }
+      ],
+      "links": [],
+      "slug": "street-approach"
     }
   ]
 }
