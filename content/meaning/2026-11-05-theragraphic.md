@@ -6,7 +6,7 @@ subtitle: ""
 summary: "加拿大安大略 Niagara／Grimsby；摄影师 Mitchell Brown 创办的月度自然慢走拍照社区；官网 theragraphic.ca（约 2025 起）。"
 category: ""
 tags: []
-thumbs: []
+thumbs: [{"src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261105-theragraphic-port-stanley.webp", "alt": "Mitchell Brown Port Stanley epic waves pier lighthouse", "caption": "Port Stanley｜风暴巨浪打上灯塔与栈桥", "w": 1200, "h": 800}, {"src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261105-theragraphic-coast-rocks.webp", "alt": "Mitchell Brown rocky coastline long exposure Niagara", "caption": "岩岸｜长曝光海面与流云", "w": 1200, "h": 563}, {"src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261105-theragraphic-fly-macro.webp", "alt": "Mitchell Brown macro housefly reflection", "caption": "苍蝇微距｜反光里的被略过细节", "w": 1200, "h": 799}, {"src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261105-theragraphic-structure-fire.webp", "alt": "Mitchell Brown firefighter structure fire hose", "caption": "结构火｜消防员拖管冲向前", "w": 1200, "h": 799}, {"src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261105-theragraphic-bilinsky.webp", "alt": "Mitchell Brown Celebrating Generations Bilinsky firefighters", "caption": "Celebrating Generations｜Bilinsky 三代消防员", "w": 1200, "h": 801}]
 links: []
 slug: "theragraphic"
 ---

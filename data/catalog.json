@@ -2648,7 +2648,43 @@
       "topics": [],
       "people": [],
       "edited": false,
-      "images": [],
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261104-dearden-windermere.webp",
+          "alt": "John Dearden Lake Windermere long exposure landscape",
+          "caption": "Lake Windermere｜长曝光湖景",
+          "w": 1000,
+          "h": 775
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261104-dearden-flamingo.webp",
+          "alt": "John Dearden flamingo Chester Zoo wings spread",
+          "caption": "Chester Zoo｜展翅火烈鸟",
+          "w": 1000,
+          "h": 800
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261104-dearden-tiger.webp",
+          "alt": "John Dearden tiger yawn Chester Zoo",
+          "caption": "Chester Zoo｜打呵欠的老虎",
+          "w": 1800,
+          "h": 1346
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261104-dearden-snow-leopard.webp",
+          "alt": "John Dearden snow leopard portrait Chester Zoo",
+          "caption": "Chester Zoo｜雪豹近景",
+          "w": 1800,
+          "h": 1262
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261104-dearden-albert-dock.webp",
+          "alt": "John Dearden Albert Dock Liverpool yacht sunset",
+          "caption": "Albert Dock｜利物浦日落游艇",
+          "w": 1800,
+          "h": 1346
+        }
+      ],
       "links": [],
       "slug": "dearden"
     },
@@ -2664,7 +2700,43 @@
       "topics": [],
       "people": [],
       "edited": false,
-      "images": [],
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261105-theragraphic-port-stanley.webp",
+          "alt": "Mitchell Brown Port Stanley epic waves pier lighthouse",
+          "caption": "Port Stanley｜风暴巨浪打上灯塔与栈桥",
+          "w": 1200,
+          "h": 800
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261105-theragraphic-coast-rocks.webp",
+          "alt": "Mitchell Brown rocky coastline long exposure Niagara",
+          "caption": "岩岸｜长曝光海面与流云",
+          "w": 1200,
+          "h": 563
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261105-theragraphic-fly-macro.webp",
+          "alt": "Mitchell Brown macro housefly reflection",
+          "caption": "苍蝇微距｜反光里的被略过细节",
+          "w": 1200,
+          "h": 799
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261105-theragraphic-structure-fire.webp",
+          "alt": "Mitchell Brown firefighter structure fire hose",
+          "caption": "结构火｜消防员拖管冲向前",
+          "w": 1200,
+          "h": 799
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261105-theragraphic-bilinsky.webp",
+          "alt": "Mitchell Brown Celebrating Generations Bilinsky firefighters",
+          "caption": "Celebrating Generations｜Bilinsky 三代消防员",
+          "w": 1200,
+          "h": 801
+        }
+      ],
       "links": [],
       "slug": "theragraphic"
     },
@@ -2680,7 +2752,43 @@
       "topics": [],
       "people": [],
       "edited": false,
-      "images": [],
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261106-liutao-dog-head.webp",
+          "alt": "Liu Tao Hefei street dog head coincidence",
+          "caption": "合肥街头｜狗头叠人脸的借位",
+          "w": 1000,
+          "h": 665
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261106-liutao-trash-mannequin.webp",
+          "alt": "Liu Tao mannequin in trash bins Hefei",
+          "caption": "垃圾桶｜假人探头与翻捡",
+          "w": 1000,
+          "h": 665
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261106-liutao-shadow-frame.webp",
+          "alt": "Liu Tao shadow framed in green picture frame",
+          "caption": "绿框｜人影恰好落进空相框",
+          "w": 1000,
+          "h": 661
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261106-liutao-mirror-yawn.webp",
+          "alt": "Liu Tao worker yawn in scooter mirror",
+          "caption": "反光镜｜劳动者的呵欠",
+          "w": 1000,
+          "h": 660
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261106-liutao-bag-hats.webp",
+          "alt": "Liu Tao plastic bags as rain hats street",
+          "caption": "雨天｜塑料袋当帽子出门",
+          "w": 1500,
+          "h": 993
+        }
+      ],
       "links": [],
       "slug": "liutao"
     },
