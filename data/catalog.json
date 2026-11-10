@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-10T12:00:00+08:00",
+  "generatedAt": "2026-11-10T21:04:02.972343+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
     "photographer": 22,
     "aesthetic": 18,
     "28mm": 10,
-    "portrait-craft": 7,
+    "portrait-craft": 8,
     "meaning": 20
   },
   "topics": [
@@ -5743,6 +5743,63 @@
       ],
       "links": [],
       "slug": "x15698a"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "人像技巧｜姿态：站坐走与重心",
+      "stream": "portrait-craft",
+      "url": "portrait-craft/2026-11-10-x0d40db.html",
+      "subtitle": "第8期",
+      "summary": "2026-11-10｜第8期｜课序 #06",
+      "category": "第8期",
+      "tags": [
+        "第8期",
+        "人像技巧"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261110-14.webp",
+          "alt": "Nadav Kander，交叠双臂站姿",
+          "caption": "Nadav Kander｜Fear of God VI，交叠双臂站姿：脚位略错开，身体转向与回望分开处理。",
+          "w": 1200,
+          "h": 900
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261110-16.webp",
+          "alt": "Nadav Kander，侧身站姿",
+          "caption": "Nadav Kander｜Fear of God VI，侧身站姿：肘部离开躯干，宽松衣服下仍有清楚的身体外缘。",
+          "w": 1200,
+          "h": 900
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261110-4.webp",
+          "alt": "Nadav Kander，Winona Ryder 抬膝坐姿",
+          "caption": "Nadav Kander｜Winona Ryder 抬膝坐姿：膝、肘与侧腰形成错落，不靠耸肩撑气势。",
+          "w": 900,
+          "h": 1200
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261110-8.webp",
+          "alt": "Nadav Kander，Winona Ryder 前屈坐姿",
+          "caption": "Nadav Kander｜Winona Ryder 前屈坐姿：背部弧线与低头方向一致，蜷曲也可以是主动表达。",
+          "w": 900,
+          "h": 1200
+        }
+      ],
+      "links": [
+        {
+          "label": "Winona Ryder",
+          "url": "https://www.nadavkander.com/commissions/winona-ryder"
+        },
+        {
+          "label": "Fear of God VI",
+          "url": "https://www.nadavkander.com/commissions/fear-of-god-vi"
+        }
+      ],
+      "slug": "x0d40db"
     }
   ]
 }
