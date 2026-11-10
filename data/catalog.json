@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-10T16:27:30.559612+08:00",
+  "generatedAt": "2026-11-10T12:00:00+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
-    "photographer": 16,
-    "aesthetic": 16,
-    "28mm": 8,
-    "portrait-craft": 5,
-    "meaning": 16
+    "photographer": 22,
+    "aesthetic": 18,
+    "28mm": 10,
+    "portrait-craft": 7,
+    "meaning": 20
   },
   "topics": [
     {
@@ -552,6 +552,136 @@
         {
           "label": "Fraenkel｜Women are Beautiful",
           "url": "https://fraenkelgallery.com/portfolios/garry-winogrand-women-are-beautiful"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "title": "第八课：顶边留缝 vs 咬顶",
+      "stream": "28mm",
+      "url": "28mm/2026-11-07.html",
+      "subtitle": "顶边留缝 vs 咬顶",
+      "summary": "前几课多练左右边／前后半步／等人进边。这一课只盯顶边：同一场面，先直觉一张，再只改机位高度（微屈膝／踮脚／略降肘——禁止大幅前后侧移），决定顶边是「留一指净缝」还是「故意咬顶」。不是低机位引导线（第二课），不是斜构图，不是框中框。",
+      "category": "第八课",
+      "tags": [
+        "第八课",
+        "28mm"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-36-moriyama-lupin-alley-gap-R0000346.webp",
+          "alt": "Daido Moriyama Lupin alley top gap R0000346",
+          "caption": "森山｜银座 GR III · Lupin 顶边留缝",
+          "w": 1120,
+          "h": 747
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-37-moriyama-lupin-sign-bite-R0000355.webp",
+          "alt": "Daido Moriyama Lupin sign bite R0000355",
+          "caption": "森山｜银座 GR III · Lupin 故意咬顶",
+          "w": 1120,
+          "h": 747
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-38-moriyama-ginza-sky-gap-R0000413.webp",
+          "alt": "Daido Moriyama Ginza sky gap R0000413",
+          "caption": "森山｜银座 GR III · 街谷顶边留缝",
+          "w": 1120,
+          "h": 747
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-39-moriyama-uniqlo-sign-bite-R0000408.webp",
+          "alt": "Daido Moriyama Uniqlo sign bite R0000408",
+          "caption": "森山｜银座 GR III · Uniqlo 招牌咬顶",
+          "w": 1120,
+          "h": 747
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-40-moriyama-omega-billboard-bite-R0000325.webp",
+          "alt": "Daido Moriyama Omega billboard bite R0000325",
+          "caption": "森山｜银座 GR III · Omega 灯箱咬顶",
+          "w": 1120,
+          "h": 747
+        }
+      ],
+      "links": [
+        {
+          "label": "Ricoh GR Official｜森山大道 银座 GR III 图库",
+          "url": "https://www.grblog.jp/en/article/1461/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "title": "第九课：前景挡杂清主次",
+      "stream": "28mm",
+      "url": "28mm/2026-11-09.html",
+      "subtitle": "前景挡杂清主次",
+      "summary": "前几课多练边缘、半步权重、门缝容器。这一课把尺子挪到前景挡板：同一场面，先直觉一张，再只改站位半步／一侧，用墙角、柱、门边、近处人肩／包／车身，把次要杂人／杂牌／杂色挡住或压成弱读，让框里只剩一个清晰主读点。不是近距压迫（第一课），不是侧移去粘连（第三课），不是框中框（第五课把门洞当容器），不是半步改边线权重（第七课）。",
+      "category": "第九课",
+      "tags": [
+        "第九课",
+        "28mm"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-41-webb-boquillas-jumping-1979.webp",
+          "alt": "Alex Webb Jumping Boquillas Mexico 1979",
+          "caption": "Alex Webb｜Boquillas 1979 · 粉墙挡两侧",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-42-webb-miami-beach-pillar-1988.webp",
+          "alt": "Alex Webb Miami Beach Florida 1988 cyan pillar",
+          "caption": "Alex Webb｜Miami Beach 1988 · 青柱挡右",
+          "w": 1600,
+          "h": 1044
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-43-webb-istanbul-door-car-2001.webp",
+          "alt": "Alex Webb Istanbul 2001 door edge and man on car",
+          "caption": "Alex Webb｜Istanbul 2001 · 门边挡右",
+          "w": 1600,
+          "h": 1073
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-44-webb-istanbul-alley-boy-2001.webp",
+          "alt": "Alex Webb Istanbul 2001 alley boy and passersby",
+          "caption": "Alex Webb｜Istanbul 2001 · 路人肩压弱",
+          "w": 1600,
+          "h": 1070
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-45-webb-istanbul-candy-gateway-2001.webp",
+          "alt": "Alex Webb Istanbul 2001 boy with cotton candy in gateway",
+          "caption": "Alex Webb｜Istanbul 2001 · 门垛挡两侧",
+          "w": 1600,
+          "h": 1062
+        }
+      ],
+      "links": [
+        {
+          "label": "Alex Webb & Rebecca Norris Webb｜官网",
+          "url": "https://webbnorriswebb.co/archive/alex"
+        },
+        {
+          "label": "Magnum｜The Suffering of Light",
+          "url": "https://www.magnumphotos.com/arts-culture/alex-webb-the-suffering-of-light/"
+        },
+        {
+          "label": "Magnum｜Istanbul: City of a Hundred Names",
+          "url": "https://www.magnumphotos.com/arts-culture/society-arts-culture/alex-webb-city-of-hundred-names/"
+        },
+        {
+          "label": "Magnum｜La Calle",
+          "url": "https://www.magnumphotos.com/arts-culture/travel/alex-webb-la-calle/"
         }
       ]
     },
@@ -1712,6 +1842,154 @@
       ]
     },
     {
+      "date": "2026-11-07",
+      "title": "环境肖像（Environmental Portrait）",
+      "stream": "aesthetic",
+      "url": "aesthetic/2026-11-07.html",
+      "subtitle": "",
+      "summary": "本周城市练习小问题仍是边缘控制（2026-11-02–11-08）。昨日「角咬」问人形是否被两邻边咬进画幅某角；今日换一套看片标准——整期认风格词：环境肖像，并开人像课序第四课。刀口改问：「人与其所在场所是否互相说明身份／处境——拿掉环境（裁成大头贴），肖像是否泄力」。",
+      "category": "",
+      "tags": [
+        "Environmental Portrait"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261107-ronghui-chen-christmas-factory.webp",
+          "alt": "Ronghui Chen Christmas factory worker",
+          "caption": "陈荣辉｜义乌｜圣诞工厂红粉工位",
+          "w": 1600,
+          "h": 1280
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261107-galimberti-jasper-backyard.webp",
+          "alt": "Gabriele Galimberti Torrell Jasper backyard",
+          "caption": "Galimberti｜Louisiana｜后院枪械与喷火",
+          "w": 1600,
+          "h": 1200
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261107-gianferro-roma-hallway.webp",
+          "alt": "Carlo Gianferro Roma home hallway",
+          "caption": "Gianferro｜Roma home｜厅堂美元符号墙",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261107-drake-engineer-office.webp",
+          "alt": "Carolyn Drake engineer office Torez",
+          "caption": "Drake｜Torez｜煤矿行政楼工程师",
+          "w": 1600,
+          "h": 1125
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261107-olwage-shisanyama.webp",
+          "alt": "Lee-Ann Olwage Belinda shisanyama",
+          "caption": "Olwage｜Khayelitsha｜市集烤肉摊盛装",
+          "w": 1600,
+          "h": 1066
+        }
+      ],
+      "links": [
+        {
+          "label": "陈荣辉｜2015（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2015/ronghui-chen/1"
+        },
+        {
+          "label": "Gabriele Galimberti｜2021（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2021/gabriele-galimberti/1"
+        },
+        {
+          "label": "Carlo Gianferro｜2009（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2009/carlo-gianferro/11"
+        },
+        {
+          "label": "Carolyn Drake｜2008（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2008/carolyn-drake/2"
+        },
+        {
+          "label": "Lee-Ann Olwage｜2020（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2020/lee-ann-olwage/1"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "title": "挡与缝（Block and Slit）",
+      "stream": "aesthetic",
+      "url": "aesthetic/2026-11-08.html",
+      "subtitle": "",
+      "summary": "本周城市练习小问题仍是边缘控制（2026-11-02–11-08），今日是这周最后一天。昨日「环境肖像」问人与场所是否互相说明；今日换认风格词：挡与缝——问「画面里有没有一块挡在藏，是否只留一条缝把人／事件漏出来——拿掉这块挡，窥视感会不会泄」。同属边缘控制周，刀口更窄：贴边问画幅外边；框中框问完整内框把人装进去；角咬问两邻边交汇的角；今日问的是画面内部的挡块边缘——挡负责藏，缝负责漏。",
+      "category": "",
+      "tags": [
+        "Block and Slit"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261108-tripodo-under-vehicle.webp",
+          "alt": "Gianfranco Tripodo under vehicle Melilla",
+          "caption": "Tripodo｜Melilla｜车底缝里藏着的人",
+          "w": 1920,
+          "h": 1280
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261108-prickett-cell-door.webp",
+          "alt": "Ivor Prickett cell door Mosul",
+          "caption": "Prickett｜Mosul｜牢门小窗探出的脸",
+          "w": 1620,
+          "h": 1080
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261108-zorman-bars.webp",
+          "alt": "Matic Zorman children behind bars",
+          "caption": "Zorman｜Serbia｜栏杆缝与雨衣里的孩子",
+          "w": 1920,
+          "h": 1280
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261108-berehulak-nepal-window.webp",
+          "alt": "Daniel Berehulak Nepal window passing",
+          "caption": "Berehulak｜Bhaktapur｜破窗缝里递出的行李",
+          "w": 1920,
+          "h": 1281
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/aesthetic-20261108-wennman-fara-blanket.webp",
+          "alt": "Magnus Wennman Fara Azraq blanket",
+          "caption": "Wennman｜Azraq｜毯子开口里的 Fara",
+          "w": 1920,
+          "h": 1646
+        }
+      ],
+      "links": [
+        {
+          "label": "Gianfranco Tripodo｜2015（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2015/gianfranco-tripodo/1"
+        },
+        {
+          "label": "Ivor Prickett｜2018（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2018/ivor-prickett-gns/7"
+        },
+        {
+          "label": "Matic Zorman｜2016（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2016/matic-zorman/1"
+        },
+        {
+          "label": "Daniel Berehulak｜2016（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2016/daniel-berehulak-gns/1"
+        },
+        {
+          "label": "Magnus Wennman｜2016（World Press Photo）",
+          "url": "https://www.worldpressphoto.org/collection/photo-contest/2016/magnus-wennman/1"
+        }
+      ]
+    },
+    {
       "date": "2026-10-27",
       "title": "把抑郁和焦虑拍成十条故事",
       "stream": "meaning",
@@ -2802,6 +3080,91 @@
     },
     {
       "date": "2026-11-06",
+      "title": "Jesse Egner：No Femmes. No Fats. 与把自己拍回场上",
+      "stream": "meaning",
+      "url": "meaning/2026-11-06-egner.html",
+      "subtitle": "",
+      "summary": "Jesse Egner（he/they），布鲁克林；酷儿艺术家与教育者。Parsons 摄影 MFA；作品进清里摄影艺术博物馆永久收藏，也是 NYSCA/NYFA 摄影 Fellow。系列名就叫 No Femmes. No Fats.。",
+      "category": "",
+      "tags": [],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261106-egner-knit-face.webp",
+          "alt": "Jesse Egner Knit Face collaborative yarn portrait",
+          "caption": "Knit Face｜红线把两人织进同一场戏",
+          "w": 1000,
+          "h": 786
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261106-egner-daddy-straw.webp",
+          "alt": "Jesse Egner Daddy Straw bathroom self-portrait",
+          "caption": "Daddy Straw｜浴室里荒诞的一口吸管",
+          "w": 1000,
+          "h": 800
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261106-egner-lite-brite.webp",
+          "alt": "Jesse Egner Lite Brite self-portrait body",
+          "caption": "Lite Brite｜床沿上坦然的非规范身体",
+          "w": 786,
+          "h": 1000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261106-egner-corgis.webp",
+          "alt": "Jesse Egner Corgis face-obscured self-portrait",
+          "caption": "Corgis｜柯基堆里把自己遮掉又摆出来",
+          "w": 786,
+          "h": 1000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261106-egner-peek-boat.webp",
+          "alt": "Jesse Egner Peek boat portrait queer body",
+          "caption": "Peek｜船上半身：疤与绳索同在",
+          "w": 786,
+          "h": 1000
+        }
+      ],
+      "links": [
+        {
+          "label": "LENSCRATCH｜No Femmes. No Fats.",
+          "url": "http://lenscratch.com/2023/02/portrait-week-jesse-egner-no-femmes-no-fats/"
+        },
+        {
+          "label": "官网 bio",
+          "url": "https://www.jesseegner.com/bio"
+        },
+        {
+          "label": "FLOAT 访谈",
+          "url": "https://www.floatmagazine.us/interviews/jesse-egner"
+        },
+        {
+          "label": "Fraction Magazine",
+          "url": "http://www.fractionmagazine.com/jesse-egner"
+        },
+        {
+          "label": "LENSCRATCH｜Portrait Week: Jesse Egner: No Femmes. No Fats.（2023-02-21，Aline Smithson）",
+          "url": "http://lenscratch.com/2023/02/portrait-week-jesse-egner-no-femmes-no-fats/"
+        },
+        {
+          "label": "jesseegner.com/bio",
+          "url": "https://www.jesseegner.com/bio"
+        },
+        {
+          "label": "FLOAT｜Jesse Egner interview（Dana Stirling）",
+          "url": "https://www.floatmagazine.us/interviews/jesse-egner"
+        },
+        {
+          "label": "Fraction Magazine Issue 173｜Jesse Egner",
+          "url": "http://www.fractionmagazine.com/jesse-egner"
+        }
+      ],
+      "slug": "egner"
+    },
+    {
+      "date": "2026-11-06",
       "title": "刘涛：抄完表，再把合肥街头走成自己的长卷",
       "stream": "meaning",
       "url": "meaning/2026-11-06-liutao.html",
@@ -2851,6 +3214,241 @@
       ],
       "links": [],
       "slug": "liutao"
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Maryann Cheung：60 岁才拿起父亲那台 Minolta，把小镇拍成礼物",
+      "stream": "meaning",
+      "url": "meaning/2026-11-07-cheung.html",
+      "subtitle": "",
+      "summary": "Maryann Cheung，新罕布什尔州 Hillsborough。开过二十年中餐馆，现照顾家人；约 60 岁才认真拍。类型：普通人／非职业起步；主侧面：老年。",
+      "category": "",
+      "tags": [],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261107-cheung-dance-wings.webp",
+          "alt": "Maryann Cheung girls dancing with fairy wings community event",
+          "caption": "社区活动｜带翅膀跳舞的女孩",
+          "w": 1280,
+          "h": 914
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261107-cheung-pipe-band.webp",
+          "alt": "Maryann Cheung pipe and drum band Hillsborough parade",
+          "caption": "街头｜风笛与鼓的Hometown一刻",
+          "w": 1280,
+          "h": 914
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261107-cheung-christmas-elder.webp",
+          "alt": "Maryann Cheung elderly woman Christmas community table",
+          "caption": "圣诞桌｜长者坐在义卖／市集后面",
+          "w": 1200,
+          "h": 960
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261107-cheung-snowy-park.webp",
+          "alt": "Maryann Cheung snowy Butler Park night Hillsborough",
+          "caption": "Butler Park｜雪夜小公园",
+          "w": 2000,
+          "h": 1250
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261107-cheung-halloween-house.webp",
+          "alt": "Maryann Cheung Pleasant Street Halloween house night",
+          "caption": "Pleasant St｜万圣节亮灯的房子",
+          "w": 2000,
+          "h": 1335
+        }
+      ],
+      "links": [
+        {
+          "label": "Concord Monitor｜Hometown Hero",
+          "url": "https://www.concordmonitor.com/2022/11/28/around-her-60th-birthday-her-life-came-into-focus-48863778/"
+        },
+        {
+          "label": "DIY Photography",
+          "url": "https://www.diyphotography.net/a-woman-started-photography-at-the-age-of-60-showing-its-never-too-late-to-reinvent-yourself/"
+        },
+        {
+          "label": "SmugMug 官网",
+          "url": "https://maryanncheung.smugmug.com/"
+        },
+        {
+          "label": "Flickr",
+          "url": "https://www.flickr.com/photos/195034418@N06/"
+        },
+        {
+          "label": "Concord Monitor｜A Hillsboro woman waited until she was 60…（Ray Duckler，2022-11-28）",
+          "url": "https://www.concordmonitor.com/2022/11/28/around-her-60th-birthday-her-life-came-into-focus-48863778/"
+        },
+        {
+          "label": "DIY Photography｜A woman started photography at the age of 60…（2022-12-21）",
+          "url": "https://www.diyphotography.net/a-woman-started-photography-at-the-age-of-60-showing-its-never-too-late-to-reinvent-yourself/"
+        },
+        {
+          "label": "maryanncheung.smugmug.com",
+          "url": "https://maryanncheung.smugmug.com/"
+        },
+        {
+          "label": "Flickr＠195034418@N06",
+          "url": "https://www.flickr.com/photos/195034418@N06/"
+        }
+      ],
+      "slug": "cheung"
+    },
+    {
+      "date": "2026-11-08",
+      "title": "Joe Greer：点赞曾经决定他出门拍什么",
+      "stream": "meaning",
+      "url": "meaning/2026-11-08-greer.html",
+      "subtitle": "",
+      "summary": "Joe Greer，密歇根州 Flint 出生，佛罗里达长大；2010 年搬去华盛顿州 Spokane 读 biblical studies，现居田纳西州 Franklin。自学，做商业、街拍、风景与纪实；客户包括 Apple、VSCO、Cadillac、Mont Blanc。类型：名家职业；主侧面：羡慕裹挟。",
+      "category": "",
+      "tags": [],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261108-greer-window-turban.webp",
+          "alt": "Joe Greer man in red turban at wooden window India",
+          "caption": "窗前｜红头巾男子对着木窗框整理",
+          "w": 2000,
+          "h": 1327
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261108-greer-road-forage.webp",
+          "alt": "Joe Greer women carrying forage along rural highway India",
+          "caption": "公路｜顶着饲料走在路上的女人",
+          "w": 2000,
+          "h": 1632
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261108-greer-blue-city-dogs.webp",
+          "alt": "Joe Greer dogs on curved lane in blue-painted old city India",
+          "caption": "蓝色老城｜巷道拐角上的狗",
+          "w": 2000,
+          "h": 1632
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261108-greer-nyc-snow.webp",
+          "alt": "Joe Greer snowy Ludlow Street New York City",
+          "caption": "纽约 Ludlow Street｜雪中的街道",
+          "w": 2000,
+          "h": 1325
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261108-greer-autumn-farm.webp",
+          "alt": "Joe Greer autumn farm winding road The Lay of the Land",
+          "caption": "《The Lay of the Land》｜秋色农庄与弯路",
+          "w": 2000,
+          "h": 1600
+        }
+      ],
+      "links": [
+        {
+          "label": "官网 ioe.photography",
+          "url": "https://www.ioe.photography/"
+        },
+        {
+          "label": "IGNANT｜印度预览",
+          "url": "https://www.ignant.com/2023/07/28/in-conversation-with-photography-and-life-joe-greer-takes-the-long-view/"
+        },
+        {
+          "label": "Field Mag｜Teva Todd 采访（2022-05-10）",
+          "url": "https://www.fieldmag.com/articles/joe-greer-film-photographer-interview"
+        },
+        {
+          "label": "The Photographic Journal｜Agustin Sanchez 采访（2022-06-27）",
+          "url": "https://thephotographicjournal.com/interviews/joe-greer/"
+        },
+        {
+          "label": "NPR Picture Show（2022-07-30）",
+          "url": "https://www.npr.org/sections/pictureshow/2022/07/30/1111740575/in-lay-of-the-land-photographer-joe-greer-shares-a-story-of-healing"
+        },
+        {
+          "label": "IGNANT（2023-07-28）",
+          "url": "https://www.ignant.com/2023/07/28/in-conversation-with-photography-and-life-joe-greer-takes-the-long-view/"
+        },
+        {
+          "label": "Leica Camera Blog｜The Beauty of Imperfection（2020-03-25）",
+          "url": "https://leica-camera.blog/2020/03/25/the-beauty-of-imperfection/"
+        },
+        {
+          "label": "ioe.photography",
+          "url": "https://www.ioe.photography/"
+        }
+      ],
+      "slug": "greer"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Chris Porsz：搁下相机近二十五年，再用旧照片敲开一座城",
+      "stream": "meaning",
+      "url": "meaning/2026-11-10-porsz.html",
+      "subtitle": "",
+      "summary": "Chris Porsz 曾是英国彼得伯勒的急救员。1980 年代，他在休息时带相机上街：站台上告别的恋人、广场上喝汽水的年轻人、路边骑车的男孩。他不认识其中大多数人，也不知道这些随手留下的底片，后来会成为再见面的理由。",
+      "category": "",
+      "tags": [],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261110-porsz-6855.webp",
+          "alt": "Chris Porsz：1980年大教堂广场上，两位年轻人手持Vimto汽水罐，狗从肩后探头",
+          "caption": "1980 年 6 月｜“Vimto girl”，大教堂广场。汽水罐、两个人和一只探头的狗。",
+          "w": 590,
+          "h": 393
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261110-porsz-2567142.webp",
+          "alt": "Chris Porsz：2010年Trudi与Dave Talbot回到广场，手持汽水罐，狗坐在身后",
+          "caption": "2010 年 5 月｜Trudi 与 Dave Talbot 重拍。人和狗的位置再次呼应，广场也变了。",
+          "w": 800,
+          "h": 548
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261110-porsz-9000630.webp",
+          "alt": "Chris Porsz：1982年彼得伯勒站台，一人探出火车车窗与站台上的恋人亲吻",
+          "caption": "1982 年｜“Railway Lovers”。列车、雨棚和站台边的一次吻。",
+          "w": 434,
+          "h": 650
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261110-porsz-4002988.webp",
+          "alt": "Chris Porsz：2009年Tony与Sally Wilmot重回火车车窗边亲吻",
+          "caption": "2009 年｜Tony 与 Sally Wilmot，把车窗边的吻再做一次。",
+          "w": 565,
+          "h": 800
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/meaning-20261110-porsz-7134796.webp",
+          "alt": "Chris Porsz：八十年代初Bridge Street，一名骑自行车的男孩与警察交谈",
+          "caption": "八十年代初｜Bridge Street，骑车男孩与警察。第五张保留为当年的街头现场，不另拼一张对照。",
+          "w": 433,
+          "h": 650
+        }
+      ],
+      "links": [
+        {
+          "label": "作者官网｜Peterborough – reunions（五图与原始图注）",
+          "url": "https://www.chrisporsz.com/peterborough---reunions.html"
+        },
+        {
+          "label": "Amateur Photographer｜Steve Fairclough 专访：Reunions 的来龙去脉",
+          "url": "https://amateurphotographer.com/latest/articles/chris-porsz-the-inside-story-of-the-amazing-street-photography-project-reunions/"
+        },
+        {
+          "label": "官网｜Reunions／Reunions 2 介绍",
+          "url": "https://www.chrisporsz.com/"
+        }
+      ],
+      "slug": "porsz"
     },
     {
       "date": "2026-10-22",
@@ -4026,6 +4624,483 @@
       ]
     },
     {
+      "date": "2026-11-07",
+      "title": "骆丹（当代 · 中国）",
+      "stream": "photographer",
+      "url": "photographer/2026-11-07.html",
+      "subtitle": "",
+      "summary": "本周练：边缘控制（2026-11-02–11-08）——框四边切什么、角里进什么、贴边是否可读。今天这位示范的不是街拍几何里杆线／色块咬边，也不是昨卢广纪实现场里的伤与污染证据贴边，而是公路／湿版／无人荒野里的边：318 国道上公路线与护坡如何收束一人一熊；临时戏台的黄幕与灰楼如何切进；湿版药膜不规则边如何把人关进板框；荒漠里地平、杆列、草方格网格如何被画幅切开又仍可读——空旷不是「留白堆完事」，边线决定荒野被收成一块可读的地，还是泄成明信片远景。",
+      "category": "当代 · 中国（公路／湿版肖像／无人荒野·新地形气质；重庆→成都）",
+      "tags": [
+        "当代 · 中国（公路／湿版肖像／无人荒野·新地形气质；重庆→成都）",
+        "当代",
+        "中国"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luodan-318-boy-teddy-highway.webp",
+          "alt": "Luo Dan China Route 318 boy with teddy bear on mountain highway",
+          "caption": "318国道｜山路男孩背白熊：公路线／护坡贴边，腰以下被底边切开",
+          "w": 1080,
+          "h": 868
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luodan-318-opera-stage.webp",
+          "alt": "Luo Dan China Route 318 opera performer on makeshift roadside stage",
+          "caption": "318国道｜临时戏台独角：黄幕框中框，右边灰楼切进，台脚落地",
+          "w": 1080,
+          "h": 860
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luodan-noman-solar-array.webp",
+          "alt": "Luo Dan No Man",
+          "caption": "无人之境 NO.10｜荒漠太阳能场：左右切杆列，顶边大空天收束地平",
+          "w": 1080,
+          "h": 475
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luodan-noman-desert-checkerboard.webp",
+          "alt": "Luo Dan No Man",
+          "caption": "无人之境｜沙漠草方格／轮状固沙：网格被左右边切开，地平压顶",
+          "w": 1500,
+          "h": 608
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luodan-simplesong-woman-ledge.webp",
+          "alt": "Luo Dan Simple Song wet plate portrait of woman on ledge",
+          "caption": "素歌｜湿版女肖像：火棉胶药膜不规则边框收人，顶边墙皮留空",
+          "w": 1200,
+          "h": 1600
+        }
+      ],
+      "links": [
+        {
+          "label": "中国青年报／北青艺评 · 行传",
+          "url": "http://news.cyol.com/gb/articles/2023-06/30/content_4wKxY4cWlp.html"
+        },
+        {
+          "label": "《中国摄影》· 无人之境",
+          "url": "https://www.cphoto.com.cn/content/article/101048.html"
+        },
+        {
+          "label": "澎湃专访 · 无人之境",
+          "url": "https://www.thepaper.cn/newsDetail_forward_17598858"
+        },
+        {
+          "label": "M97 · Luo Dan",
+          "url": "https://www.m97gallery.com/luo-dan"
+        },
+        {
+          "label": "Simple Song",
+          "url": "https://www.m97gallery.com/simple-song"
+        },
+        {
+          "label": "M97 Gallery · Luo Dan",
+          "url": "https://www.m97gallery.com/luo-dan"
+        },
+        {
+          "label": "Simple Song《素歌》",
+          "url": "https://www.m97gallery.com/simple-song"
+        },
+        {
+          "label": "中国青年报 · 行传专访",
+          "url": "http://news.cyol.com/gb/articles/2023-06/30/content_4wKxY4cWlp.html"
+        },
+        {
+          "label": "澎湃 · 无人之境专访",
+          "url": "https://www.thepaper.cn/newsDetail_forward_17598858"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "title": "晚｜Luis Garcia（新锐 · 纽约）",
+      "stream": "photographer",
+      "url": "photographer/2026-11-08.html",
+      "subtitle": "",
+      "summary": "本周练：边缘控制（2026-11-02–11-08）——框四边切什么、角里进什么、贴边是否可读。今天是这一周最后一天，也是觉非点名加推（早上已推 Josh Michael Windsor；类别仍新锐，题材簇＝110胶片人像／街景直闪）。今天这位示范的不是门框几何，也不是公路／药膜／荒漠边，而是110 直闪的光泡当边：塑料机＋直闪把朋友／路人半身收进一块衰减很快的光圈；胶片框边本身也在工作；背景被闪灯切开后，门口、街面、橱窗字是否仍可读——人是被光泡收住，还是漂在死黑里。",
+      "category": "新锐 · 纽约（110胶片人像／街景直闪；用户点名加推）",
+      "tags": [
+        "新锐 · 纽约（110胶片人像／街景直闪；用户点名加推）",
+        "新锐",
+        "纽约"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luis-garcia-110-metropolis-door.webp",
+          "alt": "Luis Garcia Lomomatic 110 Metropolis portrait man at metal door with flash halo",
+          "caption": "Metropolis｜金属门直闪半身，光泡收人，喷淋标贴边可读",
+          "w": 1200,
+          "h": 1748
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luis-garcia-110-color92-trench-uhaul.webp",
+          "alt": "Luis Garcia Lomomatic 110 Color 92 man in trench coat on crosswalk with U-Haul",
+          "caption": "Color'92｜风衣男立斑马线，U-Haul／街面被光泡切开仍可读",
+          "w": 1236,
+          "h": 1800
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luis-garcia-110-tiger-blue-jacket.webp",
+          "alt": "Luis Garcia Lomomatic 110 Tiger man in blue jacket at storefront",
+          "caption": "Tiger｜蓝皮夹克半身，橱窗字与砖墙贴边可读",
+          "w": 1236,
+          "h": 1800
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luis-garcia-110-tiger-martini-bar.webp",
+          "alt": "Luis Garcia Lomomatic 110 Tiger man with martini glass in bar flash portrait",
+          "caption": "Tiger｜酒吧直闪马天尼，木柱／相框被光泡切开仍在",
+          "w": 1236,
+          "h": 1800
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/luis-garcia-110-tiger-trench-crowd.webp",
+          "alt": "Luis Garcia Lomomatic 110 Tiger man in trench coat and sunglasses in street crowd",
+          "caption": "Tiger｜风衣墨镜半身，胶片框边收住，背后街面仍可读",
+          "w": 1236,
+          "h": 1800
+        }
+      ],
+      "links": [
+        {
+          "label": "Lomo · Lomomatic 110",
+          "url": "https://www.lomography.com/magazine/356057-the-camera-asked-first-luis-garcia-and-the-lomomatic-110"
+        },
+        {
+          "label": "Lomo · Welcome To Miami",
+          "url": "https://www.lomography.com/magazine/342262-welcome-to-miami-street-photographer-luis-garcia-with-lomography-color-negative-800"
+        },
+        {
+          "label": "Office · Beauty Beauty",
+          "url": "https://officemagazine.net/beautiful-harlem-uninterrupted"
+        },
+        {
+          "label": "Office · Dying Shift",
+          "url": "https://officemagazine.net/dying-shift"
+        },
+        {
+          "label": "Konnotation · Beauty Beauty",
+          "url": "https://www.konnotationpress.com/shop/beauty-beauty"
+        },
+        {
+          "label": "Instagram @strongblue",
+          "url": "https://www.instagram.com/strongblue/"
+        },
+        {
+          "label": "HERO · 多米尼加回望",
+          "url": "https://hero-magazine.com/article/269625/luis-garcia-dominican-republic"
+        },
+        {
+          "label": "Lomo · The Camera Asked First",
+          "url": "https://www.lomography.com/magazine/356057-the-camera-asked-first-luis-garcia-and-the-lomomatic-110"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "title": "Josh Michael Windsor（新锐 · 新西兰→伦敦）",
+      "stream": "photographer",
+      "url": "photographer/2026-11-08-josh-michael-windsor.html",
+      "subtitle": "",
+      "summary": "本周练：边缘控制（2026-11-02–11-08）——框四边切什么、角里进什么、贴边是否可读。今天是这一周最后一天。今天这位示范的不是街拍几何里杆线／色块咬边，也不是昨骆丹公路／湿版／无人荒野里的边，而是社区门口与店面门槛上的边：Brixton 封城时，邻居被请到自家门廊，门框、窗套、台阶如何把人收住；街上关闭的红门、封板的酒吧、被切开的店招，如何让路过的人仍落在一个可读的公共门槛上——人不是贴在「有房子的背景」前，边线决定他是被自己的门口托住，还是漂成一张普通街拍证件照。",
+      "category": "新锐 · 新西兰→伦敦（街拍／社区门槛；Brixton）",
+      "tags": [
+        "新锐 · 新西兰→伦敦（街拍／社区门槛；Brixton）",
+        "新锐",
+        "新西兰→伦敦"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/josh-windsor-brixton-prince-of-wales.webp",
+          "alt": "Josh Michael Windsor The Prince of Wales pub boarded up with street cleaner at the curb",
+          "caption": "封城街景｜The Prince of Wales 封板门脸贴边，路缘上的清洁工被马路牙子托住",
+          "w": 735,
+          "h": 490
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/josh-windsor-brixton-doorway-stool.webp",
+          "alt": "Josh Michael Windsor Brixton lockdown doorstep portrait man seated on stool in brick doorway",
+          "caption": "封城门廊｜砖墙门框把人收在门口白凳上，台阶与易拉罐贴底边",
+          "w": 735,
+          "h": 1103
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/josh-windsor-brixton-doorstep-bicycle.webp",
+          "alt": "Josh Michael Windsor Brixton lockdown doorstep portrait man with bicycle and blue helmet",
+          "caption": "封城门廊｜门洞收人，左边自行车轮被画幅切开，门槛台阶可读",
+          "w": 735,
+          "h": 919
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/josh-windsor-brixton-window-shopfront.webp",
+          "alt": "Josh Michael Windsor Brixton man sitting in first-floor window above shop sign",
+          "caption": "封城街景｜人坐在二楼窗套里，底边切开店招，窗框当高处门廊",
+          "w": 735,
+          "h": 919
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/josh-windsor-brixton-venue-snow.webp",
+          "alt": "Josh Michael Windsor Brixton snow scene person in red coat walking past closed red venue doors",
+          "caption": "封城街景｜红门与字幕牌收下雪中路过的人，关闭的公共门脸当框",
+          "w": 735,
+          "h": 919
+        }
+      ],
+      "links": [
+        {
+          "label": "Brixton Buzz · 封城组照",
+          "url": "https://www.brixtonbuzz.com/2021/08/in-photos-local-photographer-looks-back-at-lockdown-in-brixton/"
+        },
+        {
+          "label": "Musée · From the Bottom of my Heart",
+          "url": "https://museemagazine.com/features/2022/8/23/moment-josh-windsor"
+        },
+        {
+          "label": "Instagram @josh.michael.windsor",
+          "url": "https://www.instagram.com/josh.michael.windsor/"
+        },
+        {
+          "label": "《An Excuse to Linger》",
+          "url": "https://joshuawindsor.bigcartel.com/product/an-excuse-to-linger"
+        },
+        {
+          "label": "《Like Nowhere》",
+          "url": "https://joshuawindsor.bigcartel.com/product/like-nowhere"
+        }
+      ],
+      "slug": "josh-michael-windsor"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "占有兵（当代 · 中国）",
+      "stream": "photographer",
+      "url": "photographer/2026-11-09.html",
+      "subtitle": "",
+      "summary": "本周练：视觉主次（2026-11-09–11-15）——复杂现场里眼睛先落谁，谁是主、谁是衬。上周是边缘控制（11-02–11-08）：框四边切什么、贴边是否可读。这周改看这一层。",
+      "category": "当代 · 中国（打工纪实／厂区内视角；湖北襄阳→东莞长安）",
+      "tags": [
+        "当代 · 中国（打工纪实／厂区内视角；湖北襄阳→东莞长安）",
+        "当代",
+        "中国"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/zhan-youbing-cleanroom-rest.webp",
+          "alt": "占有兵 工间休息 电子厂更衣室无尘服女工回看镜头",
+          "caption": "工间休息｜回看的女工是主，伏凳休息的工友与两排无尘服是衬",
+          "w": 1080,
+          "h": 722
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/zhan-youbing-handbag-line.webp",
+          "alt": "占有兵 手袋厂女工郑婷在缝纫机前做皮包",
+          "caption": "手袋厂工位｜做皮包的女工是主，机身与身后略虚的工友是衬",
+          "w": 1000,
+          "h": 667
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/zhan-youbing-gate-dinner-tv.webp",
+          "alt": "占有兵 工厂门外蓝工装工人吃快餐并抬头看电视",
+          "caption": "厂门外｜蓝工装里抬头看画外的人更跳，铁门与过路人是衬",
+          "w": 1080,
+          "h": 722
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/zhan-youbing-shift-stairs.webp",
+          "alt": "占有兵 电子厂台阶上无尘服与便装人流交织",
+          "caption": "厂区台阶｜人流方向是一层主，左边回头的几张脸从白衣潮里被读出",
+          "w": 1080,
+          "h": 722
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/zhan-youbing-dorm-laundry.webp",
+          "alt": "占有兵 电子厂集体宿舍阳台挂满衣物",
+          "caption": "宿舍阳台｜衣海成了主，楼下过路的小人是衬和比例尺",
+          "w": 1080,
+          "h": 721
+        }
+      ],
+      "links": [
+        {
+          "label": "中国摄协网 · 《新工人》组图",
+          "url": "https://www.cpanet.org.cn/detail_news_83033.html"
+        },
+        {
+          "label": "新京报 · 《密集的打工生活》组图",
+          "url": "https://m.bjnews.com.cn/detail/157545555415507.html"
+        },
+        {
+          "label": "中国摄协网 · 作者页",
+          "url": "https://www.cpanet.org.cn/detail_mdetail_307.html"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "title": "李泛（大师 · 中国）",
+      "stream": "photographer",
+      "url": "photographer/2026-11-10.html",
+      "subtitle": "",
+      "summary": "本周练：视觉主次（2026-11-09–11-15）——复杂现场里眼睛先落谁，谁是主、谁是衬。上周是边缘控制（11-02–11-08）。昨天占有兵示范的是厂区密度里捞人；今天不换题，换现场。",
+      "category": "大师 · 中国（丝路人文／西部民族志肖像与现场；陕西西安）",
+      "tags": [
+        "大师 · 中国（丝路人文／西部民族志肖像与现场；陕西西安）",
+        "大师",
+        "中国"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/li-fan-liangshan-yi-headdress-portrait.webp",
+          "alt": "李泛 凉山彝家 包头银饰正面肖像",
+          "caption": "凉山彝家｜面孔是主，硕大包头与胸前银饰是衬",
+          "w": 626,
+          "h": 514
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/li-fan-yi-headdress-back-gathering.webp",
+          "alt": "李泛 西部少数民族肖像 包头披衫背影与山下伞阵",
+          "caption": "西部少数民族肖像｜包头与披衫的背影成了主图形，山下伞阵和走动的人是衬",
+          "w": 650,
+          "h": 606
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/li-fan-tajik-veil-embroidered-cap.webp",
+          "alt": "李泛 西部少数民族肖像 塔吉克绣花帽与头巾只留眼睛",
+          "caption": "西部少数民族肖像｜眼睛是主，绣花帽与裹住下半脸的头巾是衬，也是框",
+          "w": 650,
+          "h": 608
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/li-fan-tongxin-white-headscarf-loess.webp",
+          "alt": "李泛 同心 白盖头人坐在黄土沟壑梁上",
+          "caption": "同心｜白盖头的人是主，铺开的黄土沟壑是衬",
+          "w": 910,
+          "h": 608
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/li-fan-tajik-window-mountain.webp",
+          "alt": "李泛 塔吉克人生活影像 窗内两人与窗外雪山",
+          "caption": "塔吉克人生活影像｜窗里的两个人是主，窗格把窗外雪山切成衬",
+          "w": 650,
+          "h": 608
+        }
+      ],
+      "links": [
+        {
+          "label": "中国摄协网 · 凉山彝家组图",
+          "url": "https://m.cpanet.org.cn/detail_picdetail_5362.html"
+        },
+        {
+          "label": "中国摄协网 · 塔吉克人生活影像",
+          "url": "https://m.cpanet.org.cn/detail_picdetail_5363.html"
+        },
+        {
+          "label": "中国摄协网 · 西部少数民族肖像",
+          "url": "https://m.cpanet.org.cn/detail_picdetail_5365.html"
+        },
+        {
+          "label": "中国摄协网 · 同心",
+          "url": "https://m.cpanet.org.cn/detail_picdetail_5364.html"
+        },
+        {
+          "label": "泛象空间 · 作品",
+          "url": "http://www.lifanphotography.com/works/"
+        },
+        {
+          "label": "泛象空间 · 典藏",
+          "url": "http://www.lifanphotography.com/FanCollection/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "title": "李振盛（纪实 · 中国）",
+      "stream": "photographer",
+      "url": "photographer/2026-11-10-x348074.html",
+      "subtitle": "",
+      "summary": "选李振盛，不是因为给他贴一个政治标签，而是因为他的照片能同时留下权力如何组织现场，以及一个人如何被现场围住。图片包含公开羞辱与死刑前展示。",
+      "category": "纪实",
+      "tags": [
+        "纪实",
+        "中国"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/photographer-20261110-li-zhensheng-swimmers.webp",
+          "alt": "李振盛 泳装读书的人",
+          "caption": "泳装读书的人｜并排的小书、泳帽与低头动作，把身体排成集体节奏。",
+          "w": 500,
+          "h": 370
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/photographer-20261110-li-zhensheng-condemned.webp",
+          "alt": "李振盛 旷野中的押解队列",
+          "caption": "旷野中的押解队列｜名牌与被押者在前，围观人群延伸到地平线；涉及死刑前展示。",
+          "w": 1264,
+          "h": 838
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/photographer-20261110-li-zhensheng-denunciation.webp",
+          "alt": "李振盛 高帽下的低头者与举拳人群",
+          "caption": "高帽下的低头者｜一个人向下，四周的拳头向上，姿态冲突构成主次。",
+          "w": 1401,
+          "h": 1406
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/photographer-20261110-li-zhensheng-balloons.webp",
+          "alt": "李振盛 孩子气球与领袖像",
+          "caption": "气球与领袖像｜肖像悬在孩子头上，政治仪式进入儿童日常。",
+          "w": 992,
+          "h": 993
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/photographer-20261110-li-zhensheng-badges.webp",
+          "alt": "李振盛 佩满像章的男子",
+          "caption": "佩满像章的人｜符号覆盖衣帽，转向画外的脸与拿书的手仍保留个人尺度。",
+          "w": 800,
+          "h": 1041
+        }
+      ],
+      "links": [
+        {
+          "label": "Photography of China｜李振盛作品与生平",
+          "url": "https://photographyofchina.com/author/li-zhensheng"
+        },
+        {
+          "label": "BBC｜2020-06-27 生平报道",
+          "url": "https://www.bbc.com/news/world-asia-china-53174079"
+        },
+        {
+          "label": "Contact Press Images｜出版及巡展档案 PDF",
+          "url": "https://contactpressimages.com/exhibitions/pdfs/RCNS.pdf"
+        },
+        {
+          "label": "ICP｜Red-color news soldier 馆藏",
+          "url": "https://www.icp.org/content/red-color-news-soldier"
+        }
+      ],
+      "slug": "x348074"
+    },
+    {
       "date": "2026-11-03",
       "title": "近景半身肖像",
       "stream": "portrait-craft",
@@ -4502,6 +5577,172 @@
       ],
       "links": [],
       "slug": "street-approach"
+    },
+    {
+      "date": "2026-11-07",
+      "title": "距离：走近、留气、压迫",
+      "stream": "portrait-craft",
+      "url": "portrait-craft/2026-11-07-x3ec2bb.html",
+      "subtitle": "第6期",
+      "summary": "远档看人与场；中档半身留气；近档胸像仍要头顶／肩气；极近压迫是故意踩进去——仍须肖像意图，不是糊脸废片。脚动一寸，框里的气就变；缩放只裁，不换你与对方的真实距离。",
+      "category": "第6期",
+      "tags": [
+        "第6期",
+        "人像技巧"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261107-r6-01-sikh-golden-temple-far.webp",
+          "alt": "Sikh pilgrim Golden Temple full body",
+          "caption": "Paulrudd｜金庙朝圣者全身（Amritsar；CC BY-SA 4.0）｜好在：远档——人全身进框，寺与水占一半气；脚站远，压迫几乎为零，故事靠场不靠贴脸。",
+          "w": 1800,
+          "h": 1196
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261107-r6-02-oldman-stick-full.webp",
+          "alt": "Old man with stick full body park",
+          "caption": "Shubhangi｜拄杖老人全身（公园；CC BY-SA 4.0）｜好在：中远全身留气——头顶树冠一大块空；你看得出摄影师没扑上去，人与路的关系先立住。",
+          "w": 1800,
+          "h": 1200
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261107-r6-03-brooklyn-glass-mid.webp",
+          "alt": "Brooklyn glassblower environmental mid",
+          "caption": "Rhododendrites｜布鲁克林吹玻璃工（CC BY-SA 4.0）｜好在：中档工作距——人＋炉＋工具同框；前方留气，不是贴脸盯五官；脚步停在「能看见场」的位置。",
+          "w": 1800,
+          "h": 1269
+        },
+        {
+          "src": "https://alecsoth.com/photography/media/pages/projects/sleeping-by-the-mississippi/2715d1ebb5-1551319080/2000_04zl0010-f.jpg",
+          "alt": "Alec Soth Bonnie Port Gibson MS 2000 seated portrait holding a framed sky",
+          "caption": "Alec Soth｜Bonnie, Port Gibson, MS, 2000（Sleeping by the Mississippi；© Alec Soth；作者官网公开展示，非开放授权）｜好在：正面目光、握住金框的双手与框内蓝天构成上下呼应，朴素衣服和沙发的低饱和色让那块蓝色格外醒目。中景保留双臂、双手和沙发位置，头顶与两侧的素墙留出呼吸，同时不丢掉手中图像这条叙事线；仅据构图分析，不推断实际拍摄距离或焦段。",
+          "w": 1564,
+          "h": 1251
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261107-r6-06-mountain-child-mid.webp",
+          "alt": "Mountain child waist-up environmental",
+          "caption": "Salar Arkan｜山谷火把女孩半身（Palangan；CC BY-SA 4.0）｜好在：中档人景——腰上以上＋整片村落；头顶山线留气，距离选在「人清楚、场也在」。",
+          "w": 1799,
+          "h": 1200
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261107-r6-05-env-pole-midair.webp",
+          "alt": "Environmental portrait woman pole midair",
+          "caption": "Whoisbraks｜街景倚杆女子（CC0）｜好在：中近仍留气——头巾上方有空，身侧有场；脚没贴到压迫档，人还能「站得住」。",
+          "w": 853,
+          "h": 1280
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261107-r6-07-tera-man-nearair.webp",
+          "alt": "Tera man near chest portrait headroom",
+          "caption": "Xeruz｜Tera 男子近胸像（CC BY-SA 4.0）｜好在：近了仍留气——帽顶与框边有缝；肤质清楚但未切顶，示范「走近不等于咬顶」。",
+          "w": 1200,
+          "h": 1800
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261107-r6-08-russia-elderly-near.webp",
+          "alt": "Russia elderly man near bust",
+          "caption": "Dmitry Makeev｜灰毛衣老人近胸像（CC BY-SA 4.0）｜好在：近档偏紧——气口变小、亲密感起来，但仍是肖像意图正面钉镜；介于留气与压迫之间的切换带。",
+          "w": 1200,
+          "h": 1800
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261107-r6-09-blacksmith-press.webp",
+          "alt": "Blacksmith close pressure forge",
+          "caption": "Sasener｜铁匠炉前近距（CC BY-SA 4.0）｜好在：脚步踩进工作半径——锤与炽铁占前层，脸贴上来；压迫是故意的，不是远站裁出来的假近。",
+          "w": 1800,
+          "h": 1316
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261107-r6-10-oldwoman-press.webp",
+          "alt": "Old woman extreme close-up pressure",
+          "caption": "aunhtet0｜老妇极近脸部（CC0）｜好在：极端压迫档——脸几乎撑满框、气口极薄；皱纹当信息不是失误；练「故意近」时对照这张心理尺度。",
+          "w": 1800,
+          "h": 1196
+        }
+      ],
+      "links": [],
+      "slug": "x3ec2bb"
+    },
+    {
+      "date": "2026-11-08",
+      "title": "可用光：塑脸与轮廓",
+      "stream": "portrait-craft",
+      "url": "portrait-craft/2026-11-08-x15698a.html",
+      "subtitle": "第7期",
+      "summary": "灯已经在那儿：窗户、屋檐、树荫边、日落。你要做的是挪人或者挪自己去吃这盏灯，不是再添一盏。主光从哪来、眼窝里有没有光、人有没有从背景里被描出来——这三件事当场能看出来，也就能当场改。",
+      "category": "第7期",
+      "tags": [
+        "第7期",
+        "人像技巧"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261108-r7-04-garhwali-rishikesh.webp",
+          "alt": "Native Garhwali woman in Rishikesh side light portrait",
+          "caption": "Satdeep Gill｜Native Garhwali Woman In Rishikesh（2017；CC BY-SA 4.0；精选）｜好在：户外太阳从侧上方来，头巾和皱纹的体积被光塑出来；亮侧眼睛在光里，暗侧眼睛仍看得见——侧高光有层次，不是顶光熊猫眼。",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261108-r7-05-cigarette-sunset.webp",
+          "alt": "Woman with hand-rolled cigarette golden hour side light",
+          "caption": "Basile Morin｜Woman with hand-rolled cigarette（2017，Don Det；CC BY-SA 4.0；精选）｜好在：日落侧光扫过脸颊和笑纹，双眼都有眼神光；背景虚掉且稍暗，脸被亮度和色温差推到前面。侧光塑脸，同时没有死黑眼。",
+          "w": 1600,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261108-r7-01-window-available.webp",
+          "alt": "Available light window portrait woman leaning on sill",
+          "caption": "Danieljksn｜Available light portrait（2022；CC BY-SA 4.0）｜好在：窗就在画里，人侧过身把脸交给这扇窗；主光从左侧来，颊和下颌有交界，眼睛里有光不是死黑。示范口令「侧过身对着窗户」。",
+          "w": 1066,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261108-r7-02-north-window-defehr.webp",
+          "alt": "Jay DeFehr north window light self-portrait",
+          "caption": "Jay DeFehr｜Self portrait at Gild studio, North window light（2021；CC BY-SA 2.0）｜好在：北窗可用光从一侧塑脸，颧骨和下颌被光刮出体积，暗侧仍有皮肤层次；眼镜里有眼神光。人是站到窗光能咬到脸上的位置，不是另布一盏灯。",
+          "w": 1256,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261108-r7-03-wessel-couzijn.webp",
+          "alt": "Wessel Couzijn 1980 window-light profile portrait",
+          "caption": "Koen Suyk／Anefo｜Wessel Couzijn（1980；荷兰国家档案馆，Commons CC0；精选）｜好在：侧面朝向光源，额、鼻、颧骨被光一层层刮出来；眼窝有凹陷，瞳孔仍亮。背景虚暗，脸自己从场里出来。",
+          "w": 1200,
+          "h": 1600
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261108-r7-06-pipe-bearded.webp",
+          "alt": "Bearded man smoking pipe face separated from dark background",
+          "caption": "ThuyHaBich｜Bearded man smoking pipe（2018；CC0；精选）｜好在：脸亮、背景几乎死暗，人被亮度差整个提出来——不是贴在同色墙上糊掉。侧光把皮肤和胡须的体积读出来，眼睛仍有光。",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261108-r7-07-ghyaru-soft.webp",
+          "alt": "Nepali woman Ghyaru open shade soft available light",
+          "caption": "travelwayoflife｜Nepali woman, Ghyaru（2012，Annapurna Circuit；CC BY-SA 2.0；精选）｜好在：檐下／柔和可用光，皱纹和眼窝有结构，两眼都有光，没有正午那种熊猫眼。示范「后退进阴影边」之后仍能塑脸的那一种光。",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/portrait-craft-20261108-r7-08-jackie-rim.webp",
+          "alt": "Jackie Martinez sunset rim light portrait",
+          "caption": "Mark J Sebastian｜Jackie Martinez in the sunset（2008；CC BY-SA 2.0）｜好在：日落在卷发和肩上描出一圈金边，人从暗天空里被勾出来；脸没有死黑。文件页 EXIF 记闪光灯未开——是对人脸走曝光，让太阳只负责描边，不是再补一盏灯。",
+          "w": 1064,
+          "h": 1600
+        }
+      ],
+      "links": [],
+      "slug": "x15698a"
     }
   ]
 }

@@ -128,6 +128,7 @@ def strip_figures(md: str) -> str:
     md = re.sub(r"<figure[\s\S]*?</figure>\s*", "", md, flags=re.I)
     md = re.sub(r"<img\b[^>]*/?>\s*", "", md, flags=re.I)
     md = re.sub(r"\n##\s*本机图\s*\+\s*CDN[\s\S]*?(?=\n##\s|\Z)", "\n", md)
+    md = re.sub(r'</?div\b[^>]*>', '', md, flags=re.I)
     md = re.sub(r"\n{3,}", "\n\n", md).strip() + "\n"
     return md
 
@@ -626,6 +627,10 @@ def parse_brief(root: Path) -> list[dict]:
             continue
         for date, title, body in rollup_sections(path.read_text(encoding="utf-8"), stop):
             incoming = entry_from_md(body, stream, date)
+            if stream == "photographer":
+                same_day = [e for e in entries if e["stream"] == stream and e["date"] == date]
+                if same_day and not any(e["title"] == incoming["title"] for e in same_day):
+                    incoming["slug"] = slugify(incoming["title"])
             if title and (not incoming["title"] or incoming["title"] == date):
                 incoming["title"] = strip_surprise_tag(title)
             if stream == "meaning":

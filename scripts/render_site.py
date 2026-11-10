@@ -462,7 +462,7 @@ class Page:
         return (
             f'<figure class="{classes}" style="--r:{ratio(image):.4f}">'
             f'<button type="button" class="plate-open" data-src="{esc(image["src"])}" data-cap="{esc(plain(cap))}" aria-label="{esc(label)}">'
-            f'<img src="{esc(image["src"])}" alt="{esc(alt)}"{size} {loading} decoding="async"></button>'
+            f'<img style="width:100%;height:auto;aspect-ratio:auto;" src="{esc(image["src"])}" alt="{esc(alt)}"{size} {loading} decoding="async"></button>'
             f"{figcaption}</figure>"
         )
 
@@ -924,8 +924,7 @@ class Site:
         stream = STREAM[entry["stream"]]
         body = entry.get("body") or ""
         grid_marker = 'display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;'
-        lesson_grid = grid_marker in body
-        if lesson_grid:
+        if grid_marker in body:
             # Render only trusted image metadata, never arbitrary source HTML.
             body = re.sub(r'<div style="' + re.escape(grid_marker) + r'">[\s\S]*?</div>', '', body)
         blocks = parse_blocks(body)
@@ -956,14 +955,7 @@ class Site:
         for sec in sections:
             name = plain(sec["title"])
             content = page.blocks(sec["blocks"])
-            if lesson_grid and sec["blocks"] and all(b["type"] == "image" for b in sec["blocks"]):
-                figures = []
-                for block in sec["blocks"]:
-                    plate = page.plate(block)
-                    plate = re.sub(r'style="--r:[^"]+"', 'style="margin:0;min-width:0;"', plate)
-                    plate = plate.replace('<img ', '<img style="width:100%;height:auto;aspect-ratio:auto;" ')
-                    figures.append(plate)
-                content = '<div class="lesson-grid" style="' + grid_marker + '">' + ''.join(figures) + '</div>'
+
             if name == "核心判断":
                 parts.append(f'<section class="thesis"><h2 class="label">核心判断</h2>{content}</section>')
                 continue
