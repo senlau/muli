@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-06T17:45:42.997669+08:00",
+  "generatedAt": "2026-11-10T12:36:33.177561+08:00",
   "site": "https://senlau.github.io/muli/",
   "counts": {
     "photographer": 16,
     "aesthetic": 16,
-    "28mm": 7,
+    "28mm": 8,
     "portrait-craft": 5,
     "meaning": 16
   },
@@ -552,6 +552,66 @@
         {
           "label": "Fraenkel｜Women are Beautiful",
           "url": "https://fraenkelgallery.com/portfolios/garry-winogrand-women-are-beautiful"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "title": "第十课：先给主角找一块干净背景",
+      "stream": "28mm",
+      "url": "28mm/2026-11-10.html",
+      "subtitle": "Josh Edgoose · 现代彩色街头",
+      "summary": "街上不缺有意思的人，缺的是让他一眼被看见的位置。这次看 Josh Edgoose 的现代彩色街头照片：蓝墙、浅色车门、白货车、天空，不只是好看的颜色，也是托住动作的底。先选背景，再等主角与它发生关系。",
+      "category": "第十课",
+      "tags": [
+        "第十课",
+        "28mm",
+        "Josh Edgoose"
+      ],
+      "topics": [],
+      "people": [],
+      "edited": false,
+      "images": [
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-20261110-edgoose-15.webp",
+          "alt": "Josh Edgoose｜蓝墙前伸展的人（画面描述，非作者题名）",
+          "caption": "Josh Edgoose｜蓝墙前伸展的人（画面描述，非作者题名）",
+          "w": 2500,
+          "h": 1667
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-20261110-edgoose-5.webp",
+          "alt": "Josh Edgoose｜车厢里的斑点狗（画面描述，非作者题名）",
+          "caption": "Josh Edgoose｜车厢里的斑点狗（画面描述，非作者题名）",
+          "w": 2250,
+          "h": 3000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-20261110-edgoose-7.webp",
+          "alt": "Josh Edgoose｜白货车前的红裤骑手（画面描述，非作者题名）",
+          "caption": "Josh Edgoose｜白货车前的红裤骑手（画面描述，非作者题名）",
+          "w": 2250,
+          "h": 3000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-20261110-edgoose-16.webp",
+          "alt": "Josh Edgoose｜看飞行表演的草帽观众（画面描述，非作者题名）",
+          "caption": "Josh Edgoose｜看飞行表演的草帽观众（画面描述，非作者题名）",
+          "w": 1500,
+          "h": 2000
+        },
+        {
+          "src": "https://raw.githubusercontent.com/senlau/picx-images-hosting/master/muli/28mm-20261110-edgoose-17.webp",
+          "alt": "Josh Edgoose｜海边跃起的人（画面描述，非作者题名）",
+          "caption": "Josh Edgoose｜海边跃起的人（画面描述，非作者题名）",
+          "w": 2500,
+          "h": 3750
+        }
+      ],
+      "links": [
+        {
+          "label": "Josh Edgoose｜官方作品网站",
+          "url": "https://joshedgoose.com/"
         }
       ]
     },
